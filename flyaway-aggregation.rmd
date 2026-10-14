@@ -1,0 +1,38 @@
+AI: Claude Sonnet 5.5 (medium) on 10/12/26
+
+Prompt:
+
+```
+I have a git repo (https://github.com/WL-Biol185-ShinyProjects/TX-game-population.git) that contains a subfolder with extracted Flyway data from several locations. I want to design a parse to aggregat species subtables from each flyway region into an aggregated annotated single data.frame exported as a .csv; an R or python script to accomplish this goal would be a good artifact.
+```
+
+Output:
+
+```
+Python parser (aggregate_flyway_tables.py) that stacks all 498 subtables into one annotated long-format CSV, and I ran it on your repo. The output has 611,433 rows, one per number. That equals the count of non-NA cells in the source files, and I spot-checked values against the raw CSVs (Cackling Goose 1976, Wigeon TX 1961, Atlantic table 30 MD 1966); they match.
+
+I wrote it in Python because R isn’t installed in my sandbox, so I couldn’t test an R version. It needs only pandas and no other packages. I can port it to R if you want.
+
+Why long format: the CSVs come in about 68 different column layouts, such as state harvest matrices, estimate-plus-SE series and hunter-activity tables. A long format is the only way to hold them all in one data frame.
+Where the species come from: the CSVs contain no species names, so each table is matched to its “Data Table N: …” heading and caption in the HTML book for the same flyway.
+Annotation columns: flyway, book, species, species_group, population, data_category (harvest, abundance, hunter days, and so on) and period. The raw table keys are kept as state, unit, region and similar, and variable, entity and stat describe what each number is. source_file and source_row trace every number back to its CSV row.
+Texas rows: entity == "TX" or state == "TX" gives them, about 9,000 rows in total.
+
+A few Mississippi tables don’t line up with their headings, and the script resolves them from the data itself:
+
+Data Book tables 9 and 10 are single CSVs covering two headings each (9a+9b, 10a+10b). I annotated them at species level and left population to the unit/region column.
+HIP tables 86–97 have no heading at all. I identified the species from the species codes inside them (American Coot, Wilson’s Snipe, Gallinule, Rail).
+Dove and woodcock tables in every flyway book cover all management units, even though the label names only one. For those, population is left blank and the unit/region column carries the real value.
+
+The annotation_source and qc_flag columns record each of these decisions. A few species names are separate on purpose, because the sources count different things (for example Blue-winged Teal from the WBPHS survey vs Blue-winged and Cinnamon Teal from HIP). Rail and Gallinule are group-level HIP tables, distinct from Virginia Rail and Common Gallinule. If you’d rather merge any of these, tell me which.
+
+The full CSV is 238 MB, over GitHub’s 100 MB file limit, so the attached output was made with --slim and gzipped (8 MB). --slim drops the long caption and source-path text, which stay in flyway_table_catalog.csv (join on flyway, book and table_id). Run without --slim for the full file; the script finds the repo data automatically or takes --root.
+
+Files are in the conversation:
+
+aggregate_flyway_tables.py
+flyway_species_long.csv.gz
+flyway_table_catalog.csv
+```
+**NOTE** Keep output compressed; read with `read.csv` directly.                                                                                                                                                                 
+                                                                                                                                                                   
