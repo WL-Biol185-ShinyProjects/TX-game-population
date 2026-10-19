@@ -41,8 +41,8 @@ tidy_waterfowl_data <- read_csv("flyway_species_long.csv.gz") %>%
     amount = sum(value, na.rm = TRUE),
     .groups = "drop"
   )
-
-
+#Save the result as a csv
+write_csv(tidy_waterfowl_data, "tidy_waterfowl_data.csv")
 
 
 
