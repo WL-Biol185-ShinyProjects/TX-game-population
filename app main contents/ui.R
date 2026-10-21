@@ -7,7 +7,7 @@ fluidPage(
   titlePanel("US Waterfowl Flyways"),
   tabsetPanel(
     
-    tabPanel("Flyways",
+    tabPanel("Home",
              br(),
              h3("The 4 North American Flyways"),
              p("A flyway is a major geographic highway used annually by migratory birds—especially waterfowl—as they 
@@ -69,12 +69,32 @@ fluidPage(
              )
     ),
     
-    tabPanel("Species",
+    tabPanel("Pacific Flyway",
              selectInput("species", "Choose a species:", choices = NULL),
              h3(textOutput("species_title")),
              plotOutput("species_bar")
     ),
     
+    tabPanel("Central Flyway",
+             selectInput("species", "Choose a species:", choices = NULL),
+             h3(textOutput("species_title")),
+             plotOutput("species_bar")
+    ),
+    
+    tabPanel("Mississippi Flyway",
+             selectInput("species", "Choose a species:", choices = NULL),
+             h3(textOutput("species_title")),
+             plotOutput("species_bar")
+    ),
+    
+    tabPanel("Atlantic Flyway",
+             selectInput("species", "Choose a species:", choices = NULL),
+             h3(textOutput("species_title")),
+             plotOutput("species_bar")
+    ),
+    
+             
+             
     tabPanel("Quiz", p("Quiz goes here."))
   )
 )
