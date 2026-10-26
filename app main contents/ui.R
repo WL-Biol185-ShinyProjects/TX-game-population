@@ -1,5 +1,5 @@
-#ui.r file
-#ui.r is the layout. it says the tabs, dropdowns, text, photos, audio players, and empty spots reserved for plots. It doesn’t touch the data.
+#ui.R file
+#ui.R is the layout. it says the tabs, dropdowns, text, photos, audio players, and empty spots reserved for plots. It doesn’t touch the data.
 
 library(shiny)
 
@@ -70,31 +70,63 @@ fluidPage(
     ),
     
     tabPanel("Pacific Flyway",
-             selectInput("species", "Choose a species:", choices = NULL),
-             h3(textOutput("species_title")),
-             plotOutput("species_bar")
+             br(),
+             selectInput("species_pacific", "Choose a species:",
+                         choices = c("Select a species" = "", "American Coot", "Band-tailed Pigeon, Interior", "Band-tailed Pigeon, Pacific Coast (summer)",
+                                     "Brant, Pacific (fall)", "Cackling Goose, Aleutian", "Cackling Goose, Cackling (minima)", "Cackling Goose, Taverner’s",
+                                     "Canada Goose, Dusky", "Canada Goose, Lesser", "Canada Goose, Western PFP", "Common Gallinule", "Emperor Goose", 
+                                     "Mourning Dove, WMU (summer)", "Ross’s Goose", "Sandhill Crane, MP", "Sandhill Crane, RMP", "Snow Goose, WIP and WAP", "Sora",
+                                     "Trumpeter Swan, PP", "Trumpeter Swan, RMP Canada Segment", "Trumpeter Swan, RMP US Segment", "Tundra Swan, EP", "Tundra Swan, WP", 
+                                     "Virginia Rail", "White-fronted Goose, MP", "White-fronted Goose, PP", "White-fronted Goose, Tule", "White-winged Dove, WMU", "Wilson’s Snipe")),
+             h3(textOutput("title_pacific")),
+             plotOutput("bar_pacific")
     ),
     
     tabPanel("Central Flyway",
-             selectInput("species", "Choose a species:", choices = NULL),
-             h3(textOutput("species_title")),
-             plotOutput("species_bar")
+             br(),
+             selectInput("species_central", "Choose a species:",
+                         choices = c("Select a species" = "", "American Black Duck", "American Green-winged Teal", "American Wigeon", "Black-bellied Whistling Duck",
+                                     "Canada Goose", "Canvasback", "Cackling Goose", "Duck", "Fulvous Whistling Duck", "Gadwall", "Goldeneye, Common", "Goose",
+                                     "Hooded Merganser", "Mallard", "Mexican Duck", "Mottled Duck", "Northern Pintail", "Northern Shoveler", "Redhead", "Ring-necked Duck",
+                                     "Ross's Goose", "Ruddy Duck", "Scaup, Greater", "Scaup, Lesser", "Snow and Blue Geese", "Teal, American Green-winged",
+                                     "Teal, American Green-winged Early", "Teal, American Green-winged Regular", "Teal, Blue-winged and Cinnamon", 
+                                     "Teal, Blue-winged and Cinnamon Early", "Teal, Blue-winged and Cinnamon Regular", "White-fronted Goose", "Wood Duck", 
+                                     "Canada-cackling Goose, Early")),
+             h3(textOutput("title_central")),
+             plotOutput("bar_central")
     ),
     
     tabPanel("Mississippi Flyway",
-             selectInput("species", "Choose a species:", choices = NULL),
-             h3(textOutput("species_title")),
-             plotOutput("species_bar")
+             br(),
+             selectInput("species_mississippi", "Choose a species:",
+                         choices = c("Select a species" = "", "American Black Duck", "American Green-winged Teal", "American Wigeon", "Black-bellied Whistling Duck",
+                                     "Bufflehead", "Cackling Goose", "Canada Goose", "Canvasback", "Common Goldeneye", "Duck", "Fulvous Whistling Duck", "Gadwall",
+                                     "Goose", "Long-tailed Duck", "Mallard", "Merganser, Common", "Merganser, Hooded", "Merganser, Red-breasted", "Mottled Duck",
+                                     "Northern Pintail", "Northern Shoveler", "Redhead", "Ring-necked Duck", "Ross's Goose", "Ruddy Duck", "Scaup, Greater", "Scaup, Lesser",
+                                     "Scoter, Black", "Scoter, Surf", "Scoter, White-winged", "Snow and Blue Goose", "Teal, American Green-winged",
+                                     "Teal, American Green-winged Early", "Teal, American Green-winged Regular", "Teal, Blue-winged and Cinnamon", "Teal, Blue-winged and Cinnamon Early", 
+                                     "Teal, Blue-winged and Cinnamon Regular", "White-fronted Goose", "Wood Duck", "Wood Duck, Early")),
+             h3(textOutput("title_mississippi")),
+             plotOutput("bar_mississippi")
     ),
     
     tabPanel("Atlantic Flyway",
-             selectInput("species", "Choose a species:", choices = NULL),
-             h3(textOutput("species_title")),
-             plotOutput("species_bar")
+             br(),
+             selectInput("species_atlantic", "Choose a species:",
+                         choices = c("Select a species" = "", "American Black Duck", "American Green-winged Teal", "American Wigeon", "Atlantic Brant", "Bufflehead", 
+                                     "Canada Goose", "Canada-cackling Goose, Early", "Canvasback", "Common Eider", "Common Goldeneye", "Duck", "Gadwall", "Goose", 
+                                     "Long-tailed Duck", "Mallard", "Mallard-Black Duck Hybrid", "Merganser, Common", "Merganser, Hooded", "Merganser, Red-breasted",
+                                     "Mottled Duck", "Northern Pintail", "Northern Shoveler", "Redhead", "Ring-necked Duck", "Ruddy Duck", "Scaup, Greater", "Scaup, Lesser",
+                                     "Scoter, Black", "Scoter, Surf", "Scoter, White-winged", "Snow and Blue Goose", "Teal, American Green-winged", 
+                                     "Teal, American Green-winged Early", "Teal, American Green-winged Regular", "Teal, Blue-winged and Cinnamon", 
+                                     "Teal, Blue-winged and Cinnamon Early", "Teal, Blue-winged and Cinnamon Regular", "Whistling Duck, Black-bellied", "Wood Duck", 
+                                     "Wood Duck, Early")),
+             h3(textOutput("title_atlantic")),
+             plotOutput("bar_atlantic")
     ),
     
-             
-             
+    
+    
     tabPanel("Quiz", p("Quiz goes here."))
   )
 )
