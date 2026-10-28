@@ -130,3 +130,5 @@ fluidPage(
     tabPanel("Quiz", p("Quiz goes here."))
   )
 )
+#to put image in, go to place you want image to appear and use function img(src="myfile.png")
+#do not put www before file name
