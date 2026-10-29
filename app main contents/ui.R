@@ -134,6 +134,46 @@ fluidPage(
                                      "Teal, Blue-winged and Cinnamon Early", "Teal, Blue-winged and Cinnamon Regular", "White-fronted Goose", "Wood Duck", 
                                      "Canada-cackling Goose, Early")),
              h3(textOutput("title_central")),
+             
+             #American Black Duck
+             conditionalPanel(
+               condition = "input.species_central == 'American Black Duck'",
+               
+               #PHOTO
+               img(src = "american_black_duck_female.jpg, american_black_duck_male.jpg", width = "400px"),
+               
+               #DESCRIPTION
+               h4("About this species"),
+               p("A plump, rounded waterbird with slate-gray to dark charcoal body plumage, a black head and neck, dark red eyes, and large, greenish-gray feet equipped with broad, 
+               flattened swimming lobes instead of webbing. Its bill is stark white with a tiny brown spot near the tip and a small brown frontal callus on the forehead. The tail is
+               short and carried low while swimming, often giving the bird a rounded, chicken-like profile on open water. To become airborne, they require long, pattering runs across
+               open water while furiously beating their short, rounded wings. In flight, they show a thin, whitish trailing edge on the secondaries and fly with rapid, labored wing 
+               strokes, dragging their large feet behind their tail. They vocalize with sharp, metallic croaks and grunts, frequently chattering when gathered in large rafts. Often
+               rafts in thousands on open lakes and coastal bays, feeding on submerged vegetation alongside diving ducks. They are readily distinguished from game ducks by their 
+               chicken-like head-bobbing swimming motion and chalk-white bills, making early-morning identification simple. While many waterfowlers overlook them, they are traditionally 
+               pursued in southern marshes for use in hearty stews and gumbos."),
+               
+               # ----- DESCRIPTION (bullet points) -----
+               tags$ul(
+                 tags$li("Size: "),
+                 tags$li("Wingspan: "),
+                 tags$li("Weight: "),
+                 tags$li("Lifespan: "),
+                 tags$li("Diet: "),
+                 tags$li("Habitat: "),
+                 tags$li("Nesting season: "),
+                 tags$li("Conservation status: ")
+               ),
+               
+               # ----- SOUND: SPACE RESERVED -----
+               h4("Call"),
+               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               # ----- HEAT MAP: SPACE RESERVED -----
+               h4("Heat map")
+               # >>> HEAT MAP GOES HERE (map will replace this comment) <<<
+             ),
+             
              plotOutput("bar_central")
     ),
     
