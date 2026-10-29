@@ -79,6 +79,47 @@ fluidPage(
                                      "Trumpeter Swan, PP", "Trumpeter Swan, RMP Canada Segment", "Trumpeter Swan, RMP US Segment", "Tundra Swan, EP", "Tundra Swan, WP", 
                                      "Virginia Rail", "White-fronted Goose, MP", "White-fronted Goose, PP", "White-fronted Goose, Tule", "White-winged Dove, WMU", "Wilson’s Snipe")),
              h3(textOutput("title_pacific")),
+             
+             #American Coot
+             conditionalPanel(
+               condition = "input.species_pacific == 'American Coot'",
+               
+               #PHOTO
+               img(src = "american_coot_monomorphic.jpg", width = "400px"),
+               
+               #DESCRIPTION
+               h4("About this species"),
+               p("A plump, rounded waterbird with slate-gray to dark charcoal body plumage, a black head and neck, dark red eyes, and large, greenish-gray feet equipped with broad, 
+               flattened swimming lobes instead of webbing. Its bill is stark white with a tiny brown spot near the tip and a small brown frontal callus on the forehead. The tail is
+               short and carried low while swimming, often giving the bird a rounded, chicken-like profile on open water. To become airborne, they require long, pattering runs across
+               open water while furiously beating their short, rounded wings. In flight, they show a thin, whitish trailing edge on the secondaries and fly with rapid, labored wing 
+               strokes, dragging their large feet behind their tail. They vocalize with sharp, metallic croaks and grunts, frequently chattering when gathered in large rafts. Often
+               rafts in thousands on open lakes and coastal bays, feeding on submerged vegetation alongside diving ducks. They are readily distinguished from game ducks by their 
+               chicken-like head-bobbing swimming motion and chalk-white bills, making early-morning identification simple. While many waterfowlers overlook them, they are traditionally 
+               pursued in southern marshes for use in hearty stews and gumbos."),
+               
+               # ----- DESCRIPTION (bullet points) -----
+               tags$ul(
+                 tags$li("Size: 33-43 cm (13–17 inches)"),
+                 tags$li("Wingspan: 60–70 cm (24–28 inches)"),
+                 tags$li("Weight: 426 – 850 g (0.9 – 1.9 lbs)"),
+                 tags$li("Lifespan: 8–9 years in the wild"),
+                 tags$li("Diet: Omnivorous; aquatic vegetation, algae, seeds, insects, and small fish"),
+                 tags$li("Habitat: Freshwater lakes, marshes, ponds, and slow rivers"),
+                 tags$li("Nesting season: April to July"),
+                 tags$li("Conservation status: Least Concern")
+               ),
+               
+               # ----- SOUND: SPACE RESERVED -----
+               h4("Call"),
+               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               # ----- HEAT MAP: SPACE RESERVED -----
+               h4("Heat map")
+               # >>> HEAT MAP GOES HERE (map will replace this comment) <<<
+             ),
+             
+             
              plotOutput("bar_pacific")
     ),
     
