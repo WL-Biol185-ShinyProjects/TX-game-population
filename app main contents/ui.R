@@ -72,12 +72,12 @@ fluidPage(
     tabPanel("Pacific Flyway",
              br(),
              selectInput("species_pacific", "Choose a species:",
-                         choices = c("Select a species" = "", "American Coot", "Band-tailed Pigeon, Interior", "Band-tailed Pigeon, Pacific Coast (summer)",
-                                     "Brant, Pacific (fall)", "Cackling Goose, Aleutian", "Cackling Goose, Cackling (minima)", "Cackling Goose, Taverner’s",
-                                     "Canada Goose, Dusky", "Canada Goose, Lesser", "Canada Goose, Western PFP", "Common Gallinule", "Emperor Goose", 
-                                     "Mourning Dove, WMU (summer)", "Ross’s Goose", "Sandhill Crane, MP", "Sandhill Crane, RMP", "Snow Goose, WIP and WAP", "Sora",
-                                     "Trumpeter Swan, PP", "Trumpeter Swan, RMP Canada Segment", "Trumpeter Swan, RMP US Segment", "Tundra Swan, EP", "Tundra Swan, WP", 
-                                     "Virginia Rail", "White-fronted Goose, MP", "White-fronted Goose, PP", "White-fronted Goose, Tule", "White-winged Dove, WMU", "Wilson’s Snipe")),
+                         choices = c("Select a species" = "", "American Coot", "Band-tailed Pigeon",
+                                     "Brant, Pacific", "Cackling Goose, Aleutian", "Cackling Goose",
+                                     "Canada Goose, Dusky", "Canada Goose, Lesser", "Canada Goose, Western", "Common Gallinule", "Emperor Goose", 
+                                     "Mourning Dove", "Ross’s Goose", "Sandhill Crane", "Sandhill Crane", "Snow Goose", "Sora",
+                                     "Trumpeter Swan", "Trumpeter Swan", "Trumpeter Swan", "Tundra Swan", "Tundra Swan", 
+                                     "Virginia Rail", "White-fronted Goose", "White-fronted Goose", "White-fronted Goose", "White-winged Dove", "Wilson’s Snipe")),
              h3(textOutput("title_pacific")),
              
              #American Coot
@@ -85,7 +85,7 @@ fluidPage(
                condition = "input.species_pacific == 'American Coot'",
                
                #PHOTO
-               img(src = "american_coot_monomorphic.jpg", width = "400px"),
+               img(src="american_coot_monomorphic.jpg", width = "400px"),
                
                #DESCRIPTION
                h4("About this species"),
@@ -110,6 +110,47 @@ fluidPage(
                  tags$li("Conservation status: Least Concern")
                ),
                
+               # SOUND: SPACE RESERVED 
+               h4("Call"),
+               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               #HEAT MAP: SPACE RESERVED
+               h4("Heat map")
+               # >>> HEAT MAP GOES HERE (map will replace this comment) <<<
+             ),
+             
+             #band-tailed pigeon, interior
+             conditionalPanel(
+               condition = "input.species_pacific == 'Band-tailed Pigeon, Interior'",
+               
+               #PHOTO
+               img(src="band_tailed_pigeon_monomorphic.jpg", width = "400px"),
+               
+               #DESCRIPTION
+               h4("About this species"),
+               p("A large, robust woodland pigeon with a slate-blue and purplish-gray body, a long, rounded tail marked with a wide, pale gray terminal band, and a bright yellow bill tipped 
+               in black. Mature birds display an iridescent bronze-green nape patch topped by a clean, narrow white crescent across the back of the neck. Legs and feet are bright yellow, 
+               offering a distinct visual contrast against their dark slate plumage.
+                Swift, direct, and powerful fliers that flush from high timber canopies with loud, clapping wingbeats, navigating mountain canyons and forest breaks at speeds exceeding forty-five miles per 
+                hour. Their flight paths are arrow-straight and purposeful as they traverse between high roosting ridges and feeding benches. They produce deep, owl-like cooing, but they remain almost 
+                completely silent while traveling on the wing.
+                Found in mature oak, Douglas fir, and pine forests across western mountains, feeding heavily on wild acorns, elderberries, and cascara berries. Hunters set up along high mountain passes, 
+                canyon saddles, or mineral springs, pass-shooting fast-crossing birds that require substantial forward leads and tight chokes. Shell limits are often strictly enforced in western states,
+                making ammunition conservation and target selection vital.
+"),
+               
+               # ----- DESCRIPTION (bullet points) -----
+               tags$ul(
+                 tags$li("Size: Length 33–40 cm (13–16 inches)"),
+                 tags$li("Wingspan: 66–72 cm (26–28 inches)"),
+                 tags$li("Weight: 225 – 450 g (0.5 – 1.0 lbs)"),
+                 tags$li("Lifespan: Up to 14 years in the wild"),
+                 tags$li("Diet: Granivorous and frugivorous; acorns, berries, pine seeds, and grain"),
+                 tags$li("Habitat: Coniferous and deciduous mountain forests, oak woodlands, and forest edges"),
+                 tags$li("Nesting season: April to September"),
+                 tags$li("Conservation status:  Least Concern (Locally managed game bird)")
+               ),
+               
                # ----- SOUND: SPACE RESERVED -----
                h4("Call"),
                # >>> SOUND GOES HERE (audio player will replace this comment) <<<
@@ -118,6 +159,206 @@ fluidPage(
                h4("Heat map")
                # >>> HEAT MAP GOES HERE (map will replace this comment) <<<
              ),
+             
+             
+             #Brant, Pacific
+             conditionalPanel(
+               condition = "input.species_pacific == 'Brant, Pacific'",
+               
+               #PHOTO
+               img(src="", width = "400px"),
+               
+               #DESCRIPTION
+               h4("About this species"),
+               p("Distinguished from the Atlantic race by its much darker appearance, carrying an almost complete, broad white collar encircling the upper neck and a very dark, brownish-black breast and belly 
+               that blends smoothly into the black neck. The back is dark slaty-brown, and the white undertail coverts form a sharp, clean contrast against the dark belly plumage.
+Flocks skim intertidal sandbars and ocean estuaries in shifting, wave-like formations, displaying swift, synchronized turns as they approach feeding flats. They fly with stiff, shallow wingbeats, maintaining 
+tight group spacing just above the breakers. They emit the same low, resonant, rolling guttural growl on the wing as their Atlantic cousins, creating a low murmur across coastal bays.
+Dependent on tidal eelgrass flats along the Pacific rim from Alaska to Baja California. Successful hunting requires intercepting birds as rising tides float eelgrass leaves or as falling tides expose feeding 
+shoals, setting up low blinds on exposed points. Hunters should place dark silhouette or floating brant decoys on exposed gravel spits, keeping profiles low to blend into the barren coastal environment.
+"),
+               
+               # ----- DESCRIPTION (bullet points) -----
+               tags$ul(
+                 tags$li("Size: Length 55–66 cm (22–26 inches)"),
+                 tags$li("Wingspan: 105–120 cm (41–47 inches)"),
+                 tags$li("Weight: 1.2 – 1.8 kg (2.6 – 4.0 lbs)"),
+                 tags$li("Lifespan: 10–15 years in the wild"),
+                 tags$li("Diet: Herbivorous; intertidal eelgrass, marine algae, and salt-marsh plants"),
+                 tags$li("Habitat: Coastal marine estuaries, sandbars, mudflats, and protected bays"),
+                 tags$li("Nesting season: June to August (Arctic tundra)"),
+                 tags$li("Conservation status: Least Concern")
+               ),
+               
+               # ----- SOUND: SPACE RESERVED -----
+               h4("Call"),
+               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               # ----- HEAT MAP: SPACE RESERVED -----
+               h4("Heat map")
+               # >>> HEAT MAP GOES HERE (map will replace this comment) <<<
+             ),
+             
+             #Cackling Goose, Aleutian
+             conditionalPanel(
+               condition = "input.species_pacific == 'Cackling Goose, Aleutian'",
+               
+               #PHOTO
+               img(src="", width = "400px"),
+               
+               #DESCRIPTION
+               h4("About this species"),
+               p("This small cackling goose is recognized by a bold, wide white neck ring at the base of its black stocking neck, accentuated by a dark, chocolate-brown body and a steep, rounded forehead.
+               Many individuals also display a distinct black line of feathers dividing the white cheek patches beneath the chin. Their overall frame is compact and stocky, resting on short black legs with 
+               a small, triangular bill.
+Displays swift, synchronized flock movements, flying in dense, shifting swarms over coastal pastures and river mouths with rapid, shallow wing beats. In the air, their maneuvers look remarkably nimble 
+compared to larger geese, frequently side-slipping together on windy coastal approaches. Vocalizations are high-pitched, squeaking cackles delivered in rapid-fire succession that sound noticeably lighter and
+higher than a standard honker.
+A historic conservation success story, this subspecies recovered from near-extinction caused by introduced predators on its Aleutian nesting islands. Today, they winter in large concentrations along coastal Oregon
+and northern California, where specialized harvest zones manage them while preventing overharvest on localized staging pastures. Hunters setting spreads over coastal ryegrass fields must confirm current regional 
+quotas to remain compliant with designated harvest caps.
+"),
+               
+               # ----- DESCRIPTION (bullet points) -----
+               tags$ul(
+                 tags$li("Size: Length 55–65 cm (22–26 inches)"),
+                 tags$li("Wingspan: 105–115 cm (41–45 inches)"),
+                 tags$li("Weight: 1.4 – 2.4 kg (3.1 – 5.3 lbs)"),
+                 tags$li("Lifespan: 10–25 years in the wild (up to 40 years in captivity)"),
+                 tags$li("Diet: Herbivorous; grasses, sedges, roots, berries, and agricultural grains"),
+                 tags$li("Habitat: Coastal pastures, tidal flats, tundra, and agricultural fields"),
+                 tags$li("Nesting season: May to July"),
+                 tags$li("Conservation status: Recovered / Least Concern (Delisted from US Endangered Species Act)")
+               ),
+               # SOUND: SPACE RESERVED 
+               h4("Call"),
+               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               #HEAT MAP: SPACE RESERVED
+               h4("Heat map")
+               # >>> HEAT MAP GOES HERE (map will replace this comment) <<<
+             ),
+             
+             
+             #Cackling Goose
+             conditionalPanel(
+               condition = "input.species_pacific == 'Cackling Goose'",
+               
+               #PHOTO
+               img(src="", width = "400px"),
+               
+               #DESCRIPTION
+               h4("About this species"),
+               p("Formerly classified as a small Canada goose subspecies, this distinct species is roughly the size of a large mallard, featuring a noticeably short neck, a steep forehead, and a tiny, stubby triangular
+               bill. Plumage mimics the Canada goose pattern with a black neck, white cheek patches, and a brown body, though some individuals carry a faint white collar at the base of the neck. Their breast coloration 
+               ranges from light gray to dark chocolate-brown depending on the subspecies.
+Highly agile fliers that execute sudden banks, side-slips, and rolls into decoys with a high-tempo wingbeat cadence. Flocks move with a loose, erratic energy that allows them to dump out of the sky far more violently 
+than large Canada geese. Instead of a deep honk, their vocalization is a high-pitched, squeaking cackle or yelp, which sounds more like a dog toy than a standard goose.
+Winters in large concentrations in California, Texas, and the Pacific Northwest, often mixed in with larger geese in agricultural fields. Hunters must check regional regulations, as some areas enforce separate daily bag 
+limits or closed zones specifically aimed at managing distinct cackler stocks. Decoy spreads should utilize specialized, smaller-bodied cackler decoys, and callers must tune their short-reed calls high to reproduce the 
+squeaking cackle of incoming birds.
+"),
+               
+               # ----- DESCRIPTION (bullet points) -----
+               tags$ul(
+                 tags$li("Size: Length 53–76 cm (21–30 inches)"),
+                 tags$li("Wingspan: 105–115 cm (41–45 inches)"),
+                 tags$li("Weight: 1.1 – 2.9 kg (2.4 – 6.4 lbs)"),
+                 tags$li("Lifespan: Herbivorous; grasses, sedges, agricultural grains, and green shoots"),
+                 tags$li("Diet: 10–20+ years in the wild"),
+                 tags$li("Habitat: Tundra, agricultural stubble fields, pastures, and marshlands"),
+                 tags$li("Nesting season: May to July"),
+                 tags$li("Conservation status: Least Concern")
+               ),
+               # SOUND: SPACE RESERVED 
+               h4("Call"),
+               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               #HEAT MAP: SPACE RESERVED
+               h4("Heat map")
+               # >>> HEAT MAP GOES HERE (map will replace this comment) <<<
+             ),
+             
+             
+             #Canada Goose, Dusky
+             conditionalPanel(
+               condition = "input.species_pacific == 'Canada Goose, Dusky'",
+               
+               #PHOTO
+               img(src="", width = "400px"),
+               
+               #DESCRIPTION
+               h4("About this species"),
+               p("A large, familiar wild goose featuring a gray-brown body, a long black stocking neck, an all-black head, and a wide white cheek patch extending beneath the chin. The bill and legs are black, and the
+               tail is dark, framed by a clean white U-shaped rump patch. Size varies across subspecies, but true Canada geese are substantial, heavy-bodied birds with broad wing spans and prominent chest structures.
+Flocks travel in disciplined, iconic V-formations or long, undulating lines, driven by powerful, rhythmic wingbeats. When approaching fields, they circle deliberately, locking their wide wings and backpedaling firmly 
+into the wind on final descent. They are intensely vocal on the wing, communicating across long distances with deep, resonant, two-syllable honks, where the higher pitched note is given by the female and the lower note by the male.
+The cornerstone of field and water goose hunting across North America, feeding heavily in harvested corn, wheat, barley, and pasture fields. Fooled using realistic full-body decoy spreads, disciplined calling routines, and layout 
+or A-frame blinds that conceal hunters from overhead scrutiny. Flagging is essential for grabbing the attention of distant migrating flights, but flags should be rested once birds turn and commit to the final approach.
+"),
+               
+               # ----- DESCRIPTION (bullet points) -----
+               tags$ul(
+                 tags$li("Size: Length 75–110 cm (30–43 inches)"),
+                 tags$li("Wingspan: 127–185 cm (50–73 inches)"),
+                 tags$li("Weight: 2.4 – 6.5 kg (5.3 – 14.3 lbs)"),
+                 tags$li("Lifespan: 10–24 years in the wild (record over 30 years)"),
+                 tags$li("Diet: Herbivorous; grasses, grains, roots, and aquatic plants"),
+                 tags$li("Habitat: Lakes, rivers, agricultural fields, city parks, and wetlands"),
+                 tags$li("Nesting season: April to June"),
+                 tags$li("Conservation status: Least Concern")
+               ),
+               # SOUND: SPACE RESERVED 
+               h4("Call"),
+               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               #HEAT MAP: SPACE RESERVED
+               h4("Heat map")
+               # >>> HEAT MAP GOES HERE (map will replace this comment) <<<
+             ),
+             
+             
+             #Canada Goose, Lesser
+             conditionalPanel(
+               condition = "input.species_pacific == 'Canada Goose, Lesser'",
+               
+               #PHOTO
+               img(src="", width = "400px"),
+               
+               #DESCRIPTION
+               h4("About this species"),
+               p("A proportional, intermediate-sized Canada goose showing identical plumage patterns to Western Canadas, but built on a 
+               smaller frame with a shorter neck and a more compact bill. Body mass typically falls between five and seven pounds, resting 
+               squarely between large honkers and smaller cackling geese. Their plumage exhibits clean white cheek patches, a dark stocking 
+               neck, and light brownish-gray body feathering.
+Flocks fly in fast, agile formations that shift altitude rapidly in crosswinds, beating their wings with a noticeable increase in cadence 
+compared to giant Canadas. Their honks are distinctly higher-pitched and faster than the booming notes of larger races, sounding energetic 
+and urgent. When approaching fields, they tend to drop in large, swirling groups rather than small, orderly pairs.
+Abundant across the Central, Mississippi, and Pacific flyways, migrating in massive waves ahead of winter freezes to feed in grain stubble. 
+They respond well to fast-paced short-reed calling and aggressive decoy flagging, often dumping into field spreads in large, chaotic packs. 
+Hunters set out medium-sized full-body spreads mixed with windsocks to provide the volume needed to stop passing flocks.
+"),
+               
+               # ----- DESCRIPTION (bullet points) -----
+               tags$ul(
+                 tags$li("Size: Length 60–75 cm (24–30 inches)"),
+                 tags$li("Wingspan: 120–135 cm (47–53 inches)"),
+                 tags$li("Weight:  2.0 – 3.5 kg (4.4 – 7.7 lbs)"),
+                 tags$li("Lifespan: 10–20 years in the wild"),
+                 tags$li("Diet: Herbivorous; grasses, agricultural grains, clover, and green shoots"),
+                 tags$li("Habitat: Tundra, agricultural fields, river valleys, and wetlands"),
+                 tags$li("Nesting season: May to July"),
+                 tags$li("Conservation status: Least Concern")
+               ),
+               # SOUND: SPACE RESERVED 
+               h4("Call"),
+               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               #HEAT MAP: SPACE RESERVED
+               h4("Heat map")
+               # >>> HEAT MAP GOES HERE (map will replace this comment) <<<
+             ),
+             
              
              
              plotOutput("bar_pacific")
@@ -213,3 +454,5 @@ fluidPage(
 )
 #to put image in, go to place you want image to appear and use function img(src="myfile.png")
 #do not put www before file name
+
+
