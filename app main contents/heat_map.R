@@ -7,10 +7,10 @@ geo <- st_read("https://rstudio.github.io/leaflet/json/us-states.geojson")
 
 myTable <- read_csv("~/TX-game-population/app main contents/tidy_waterfowl_data.csv")
 
-# convert abbreviations to full state names
+# convert state abbreviations from data to full state names
 myTable <- myTable %>% mutate(datastate = state.name[match(datastate, state.abb)])
 
-# which states belong to which flyway                                   
+# labeling which states belong to which flyway                                   
 flyways <- list(                                                        
   Atlantic    = c("Maine", "New Hampshire", "Vermont", "Massachusetts", "Rhode Island", "Connecticut", "New York", "New Jersey", "Pennsylvania", "Delaware", "Maryland", "Virginia", "West Virginia", "North Carolina",
                   "South Carolina", "Georgia", "Florida", "District of Columbia"),
@@ -22,7 +22,7 @@ flyways <- list(
 # the categorical column: one flyway name per state (like 'category_col' in the template)
 flyway_levels <- c("Atlantic", "Mississippi", "Central", "Pacific")
 
-#labeling the states to proper flyway; "NA_character_" ensures that states no belonging to a flyway are left out of color code
+# labeling the states to proper flyway; "NA_character_" ensures that states not belonging to a flyway are left out of color scheme
 geo <- geo %>%
   mutate(flyway = case_when(
     name %in% flyways$Atlantic    ~ "Atlantic",
@@ -40,17 +40,16 @@ ui <- fluidPage(
 )
 
 server <- function(input, output, session) {
-  # Define a color palette for the flyways 
+  # defining a color palette for the flyways 
   pal <- reactive({
     colorFactor(
       palette = c("blue", "red", "green", "purple"),  # Atlantic, Mississippi, Central, Pacific
       domain = flyway_levels,
-      na.color = "grey"                            # states not in any flyway (puerto rico, hawaii)
+      na.color = "grey"                            # states not in any flyway (Puerto Rico, Hawaii)
     )
   })
   output$map <- renderLeaflet({
     
-    #line that is important for adding a slider later? - find instructions from syllabus tutorial
     yr <- input$year
     
     # one row per state, with a species list for the click popup
@@ -60,7 +59,7 @@ server <- function(input, output, session) {
       summarize(popup = paste0("<b>", first(datastate), " (", yr, ")</b><br>",
                                paste(sort(unique(species)), collapse = "<br>")))
     
-    #let geo = g
+    # let geo = g
     g <- left_join(geo, tbl, by = c("name" = "datastate"))
     
     labels <- lapply(ifelse(is.na(g$popup),
@@ -83,7 +82,7 @@ server <- function(input, output, session) {
                     style = list("font-weight" = "normal", padding = "3px 8px"),
                     textsize = "15px",
                     direction = "auto")) %>%
-      addLegend(pal = pal(), values = flyway_levels,            # <<< new: legend
+      addLegend(pal = pal(), values = flyway_levels,           
                 opacity = 0.7, title = "Flyway", position = "bottomright")
   })
 }
