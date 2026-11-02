@@ -119,9 +119,9 @@ fluidPage(
                # >>> HEAT MAP GOES HERE (map will replace this comment) <<<
              ),
              
-             #band-tailed pigeon, interior
+             #band-tailed pigeon
              conditionalPanel(
-               condition = "input.species_pacific == 'Band-tailed Pigeon, Interior'",
+               condition = "input.species_pacific == 'Band-tailed Pigeon'",
                
                #PHOTO
                img(src="band_tailed_pigeon_monomorphic.jpg", width = "400px"),
@@ -731,6 +731,208 @@ under overcast, windy conditions yields the highest success rates.
              
              
              
+             #Tundra Swan
+             conditionalPanel(
+               condition = "input.species_pacific == 'Tundra Swan'",
+               
+               #PHOTO
+               img(src="", width = "400px"),
+               
+               #DESCRIPTION
+               h4("About this species"),
+               p("A large, graceful waterfowl cloaked entirely in snowy-white plumage, balanced by an all-black bill, legs, and feet. The bill meets the forehead
+  at a sharp, abrupt angle below the eye, and mature adults usually carry a small, distinct yellow spot on the black skin directly in front of the
+  eye. Immature birds show mottled gray-brown plumage with paler, pinkish bills during their first autumn flight south."),
+               p("High-altitude fliers that travel in stately, disciplined V-formations or long diagonal lines driven by deep, powerful, rhythmic wing strokes.
+  Their flight is fluid and effortless, covering immense distances between Arctic breeding grounds and coastal wintering bays. They vocalize
+  continuously with high-pitched, barking bugle notes and whistle-like cries sounding like 'kloo-kloo', which can be heard long before the birds
+  become visible."),
+               p("Hunted strictly through limited-entry lottery tag systems in select Atlantic, Central, and Pacific flyway states. Hunters use large white swan
+  decoys or modified white flags placed in flooded agricultural fields or coastal shallows, using heavy non-toxic shot like T, BBB, or BB on broad
+  crossing shots. Because their size makes them appear closer than they are, gunners should wait until facial details are visible before pulling
+  the trigger."),
+               
+               # DESCRIPTION (bullet points)
+               tags$ul(
+                 tags$li("Size: Length 115–150 cm (45–59 inches)"),
+                 tags$li("Wingspan: 168–182 cm (66–72 inches)"),
+                 tags$li("Weight: 4.5 – 8.5 kg (9.9 – 18.7 lbs)"),
+                 tags$li("Lifespan: 10–20 years in the wild (record over 20 years)"),
+                 tags$li("Diet: Herbivorous; aquatic plants, roots, tubers, stems, and leftover grains"),
+                 tags$li("Habitat: Arctic tundra, shallow lakes, estuaries, bays, and flooded agricultural fields"),
+                 tags$li("Nesting season: June to August"),
+                 tags$li("Conservation status: Least Concern (Regulated tag harvests)")
+               ),
+               # SOUND: SPACE RESERVED 
+               h4("Call"),
+               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               #HEAT MAP: SPACE RESERVED
+               h4("Heat map")
+               # >>> HEAT MAP GOES HERE (map will replace this comment) <<<
+             ),
+             
+             #Virginia Rail
+             conditionalPanel(
+               condition = "input.species_pacific == 'Virginia Rail'",
+               
+               #PHOTO
+               img(src="", width = "400px"),
+               
+               #DESCRIPTION
+               h4("About this species"),
+               p("A small, laterally compressed marsh bird built to slip between dense stems of cordgrass, featuring rich rusty-red breast plumage, barred
+  black-and-white flanks, a dark crown, and a slightly downcurved, slender reddish-orange bill. Legs are long and reddish, and the short tail is
+  often held cocked upright. Their compressed body allows them to sprint through dense marsh vegetation without displacing cover."),
+               p("Extremely reluctant to take wing, preferring to run through dense marsh vegetation like a rodent. When flushed, they flutter weakly just above
+  the tops of the reeds with their legs dangling awkwardly below, flying only a short distance before dropping back into cover. They produce
+  harsh, clicking grunts and metallic descending calls sounding like 'kid-ick, kid-ick' from deep inside tidal marsh grass."),
+               p("Hunted along coastal tidal marshes and inland freshwater wetlands during extreme high tides. Gunners pole flat-bottom skiffs through flooded
+  marsh cover, executing quick snap-shots with light target loads as birds briefly flush into the wind. Hunting during full-moon tides floods the
+  upper marsh canopy, concentrating these secretive rails along narrow shoreline fringes where they are more easily flushed."),
+               
+               # DESCRIPTION (bullet points)
+               tags$ul(
+                 tags$li("Size: Length 20–27 cm (8–11 inches)"),
+                 tags$li("Wingspan: 32–38 cm (13–15 inches)"),
+                 tags$li("Weight: 55 – 95 g (1.9 – 3.4 oz)"),
+                 tags$li("Lifespan: 3–5 years in the wild"),
+                 tags$li("Diet: Carnivorous and omnivorous; aquatic insects, beetles, snails, earthworms, and seeds"),
+                 tags$li("Habitat: Freshwater and brackish marshes, freshwater wetlands, and dense reed beds"),
+                 tags$li("Nesting season: May to July"),
+                 tags$li("Conservation status: Least Concern")
+               ),
+               # SOUND: SPACE RESERVED 
+               h4("Call"),
+               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               #HEAT MAP: SPACE RESERVED
+               h4("Heat map")
+               # >>> HEAT MAP GOES HERE (map will replace this comment) <<<
+             ),
+             
+             
+             #White-fronted Goose
+             conditionalPanel(
+               condition = "input.species_pacific == 'White-fronted Goose'",
+               
+               #PHOTO
+               img(src="", width = "400px"),
+               
+               #DESCRIPTION
+               h4("About this species"),
+               p("A medium-sized grayish-brown goose highlighted by a prominent patch of white feathers surrounding the base of the pink-orange bill and bold,
+  irregular black bars across the belly. Legs are bright orange, and the tail is dark with a clean white tip and white upper coverts. Juvenile
+  birds lack the white facial patch and black belly bars, showing uniform brown-gray underparts during early autumn hunts."),
+               p("Exceptionally fast and nimble in the air, flying in disciplined lines or V-formations that break into spectacular, side-slipping tumbles when
+  descending into fields. Flocks dump out of the sky with incredible agility, rocking side to side on set wings. They are famously vocal,
+  identified by a distinct, high-pitched, musical laughing or yodeling call sounding like 'kah-lah-lah-luck' or 'ha-ha-ha'."),
+               p("Highly prized by waterfowlers across the Mississippi, Central, and Pacific flyways as premier table fare. Fooling educated specks requires
+  specialized, tuned specklebelly calls, high-end full-body decoys set in loose family groups, and absolute stillness in rice or bean stubble.
+  Unlike Canada geese, specklebellies are easily flared by over-calling or harsh flagging, making subtle, realistic two-note yodels the best
+  approach."),
+               
+               # DESCRIPTION (bullet points)
+               tags$ul(
+                 tags$li("Size: Length 65–78 cm (26–31 inches)"),
+                 tags$li("Wingspan: 130–165 cm (51–65 inches)"),
+                 tags$li("Weight: 2.0 – 3.3 kg (4.4 – 7.3 lbs)"),
+                 tags$li("Lifespan: 8–15 years in the wild (record over 20 years)"),
+                 tags$li("Diet: Herbivorous; grasses, sedges, roots, and agricultural grains"),
+                 tags$li("Habitat: Arctic tundra, agricultural fields, wet meadows, and river floodplains"),
+                 tags$li("Nesting season: June to July"),
+                 tags$li("Conservation status: Least Concern")
+               ),
+               # SOUND: SPACE RESERVED 
+               h4("Call"),
+               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               #HEAT MAP: SPACE RESERVED
+               h4("Heat map")
+               # >>> HEAT MAP GOES HERE (map will replace this comment) <<<
+             ),
+             
+             #White-winged Dove
+             conditionalPanel(
+               condition = "input.species_pacific == 'White-winged Dove'",
+               
+               #PHOTO
+               img(src="", width = "400px"),
+               
+               #DESCRIPTION
+               h4("About this species"),
+               p("Larger and heavier-bodied than the Mourning Dove, characterized by a rounded tail with white corner tips, a bare patch of sky-blue skin
+  surrounding dark eyes, and a bold white crescent along the leading wing edge that expands into a striking white bar across the wing in flight.
+  The body is brownish-gray with a slight purplish-pink cast across the neck and breast on breeding males."),
+               p("Flight paths are linear, smooth, and predictable compared to the zig-zagging maneuvers of Mourning Doves, traveling in steady flocks between
+  agricultural fields and roosting timber. Their wingbeats are rhythmic and steady, giving them a more direct, purposeful appearance in the air.
+  Their call is a distinctive, rhythmic four-note coo often transcribed as 'who-cooks-for-you'."),
+               p("Concentrated across the desert Southwest, Texas, and Gulf Coast regions, feeding heavily on grain, citrus, and weed seeds. They provide
+  consistent shooting along field margins and irrigation corridors, easily separated from Mourning Doves in flight by their square tails and
+  prominent white wing bars. Hunters set up along tree lines and grain borders, pass-shooting steady flights during morning and late-afternoon
+  feeding flights."),
+               
+               # DESCRIPTION (bullet points)
+               tags$ul(
+                 tags$li("Size: Length 27–32 cm (11–13 inches)"),
+                 tags$li("Wingspan: 45–50 cm (18–20 inches)"),
+                 tags$li("Weight: 130 – 190 g (4.6 – 6.7 oz)"),
+                 tags$li("Lifespan: Up to 7 years in the wild"),
+                 tags$li("Diet: Granivorous and frugivorous; agricultural grains, weed seeds, cactus fruit, and berries"),
+                 tags$li("Habitat: Desert scrub, arid woodlands, citrus groves, and suburban parks"),
+                 tags$li("Nesting season: April to August"),
+                 tags$li("Conservation status: Least Concern")
+               ),
+               # SOUND: SPACE RESERVED 
+               h4("Call"),
+               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               #HEAT MAP: SPACE RESERVED
+               h4("Heat map")
+               # >>> HEAT MAP GOES HERE (map will replace this comment) <<<
+             ),
+             
+             
+             #Wilson’s Snipe
+             conditionalPanel(
+               condition = "input.species_pacific == 'Wilson’s Snipe'",
+               
+               #PHOTO
+               img(src="", width = "400px"),
+               
+               #DESCRIPTION
+               h4("About this species"),
+               p("A small, cryptically colored game bird featuring buff and dark-brown longitudinal stripes down the head and back, barred flanks, short legs,
+  and an extraordinarily long, straight, slender bill with a flexible, sensitive tip used for probing mud. In hand, their plumage provides
+  exceptional camouflage against saturated soils and marsh grasses. The breast is mottled buff, and the underbelly is clean white."),
+               p("When flushed, they explode from muddy cover with tremendous speed, uttering a harsh, raspy alarm call sounding like 'scaip-scaip', before
+  executing a series of wild, unpredictable zig-zagging aerial evasions. They climb steeply into the wind and level off at high altitudes; during
+  spring courtship, they perform aerial dives that create a hollow, humming 'winnowing' sound using specialized outer tail feathers."),
+               p("Hunted on saturated pastures, exposed mudflats, and boggy marsh edges where their long bills can probe for earthworms and larvae. Their erratic
+  zig-zagging flight flummoxes inexperienced gunners; the most effective strategy is to wait out the initial two or three erratic turns, mounting
+  and firing once the bird levels off on a stable flight trajectory. Walking upwind through muddy ground keeps flushes within reasonable shotgun
+  range."),
+               
+               # DESCRIPTION (bullet points)
+               tags$ul(
+                 tags$li("Size: Length 25–28 cm (10–11 inches)"),
+                 tags$li("Wingspan: 40–45 cm (16–18 inches)"),
+                 tags$li("Weight: 75 – 140 g (2.6 – 4.9 oz)"),
+                 tags$li("Lifespan: Up to 8–9 years in the wild"),
+                 tags$li("Diet: Carnivorous and insectivorous; earthworms, insect larvae, beetles, and small aquatic invertebrates"),
+                 tags$li("Habitat: Saturated meadows, bogs, muddy river edges, and wet pastures"),
+                 tags$li("Nesting season: April to July"),
+                 tags$li("Conservation status: Least Concern")
+               ),
+               # SOUND: SPACE RESERVED 
+               h4("Call"),
+               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               #HEAT MAP: SPACE RESERVED
+               h4("Heat map")
+               # >>> HEAT MAP GOES HERE (map will replace this comment) <<<
+             ),
+             
              
              plotOutput("bar_pacific")
     ),
@@ -752,11 +954,20 @@ under overcast, windy conditions yields the highest success rates.
                condition = "input.species_central == 'American Black Duck'",
                
                #PHOTO
-               img(src = "american_black_duck_female.jpg, american_black_duck_male.jpg", width = "400px"),
+               div(style = "display: flex; gap: 20px;",
+                   tags$figure(
+                     img(src="american_black_duck_male.jpg", width = "400px", height = "300px"),
+                     tags$figcaption("Male")
+                   ),
+                   tags$figure(
+                     img(src="american_black_duck_female.jpg", width = "400px", height = "300px"),
+                     tags$figcaption("Female")
+                   )
+               ),
                
                #DESCRIPTION
                h4("About this species"),
-               p("A plump, rounded waterbird with slate-gray to dark charcoal body plumage, a black head and neck, dark red eyes, and large, greenish-gray feet equipped with broad, 
+               p("Shown is a female (left) and male (right). A plump, rounded waterbird with slate-gray to dark charcoal body plumage, a black head and neck, dark red eyes, and large, greenish-gray feet equipped with broad, 
                flattened swimming lobes instead of webbing. Its bill is stark white with a tiny brown spot near the tip and a small brown frontal callus on the forehead. The tail is
                short and carried low while swimming, often giving the bird a rounded, chicken-like profile on open water. To become airborne, they require long, pattering runs across
                open water while furiously beating their short, rounded wings. In flight, they show a thin, whitish trailing edge on the secondaries and fly with rapid, labored wing 
