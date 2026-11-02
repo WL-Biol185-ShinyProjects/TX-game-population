@@ -960,6 +960,7 @@ under overcast, windy conditions yields the highest success rates.
                                      "Canada-cackling Goose, Early")),
              h3(textOutput("title_central")),
              
+<<<<<<< HEAD
              #American Black Duck
              conditionalPanel(
                condition = "input.species_central == 'American Black Duck'",
@@ -1014,6 +1015,8 @@ under overcast, windy conditions yields the highest success rates.
                h4("Heat map")
                # >>> HEAT MAP GOES HERE (map will replace this comment) <<<
              ),
+=======
+>>>>>>> 530b854d19d81ea338c2d8dac4882f50a8ecadc0
              
              #American Green-winged Teal
              conditionalPanel(
