@@ -960,7 +960,7 @@ under overcast, windy conditions yields the highest success rates.
                                      "Canada-cackling Goose, Early")),
              h3(textOutput("title_central")),
              
-<<<<<<< HEAD
+
              #American Black Duck
              conditionalPanel(
                condition = "input.species_central == 'American Black Duck'",
@@ -979,13 +979,12 @@ under overcast, windy conditions yields the highest success rates.
                
                #DESCRIPTION
                h4("About this species"),
-<<<<<<< HEAD
                p("A heavy-bodied, dark dabbler that closely matches the mallard's structural footprint, sporting soot-brown body plumage that contrasts sharply with a pale grayish-buff head and neck. In flight, the species shows brilliant, silvery-white underwings that flash against the dark body, and a deep violet-purple speculum that lacks the white border bars found on mallards, though it occasionally carries a faint black trailing edge. Drakes carry bright olive-yellow bills, while hens display duller greenish-olive bills mottled with dusky flecks.
 
   Highly athletic, they burst nearly straight up off salt-marsh tidal creeks and blackwater sloughs with powerful, whistling wing strokes. Their flight silhouette is identical to the mallard, but the stark contrast between the bright silver underwing lining and dark body provides instant long-range identification. The hen's vocalization is a loud, ringing quack virtually indistinguishable from a hen mallard, while the drake provides a low, reedy groan.
 
   Widely considered the wariest duck in eastern marshes, they circle high outside spreads for multiple passes, requiring complete blind concealment, low-profile hides, and zero calling once they begin their final swing. Decoys must be kept entirely free of frost, mud, and unnatural shine, as these birds flare at the slightest visual irregularity. Because of localized population pressures and restrictive single-bird or two-bird bag limits across the Atlantic and Mississippi flyways, careful aerial differentiation from mottled ducks and hen mallards is critical."),
-=======
+
                p("Shown is a female (left) and male (right). A plump, rounded waterbird with slate-gray to dark charcoal body plumage, a black head and neck, dark red eyes, and large, greenish-gray feet equipped with broad, 
                flattened swimming lobes instead of webbing. Its bill is stark white with a tiny brown spot near the tip and a small brown frontal callus on the forehead. The tail is
                short and carried low while swimming, often giving the bird a rounded, chicken-like profile on open water. To become airborne, they require long, pattering runs across
@@ -994,7 +993,6 @@ under overcast, windy conditions yields the highest success rates.
                rafts in thousands on open lakes and coastal bays, feeding on submerged vegetation alongside diving ducks. They are readily distinguished from game ducks by their 
                chicken-like head-bobbing swimming motion and chalk-white bills, making early-morning identification simple. While many waterfowlers overlook them, they are traditionally 
                pursued in southern marshes for use in hearty stews and gumbos."),
->>>>>>> 925df00603b3e92491460baf5b4120ee9b974320
                
                # DESCRIPTION (bullet points)
                tags$ul(
@@ -1015,8 +1013,6 @@ under overcast, windy conditions yields the highest success rates.
                h4("Heat map")
                # >>> HEAT MAP GOES HERE (map will replace this comment) <<<
              ),
-=======
->>>>>>> 530b854d19d81ea338c2d8dac4882f50a8ecadc0
              
              #American Green-winged Teal
              conditionalPanel(
