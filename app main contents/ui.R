@@ -1632,10 +1632,10 @@ under overcast, windy conditions yields the highest success rates.
                          choices = c("Select a species" = "", "American Black Duck", "American Green-winged Teal", "American Wigeon", "Black-bellied Whistling Duck",
                                      "Bufflehead", "Cackling Goose", "Canada Goose", "Canvasback", "Common Goldeneye", "Fulvous Whistling Duck", "Gadwall", "Long-tailed Duck", 
                                      "Mallard", "Merganser, Common", "Merganser, Hooded", "Merganser, Red-breasted", "Mottled Duck",
-                                     "Northern Pintail", "Northern Shoveler", "Redhead", "Ring-necked Duck", "Ross's Goose", "Ruddy Duck", "Scaup, Greater", "Scaup, Lesser",
-                                     "Scoter, Black", "Scoter, Surf", "Scoter, White-winged", "Snow and Blue Goose", "Teal, American Green-winged",
-                                     "Teal, American Green-winged Early", "Teal, American Green-winged Regular", "Teal, Blue-winged and Cinnamon", "Teal, Blue-winged and Cinnamon Early", 
-                                     "Teal, Blue-winged and Cinnamon Regular", "White-fronted Goose", "Wood Duck", "Wood Duck, Early")),
+                                     "Northern Pintail", "Northern Shoveler", "Redhead", "Ring-necked Duck", "Ruddy Duck", "Scaup, Greater", "Scaup, Lesser",
+                                     "Scoter, Black", "Scoter, Surf", "Scoter, White-winged", "Snow and Blue Goose",
+                                     "Teal, Blue-winged and Cinnamon",  
+                                     "White-fronted Goose", "Wood Duck")),
              h3(textOutput("title_mississippi")),
              
              #American Black Duck
@@ -2209,7 +2209,993 @@ under overcast, windy conditions yields the highest success rates.
                # >>> HEAT MAP GOES HERE (map will replace this comment) <<<
              ),
              
+             #Mallard
+             conditionalPanel(
+               condition = "input.species_mississippi == 'Mallard'",
+               
+               #PHOTO
+               div(style = "display: flex; gap: 20px;",
+                   tags$figure(
+                     img(src="mallard_male.jpg", width = "400px", height = "300px"),
+                     tags$figcaption("Male")
+                   ),
+                   tags$figure(
+                     img(src="mallard_female.jpg", width = "400px", height = "300px"),
+                     tags$figcaption("Female")
+                   )
+               ),
+               
+               #DESCRIPTION
+               h4("About this species"),
+               p("The continental benchmark for puddle ducks, drakes carry an iridescent emerald-green head, crisp white neck collar, chestnut breast, and an
+  upward-curled central black tail feather. Both sexes display a brilliant violet-blue speculum bordered on both leading and trailing edges by
+  clean white bars, which flashes vividly during banking turns. In early season or eclipse plumage, drakes resemble mottled-brown hens but can
+  be separated in hand or at close range by their solid dull-yellowish bill, unlike the dark, orange-splotched bill of the hen."),
+               p("Mallards launch vertically from the surface on powerful wingbeats, cruising in deliberate, wide-circling flight paths while scouting marsh
+  openings and flooded agricultural fields. Acoustic dimorphism is stark: hens deliver the classic, loud, raspy decrescendo 'quack' and
+  long-distance hail calls that standard duck calls emulate, while airborne drakes emit only low, raspy, single-syllable 'kwek' or 'yeeb'
+  whistles."),
+               p("Wary and easily educated by hunting pressure, birds flare instantly from unnatural movement, blind shine, or off-beat calling, making
+  spinning-wing decoys and realistic water motion critical on still mornings. In mixed-bag regions, hunters must confirm the double white wing
+  bars and pale belly to avoid mistakenly taking darker American Black Ducks or Mottled Ducks against single-bird bag limits. Clean decoy
+  spreads, disciplined calling cadences, and total concealment are fundamental to consistent success."),
+               
+               # DESCRIPTION (bullet points)
+               tags$ul(
+                 tags$li("Size: Length 50–65 cm (20–26 inches)"),
+                 tags$li("Wingspan: 81–98 cm (32–39 inches)"),
+                 tags$li("Weight: 700 – 1,600 g (1.5 – 3.5 lbs)"),
+                 tags$li("Lifespan: 5–10 years in the wild (can exceed 20 years)"),
+                 tags$li("Diet: Omnivorous; seeds, grains, aquatic vegetation, insects, and small fish"),
+                 tags$li("Habitat: Freshwater marshes, ponds, rivers, agricultural fields, and urban parks"),
+                 tags$li("Nesting season: March to July"),
+                 tags$li("Conservation status: Least Concern")
+               ),
+               # SOUND: SPACE RESERVED 
+               h4("Call"),
+               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               #HEAT MAP: SPACE RESERVED
+               h4("Heat map")
+               # >>> HEAT MAP GOES HERE (map will replace this comment) <<<
+             ),
              
+             
+             #Merganser, Common
+             conditionalPanel(
+               condition = "input.species_mississippi == 'Merganser, Common'",
+               
+               #PHOTO
+               div(style = "display: flex; gap: 20px;",
+                   tags$figure(
+                     img(src="common_merganser_male.jpg", width = "400px", height = "300px"),
+                     tags$figcaption("Male")
+                   ),
+                   tags$figure(
+                     img(src="common_merganser_female.jpg", width = "400px", height = "300px"),
+                     tags$figcaption("Female")
+                   )
+               ),
+               
+               #DESCRIPTION
+               h4("About this species"),
+               p("A large, streamlined fish duck with a long, narrow red bill lined with sharp, backward-pointing serrations. Drakes feature an uncrested
+  bottle-green head, black back, immaculate white flanks, and a clean white breast that often carries a delicate, salmon-pink wash during the
+  winter. Hens have an ash-gray body with a rich rusty-cinnamon crested head that transitions abruptly into a clean white throat."),
+               p("Flies in fast, arrow-straight paths low over river channels and open reservoir surfaces, driven by rapid, shallow wing strokes that hold the
+  bird's bill, head, and body in a rigid horizontal plane. Their flight lines are purposeful and low, rarely rising more than a few yards above
+  the water. Generally silent on the wing, though hens produce a low, harsh croak when startled from river banks."),
+               p("Common along clear, cold rivers, interior lakes, and coastal estuaries where they pursue baitfish. Because of their specialized fish diet,
+  their meat carries a strong, unpalatable fishy flavor, leading most waterfowlers to pass on shooting them in favor of table-quality ducks. When
+  encountered on rivers, they provide challenging, fast-crossing target presentations, but hunters should identify them early to avoid harvesting
+  birds they do not intend to consume."),
+               
+               # DESCRIPTION (bullet points)
+               tags$ul(
+                 tags$li("Size: Length 58–70 cm (23–28 inches)"),
+                 tags$li("Wingspan: 78–97 cm (31–38 inches)"),
+                 tags$li("Weight: 900 – 2,100 g (2.0 – 4.6 lbs)"),
+                 tags$li("Lifespan: Up to 13 years in the wild"),
+                 tags$li("Diet: Primarily carnivorous; small fish, aquatic insects, amphibians, and crustaceans"),
+                 tags$li("Habitat: Clear rivers, mountain streams, large lakes, and coastal estuaries"),
+                 tags$li("Nesting season: April to June (tree cavities or ground hollows)"),
+                 tags$li("Conservation status: Least Concern")
+               ),
+               # SOUND: SPACE RESERVED 
+               h4("Call"),
+               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               #HEAT MAP: SPACE RESERVED
+               h4("Heat map")
+               # >>> HEAT MAP GOES HERE (map will replace this comment) <<<
+             ),
+             
+             
+             #Merganser, Hooded
+             conditionalPanel(
+               condition = "input.species_mississippi == 'Merganser, Hooded'",
+               
+               #PHOTO
+               div(style = "display: flex; gap: 20px;",
+                   tags$figure(
+                     img(src="hooded_merganser_male.jpg", width = "400px", height = "300px"),
+                     tags$figcaption("Male")
+                   ),
+                   tags$figure(
+                     img(src="hooded_merganser_female.jpg", width = "400px", height = "300px"),
+                     tags$figcaption("Female")
+                   )
+               ),
+               
+               #DESCRIPTION
+               h4("About this species"),
+               p("A small, sleek diver, the drake is marked by an expansive, fan-shaped white crest bordered in jet-black, which can be raised or collapsed
+  against the head. The drake's body is accented by two vertical black bars crossing a bright white breast, rich cinnamon-tawny flanks, and
+  bright yellow eyes. Hens are small and dark brown, carrying a bushy, ragged reddish-cinnamon crest and dark brown eyes."),
+               p("Lightning-fast fliers that negotiate narrow timber breaks and winding river channels with incredible maneuverability, flying with rapid,
+  silent wingbeats. Their low-level flight allows them to dart through flooded woods without clipping tree limbs. Drakes utter a unique,
+  frog-like rolling croak or purr during winter, while hens produce a raspy squawk when flushed."),
+               p("Prefers secluded forested wetlands, beaver ponds, blackwater swamps, and quiet river oxbows alongside wood ducks. While their meat is
+  generally not favored for the table due to a diet of small fish and aquatic bugs, fully plumaged drakes are highly prized by waterfowlers for
+  decorative taxidermy mounts. They frequently drop into wood duck spreads, giving timber hunters fast, unexpected shooting opportunities."),
+               
+               # DESCRIPTION (bullet points)
+               tags$ul(
+                 tags$li("Size: Length 40–49 cm (16–19 inches)"),
+                 tags$li("Wingspan: 60–66 cm (24–26 inches)"),
+                 tags$li("Weight: 450 – 680 g (1.0 – 1.5 lbs)"),
+                 tags$li("Lifespan: Up to 8–10 years in the wild"),
+                 tags$li("Diet: Carnivorous; small fish, aquatic insects, crayfish, and aquatic amphibians"),
+                 tags$li("Habitat: Wooded swamps, forested rivers, beaver ponds, and quiet sloughs"),
+                 tags$li("Nesting season: March to May (cavity nester)"),
+                 tags$li("Conservation status: Least Concern")
+               ),
+               # SOUND: SPACE RESERVED 
+               h4("Call"),
+               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               #HEAT MAP: SPACE RESERVED
+               h4("Heat map")
+               # >>> HEAT MAP GOES HERE (map will replace this comment) <<<
+             ),
+             
+             #Merganser, Red-breasted
+             conditionalPanel(
+               condition = "input.species_mississippi == 'Merganser, Red-breasted'",
+               
+               #PHOTO
+               div(style = "display: flex; gap: 20px;",
+                   tags$figure(
+                     img(src="red_breasted_merganser_male.jpg", width = "400px", height = "300px"),
+                     tags$figcaption("Male")
+                   ),
+                   tags$figure(
+                     img(src="red_breasted_merganser_female.jpg", width = "400px", height = "300px"),
+                     tags$figcaption("Female")
+                   )
+               ),
+               
+               #DESCRIPTION
+               h4("About this species"),
+               p("A slender diving sawbill featuring a shaggy, double-pointed crest on the back of the head, bright red eyes, and a very thin, slightly
+  upturned serrated red bill. Drakes sport a dark green crested head, a white neck collar, a reddish-brown breast streaked with dark spots, and
+  black-and-white patterned wings. Hens display a ragged crest, dull gray-brown plumage, and a cinnamon head that blends gradually into a pale
+  neck."),
+               p("Rapid, bullet-like fliers that skim across open coastal waters in single-file lines, generating tremendous forward airspeed with stiff,
+  shallow wing strokes. Their flight silhouette is elongated and arrow-straight, with head, neck, and body aligned in a single horizontal plane.
+  They emit low, rasping grunts during courtship displays, but remain largely mute on the wing."),
+               p("Primarily a bird of open saltwater bays, tidal sounds, and ocean beaches, contrasting with the freshwater preference of the Common Merganser.
+  They are taken mostly as incidental birds by sea-duck hunters, as their fish-based diet similarly renders them unappealing for culinary use.
+  When encountered along coastal points, their high flight speeds require assertive shooting leads and wide follow-throughs."),
+               
+               # DESCRIPTION (bullet points)
+               tags$ul(
+                 tags$li("Size: Length 51–58 cm (20–23 inches)"),
+                 tags$li("Wingspan: 70–82 cm (28–32 inches)"),
+                 tags$li("Weight: 800 – 1,350 g (1.8 – 3.0 lbs)"),
+                 tags$li("Lifespan: Up to 9–14 years in the wild"),
+                 tags$li("Diet: Primarily carnivorous; small fish, aquatic insects, crustaceans, and frogs"),
+                 tags$li("Habitat: Marine bays, coastal estuaries, saltwater inlets, and large freshwater lakes"),
+                 tags$li("Nesting season: May to July (ground nests hidden under vegetation)"),
+                 tags$li("Conservation status: Least Concern")
+               ),
+               # SOUND: SPACE RESERVED 
+               h4("Call"),
+               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               #HEAT MAP: SPACE RESERVED
+               h4("Heat map")
+               # >>> HEAT MAP GOES HERE (map will replace this comment) <<<
+             ),
+             
+             
+             #Mottled Duck
+             conditionalPanel(
+               condition = "input.species_mississippi == 'Mottled Duck'",
+               
+               #PHOTO
+               div(style = "display: flex; gap: 20px;",
+                   tags$figure(
+                     img(src="mottled_duck_male.jpg", width = "400px", height = "300px"),
+                     tags$figcaption("Male")
+                   ),
+                   tags$figure(
+                     img(src="mottled_duck_female.jpg", width = "400px", height = "300px"),
+                     tags$figcaption("Female")
+                   )
+               ),
+               
+               #DESCRIPTION
+               h4("About this species"),
+               p("A large, warm-buff to dark-brown dabbler resembling a pale hen mallard or a faded black duck, characterized by an unstreaked buffy throat
+  and pale face. The speculum shines iridescent blue-green with black trailing margins and totally lacks white border bars, though a faint white
+  line on the trailing edge can occasionally appear in worn plumage. Drakes possess a solid bright yellow-olive bill accented by a distinct black
+  spot at the gape, while hens have duller orange-yellow bills with dark blotches."),
+               p("Moves in low, watchful pairs or small family groups just above coastal cordgrass and flooded rice impoundments, seldom forming massive mixed
+  flocks. Their flight is measured and vigilant, keeping them low to the grass as they navigate marsh systems. Vocalizations closely mirror
+  mallards, with females delivering loud, descending quacks and males sounding soft, reedy chuckles."),
+               p("Primarily non-migratory residents of Gulf Coast and southern coastal marshes. Due to declining populations and hybridization pressures, they
+  carry tight harvest caps or total season closures in specific zones, meaning gunners must never shoot at dark-bodied ducks in low light without
+  confirming the lack of white speculum bars and the pale buff throat. Setting small, scattered spreads in secluded marsh potholes is the most
+  effective way to coax these resident birds within range."),
+               
+               # DESCRIPTION (bullet points)
+               tags$ul(
+                 tags$li("Size: Length 48–58 cm (19–23 inches)"),
+                 tags$li("Wingspan: 80–90 cm (31–35 inches)"),
+                 tags$li("Weight: 750 – 1,200 g (1.6 – 2.6 lbs)"),
+                 tags$li("Lifespan: 5–10 years in the wild"),
+                 tags$li("Diet: Omnivorous; seeds, aquatic vegetation, snails, insects, and small crustaceans"),
+                 tags$li("Habitat: Coastal marshes, brackish estuaries, flooded rice fields, and coastal prairies"),
+                 tags$li("Nesting season: March to July"),
+                 tags$li("Conservation status: Least Concern / Regionally Monitored")
+               ),
+               # SOUND: SPACE RESERVED 
+               h4("Call"),
+               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               #HEAT MAP: SPACE RESERVED
+               h4("Heat map")
+               # >>> HEAT MAP GOES HERE (map will replace this comment) <<<
+             ),
+             
+             
+             #Northern Pintail
+             conditionalPanel(
+               condition = "input.species_mississippi == 'Northern Pintail'",
+               
+               #PHOTO
+               div(style = "display: flex; gap: 20px;",
+                   tags$figure(
+                     img(src="northern_pintail_male.jpg", width = "400px", height = "300px"),
+                     tags$figcaption("Male")
+                   ),
+                   tags$figure(
+                     img(src="northern_pintail_female.jpg", width = "400px", height = "300px"),
+                     tags$figcaption("Female")
+                   )
+               ),
+               
+               #DESCRIPTION
+               h4("About this species"),
+               p("An exceptionally sleek, long-necked dabbler, the drake pintail boasts a chocolate-brown head, a bright white neck stripe extending up from a
+  snow-white chest, and elongated, needle-like black central tail feathers. In flight, their long, slender necks and pointed wings produce a
+  gull-like, hydrodynamic silhouette that cannot be mistaken for any other duck. The speculum is an iridescent dark greenish-bronze bordered by
+  a rust-tan leading bar and a crisp white trailing edge."),
+               p("Pintails fly high, fast, and gracefully, sliding down from altitude in long, sweeping, cautious spirals that inspect every inch of a marsh
+  before setting their wings. Their wing strokes are narrow and swept-back, giving them a distinct dart-like appearance on long crossing passes.
+  Drakes rarely quack, instead emitting a soft, two-note flute-like whistle sounding like 'wheet-wheet', while hens produce a low, hoarse, dry
+  croak."),
+               p("Renowned as one of the most decoy-shy ducks in North America, often circling a spread half a dozen times before landing well outside the
+  decoys. High-visibility sprig decoys with prominent white chests, minimal motion-decoy flash on clear days, and conservative whistling are
+  essential to finishing them within range under strict single-bird or two-bird bag limits. Spreads deployed in open sheetwater or wide, flooded
+  agricultural basins yield the best results."),
+               
+               # DESCRIPTION (bullet points)
+               tags$ul(
+                 tags$li("Size: Length 51–76 cm (20–30 inches including tail)"),
+                 tags$li("Wingspan: 80–95 cm (31–37 inches)"),
+                 tags$li("Weight: 450 – 1,360 g (1.0 – 3.0 lbs)"),
+                 tags$li("Lifespan: Up to 15–20 years in the wild"),
+                 tags$li("Diet: Omnivorous; seeds, aquatic plants, grains, insects, and small snails"),
+                 tags$li("Habitat: Open wetlands, marshes, agricultural fields, and shallow coastal bays"),
+                 tags$li("Nesting season: April to July"),
+                 tags$li("Conservation status: Least Concern")
+               ),
+               # SOUND: SPACE RESERVED 
+               h4("Call"),
+               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               #HEAT MAP: SPACE RESERVED
+               h4("Heat map")
+               # >>> HEAT MAP GOES HERE (map will replace this comment) <<<
+             ),
+             
+             
+             #Northern Shoveler
+             conditionalPanel(
+               condition = "input.species_mississippi == 'Northern Shoveler'",
+               
+               #PHOTO
+               div(style = "display: flex; gap: 20px;",
+                   tags$figure(
+                     img(src="northern_shoveler_male.jpg", width = "400px", height = "300px"),
+                     tags$figcaption("Male")
+                   ),
+                   tags$figure(
+                     img(src="northern_shoveler_female.jpg", width = "400px", height = "300px"),
+                     tags$figcaption("Female")
+                   )
+               ),
+               
+               #DESCRIPTION
+               h4("About this species"),
+               p("Instantly identified by an enormous, spoon-shaped black bill that is longer than the head and lined with fine, comb-like filtering lamellae.
+  Prime drakes are vividly marked with an iridescent dark green head, brilliant white chest, rich chestnut-red belly and flanks, and pale blue
+  shoulder patches on the wings. Hens are mottled brown with a heavy, orange-edged spoon bill and pale blue forewing patches."),
+               p("Flocks fly with steady, measured wingbeats, maintaining a distinct silhouette that appears front-heavy and down-angled due to the heavy bill.
+  They are surprisingly nimble when banking, occasionally dropping out of the sky with sudden side-slips into shallow marsh holes. Drakes emit a
+  low, guttural, rhythmic clucking sounding like 'thook-thook' or 'clook', while hens produce a muted, nasal quack."),
+               p("Nicknamed 'spoonbills' or 'bootlips,' they feed by sweeping their bills across the water surface to filter micro-invertebrates and seeds from
+  stagnant marsh pools and mudflats. They decoy very readily into almost any puddle duck spread without requiring calling, though their table
+  quality varies widely depending on whether they have been feeding on seeds or aquatic invertebrates. They provide excellent shooting practice
+  over shallow impoundments, dropping willingly into standard decoy layouts."),
+               
+               # DESCRIPTION (bullet points)
+               tags$ul(
+                 tags$li("Size: Length 43–52 cm (17–20 inches)"),
+                 tags$li("Wingspan: 73–82 cm (29–32 inches)"),
+                 tags$li("Weight: 470 – 1,100 g (1.0 – 2.4 lbs)"),
+                 tags$li("Lifespan: Up to 10–15 years in the wild"),
+                 tags$li("Diet: Omnivorous; zooplankton, micro-invertebrates, seeds, and aquatic plants"),
+                 tags$li("Habitat: Shallow freshwater marshes, prairie ponds, mudflats, and estuaries"),
+                 tags$li("Nesting season: April to June"),
+                 tags$li("Conservation status: Least Concern")
+               ),
+               # SOUND: SPACE RESERVED 
+               h4("Call"),
+               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               #HEAT MAP: SPACE RESERVED
+               h4("Heat map")
+               # >>> HEAT MAP GOES HERE (map will replace this comment) <<<
+             ),
+             
+             
+             #Redhead
+             conditionalPanel(
+               condition = "input.species_mississippi == 'Redhead'",
+               
+               #PHOTO
+               div(style = "display: flex; gap: 20px;",
+                   tags$figure(
+                     img(src="redhead_male.jpg", width = "400px", height = "300px"),
+                     tags$figcaption("Male")
+                   ),
+                   tags$figure(
+                     img(src="redhead_female.jpg", width = "400px", height = "300px"),
+                     tags$figcaption("Female")
+                   )
+               ),
+               
+               #DESCRIPTION
+               h4("About this species"),
+               p("A medium-sized diving duck with a high, rounded, bulbous head profile that contrasts with the sloping wedge of the Canvasback. Drakes feature
+  a bright copper-red head, black chest, dark ash-gray back, and a light blue bill tipped in black and separated by a crisp white band. Hens
+  are uniform warm-brown with a faint pale patch at the base of a similarly patterned blue, black, and white bill."),
+               p("Highly social birds that fly in dense, churning flocks that undulate low over the water, banking sharply as a single mass before sliding
+  into decoy spreads on cupped wings. Flocks maneuver with a characteristic sweeping motion, turning together with tight precision. Drakes
+  produce an unusual cat-like meow or groan sounding like 'whee-oow' during courtship, while flying hens emit hoarse, vibrating squawks."),
+               p("Gregarious divers that decoy with reckless abandon, frequently pitching directly into large spreads of bluebill or canvasback decoys anchored
+  over coastal seagrass flats. Hunters must separate drakes from Canvasbacks in flight by noting the Redhead's rounder head, darker gray back,
+  and shorter, banded blue bill. Setting spreads of high-contrast diving duck decoys on open bays or lagoon shallows provides consistent
+  shooting during late-season pushes."),
+               
+               # DESCRIPTION (bullet points)
+               tags$ul(
+                 tags$li("Size: Length 42–54 cm (17–21 inches)"),
+                 tags$li("Wingspan: 75–84 cm (30–33 inches)"),
+                 tags$li("Weight: 720 – 1,300 g (1.6 – 2.9 lbs)"),
+                 tags$li("Lifespan: Up to 15–20 years in the wild"),
+                 tags$li("Diet: Omnivorous; aquatic plants, roots, seeds, aquatic insects, and small snails"),
+                 tags$li("Habitat: Shallow lakes, bays, marshes, and coastal lagoons"),
+                 tags$li("Nesting season: May to July"),
+                 tags$li("Conservation status: Least Concern")
+               ),
+               # SOUND: SPACE RESERVED 
+               h4("Call"),
+               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               #HEAT MAP: SPACE RESERVED
+               h4("Heat map")
+               # >>> HEAT MAP GOES HERE (map will replace this comment) <<<
+             ),
+             
+             
+             #Ring-necked Duck
+             conditionalPanel(
+               condition = "input.species_mississippi == 'Ring-necked Duck'",
+               
+               #PHOTO
+               div(style = "display: flex; gap: 20px;",
+                   tags$figure(
+                     img(src="ring_necked_duck_male.jpg", width = "400px", height = "300px"),
+                     tags$figcaption("Male")
+                   ),
+                   tags$figure(
+                     img(src="ring_necked_duck_female.jpg", width = "400px", height = "300px"),
+                     tags$figcaption("Female")
+                   )
+               ),
+               
+               #DESCRIPTION
+               h4("About this species"),
+               p("Despite its name, which refers to an obscure chestnut neck band visible only in hand, this medium diver is recognized by the drake's glossy
+  purplish-black head, jet-black back, bright white vertical flank crescent, and slate-blue bill banded with two bold white rings. Hens are
+  grayish-brown with a white eyering, a pale bill-base wash, and a matching white-banded bill. In flight, both sexes show a uniform, dark
+  slate-gray speculum rather than a white wing stripe."),
+               p("Rocket-fast fliers that drop into decoys with a distinct whistling or ripping air sound, maneuvering through tight spaces with agility
+  uncommon among diving ducks. They drop out of high altitudes in steep dives, leveling out over timber holes with remarkable aerial control.
+  Drakes produce soft hissing purrs, while hens emit low, grating growls when flushing."),
+               p("Known colloquially as the 'ringbill' or 'blackjack,' they heavily utilize shallow forested swamps, beaver ponds, and lily-pad marshes
+  alongside puddle ducks. They decoy eagerly to regular mallard and wood duck spreads, making them a common bonus bird in flooded timber. Hunters
+  need not invest in specialized diver spreads, as ringnecks routinely pitch into small woodland potholes holding only half a dozen floating
+  puddle duck blocks."),
+               
+               # DESCRIPTION (bullet points)
+               tags$ul(
+                 tags$li("Size: Length 39–46 cm (15–18 inches)"),
+                 tags$li("Wingspan: 62–71 cm (24–28 inches)"),
+                 tags$li("Weight: 500 – 1,000 g (1.1 – 2.2 lbs)"),
+                 tags$li("Lifespan: Up to 10–14 years in the wild"),
+                 tags$li("Diet: Omnivorous; aquatic plant tubers, seeds, aquatic insects, snails, and small fish"),
+                 tags$li("Habitat: Wooded swamps, freshwater marshes, beaver ponds, and shallow lakes"),
+                 tags$li("Nesting season: May to July"),
+                 tags$li("Conservation status: Least Concern")
+               ),
+               # SOUND: SPACE RESERVED 
+               h4("Call"),
+               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               #HEAT MAP: SPACE RESERVED
+               h4("Heat map")
+               # >>> HEAT MAP GOES HERE (map will replace this comment) <<<
+             ),
+             
+             
+             #Ruddy Duck
+             conditionalPanel(
+               condition = "input.species_mississippi == 'Ruddy Duck'",
+               
+               #PHOTO
+               div(style = "display: flex; gap: 20px;",
+                   tags$figure(
+                     img(src="ruddy_duck_male.jpg", width = "400px", height = "300px"),
+                     tags$figcaption("Male")
+                   ),
+                   tags$figure(
+                     img(src="ruddy_duck_female.jpg", width = "400px", height = "300px"),
+                     tags$figcaption("Female")
+                   )
+               ),
+               
+               #DESCRIPTION
+               h4("About this species"),
+               p("A small, thick-set stifftail duck with a short, thick neck, a scoop-shaped bill, and stiff, spiky tail feathers that are frequently fanned
+  and cocked upright while swimming. In autumn and winter, drakes lose their famous rust-red plumage and sky-blue bills, becoming drab gray-brown
+  with dark caps and bright white cheek patches. Hens are similarly dull brown but have a distinct dark stripe running horizontally across their
+  whitish cheek."),
+               p("Extremely reluctant to take flight, choosing to escape danger by sinking down into the water or diving smoothly beneath the surface. When
+  forced into the air, their tiny wings beat with a blur-like buzzing cadence, keeping them skimming mere inches above the water surface in
+  straight, unswerving lines. Flocks rarely form in the air, with most flights consisting of low-skimming singles or pairs."),
+               p("Inhabits open, deep-water marshes, reservoirs, and coastal bays where they raft in compact groups over submerged weeds. They rarely commit to
+  standard decoy layouts, usually encountered as fast-moving singles buzzing the outer lines of open-water blinds. Hunters targeting divers
+  generally pass on them, though their speed provides a brief, challenging crossing presentation when they buzz blind locations."),
+               
+               # DESCRIPTION (bullet points)
+               tags$ul(
+                 tags$li("Size: Length 35–43 cm (14–17 inches)"),
+                 tags$li("Wingspan: 53–62 cm (21–24 inches)"),
+                 tags$li("Weight: 310 – 790 g (0.7 – 1.7 lbs)"),
+                 tags$li("Lifespan: Up to 5–8 years in the wild"),
+                 tags$li("Diet: Omnivorous; midge larvae, aquatic insects, seeds, and aquatic plant roots"),
+                 tags$li("Habitat: Freshwater lakes, deep marshes, prairie potholes, and sheltered bays"),
+                 tags$li("Nesting season: May to August"),
+                 tags$li("Conservation status: Least Concern")
+               ),
+               # SOUND: SPACE RESERVED 
+               h4("Call"),
+               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               #HEAT MAP: SPACE RESERVED
+               h4("Heat map")
+               # >>> HEAT MAP GOES HERE (map will replace this comment) <<<
+             ),
+             
+             
+             #Scaup, Greater
+             conditionalPanel(
+               condition = "input.species_mississippi == 'Scaup, Greater'",
+               
+               #PHOTO
+               div(style = "display: flex; gap: 20px;",
+                   tags$figure(
+                     img(src="greater_scaup_male.jpg", width = "400px", height = "300px"),
+                     tags$figcaption("Male")
+                   ),
+                   tags$figure(
+                     img(src="greater_scaup_female.jpg", width = "400px", height = "300px"),
+                     tags$figcaption("Female")
+                   )
+               ),
+               
+               #DESCRIPTION
+               h4("About this species"),
+               p("A stout, heavy-bodied diving duck, the drake displays a rounded head with a green iridescent gloss, a heavy black breast, white vermiculated
+  back, and a broad blue-gray bill tipped with a wide black nail. In the air, both sexes show a bold white wing stripe that extends the entire
+  length of the secondaries and runs well out into the outer primary flight feathers. Hens are warm brown with a prominent, clean white patch
+  encircling the base of the bill."),
+               p("Flocks form expansive, densely packed 'bluebill' rafts that sweep down over the water with tremendous momentum, generating a distinct
+  rushing-air roar on their final descent into decoys. Their wing action is swift and powerful, keeping flocks tightly clustered as they bank
+  hard over open water. Vocalizations are minimal in flight, consisting of low, raspy purrs and gutter croaks."),
+               p("Favors large open waters, coastal sounds, Great Lakes shoals, and saltwater bays rather than interior freshwater marshes. Hunters verify
+  Greater Scaup in hand by confirming the white wing stripe runs through the primary flight feathers and that the bill nail is broad and wide,
+  which is critical for complying with aggregate scaup bag limits. Layout boats and open-water blinds anchored over extensive mussel shoals
+  provide the most productive hunting opportunities."),
+               
+               # DESCRIPTION (bullet points)
+               tags$ul(
+                 tags$li("Size: Length 42–51 cm (17–20 inches)"),
+                 tags$li("Wingspan: 73–79 cm (29–31 inches)"),
+                 tags$li("Weight: 750 – 1,350 g (1.6 – 3.0 lbs)"),
+                 tags$li("Lifespan: Up to 18 years in the wild"),
+                 tags$li("Diet: Omnivorous; mollusks, crustaceans, aquatic insects, and plant tubers"),
+                 tags$li("Habitat: Large lakes, open bays, coastal marine waters, and estuaries"),
+                 tags$li("Nesting season: June to July"),
+                 tags$li("Conservation status: Least Concern")
+               ),
+               # SOUND: SPACE RESERVED 
+               h4("Call"),
+               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               #HEAT MAP: SPACE RESERVED
+               h4("Heat map")
+               # >>> HEAT MAP GOES HERE (map will replace this comment) <<<
+             ),
+             
+             
+             #Scaup, Lesser
+             conditionalPanel(
+               condition = "input.species_mississippi == 'Scaup, Lesser'",
+               
+               #PHOTO
+               div(style = "display: flex; gap: 20px;",
+                   tags$figure(
+                     img(src="lesser_scaup_male.jpg", width = "400px", height = "300px"),
+                     tags$figcaption("Male")
+                   ),
+                   tags$figure(
+                     img(src="lesser_scaup_female.jpg", width = "400px", height = "300px"),
+                     tags$figcaption("Female")
+                   )
+               ),
+               
+               #DESCRIPTION
+               h4("About this species"),
+               p("Slightly smaller and more compact than the Greater Scaup, the drake's head exhibits an angular peak at the rear of the crown and shows a
+  purplish gloss under direct sunlight. Its white wing stripe is strictly confined to the secondary flight feathers, fading to a dusky
+  brownish-gray across the outer primaries. The bill is light blue-gray with a narrow, small black nail at the tip; hens display brown bodies
+  with white feathering ringing the bill base."),
+               p("Famous for dramatic, vertical descents from cruising altitude, dropping out of the sky in tight, buzzing packs before leveling out just feet
+  above the decoys. The sound of a large flock descending has been compared to tearing canvas, generated by the air shearing against their stiff
+  wing feathers. Drakes emit low wheezing purrs, while hens utter a harsh, raspy 'scaup-scaup' call when startled or flying."),
+               p("The predominant bluebill of interior marshes, rivers, and prairie potholes, staging in huge numbers during late autumn cold fronts.
+  Successful spreads require long strings of high-contrast black-and-white floating decoys deployed on longlines along deep channels or points.
+  Because bag limits are often restricted to one or two birds, hunters must practice separating them from redheads and ringnecks on fast
+  crossing passes."),
+               
+               # DESCRIPTION (bullet points)
+               tags$ul(
+                 tags$li("Size: Length 38–46 cm (15–18 inches)"),
+                 tags$li("Wingspan: 71–76 cm (28–30 inches)"),
+                 tags$li("Weight: 680 – 1,080 g (1.5 – 2.4 lbs)"),
+                 tags$li("Lifespan: Up to 18 years in the wild"),
+                 tags$li("Diet: Omnivorous; aquatic insects, mollusks, crustaceans, and plant seeds"),
+                 tags$li("Habitat: Lakes, ponds, rivers, marshes, and sheltered coastal bays"),
+                 tags$li("Nesting season: June to July"),
+                 tags$li("Conservation status: Least Concern")
+               ),
+               # SOUND: SPACE RESERVED 
+               h4("Call"),
+               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               #HEAT MAP: SPACE RESERVED
+               h4("Heat map")
+               # >>> HEAT MAP GOES HERE (map will replace this comment) <<<
+             ),
+             
+             
+             #Scoter, Black
+             conditionalPanel(
+               condition = "input.species_mississippi == 'Scoter, Black'",
+               
+               #PHOTO
+               img(src="black_scoter_male_black_female_brown.jpg", width = "400px"),
+               
+               #DESCRIPTION
+               h4("About this species"),
+               p("This  bird is a medium-sized sea duck; mature drakes are entirely jet-black from bill to tail, highlighted by a bulbous,
+  swollen, bright yellow-orange knob at the base of the bill. Hens and immature birds are dark soot-brown with a clean, contrasting two-toned
+  head pattern featuring pale buffy-white cheeks below a dark crown. Both sexes display completely dark wings above and below that flash
+  silvery along the flight feathers in bright sunlight."),
+               p("Travels in large, shifting, shapeless flocks that track wave troughs low over the ocean, driven by continuous, stiff wing propulsion. Their
+  flight lines hug the contours of heavy surf, rarely climbing high unless crossing over barrier beach points. Drakes produce a melodious,
+  mournful whistling note sounding like 'cour-lee', which has earned them the traditional coastal moniker of 'butterbills'."),
+               p("Concentrated along ocean surf zones, outer barrier beaches, and large open sounds, feeding extensively on small blue mussels and mollusks.
+  Decoying them requires longline spreads equipped with large, high-contrast black decoys set into open-water tidal cuts. Their heavy muscle
+  structure and dense plumage necessitate heavy non-toxic shot payloads like #2 or #1 steel, along with prompt follow-up shots on swimming
+  birds."),
+               
+               # DESCRIPTION (bullet points)
+               tags$ul(
+                 tags$li("Size: Length 43–49 cm (17–19 inches)"),
+                 tags$li("Wingspan: 75–79 cm (30–31 inches)"),
+                 tags$li("Weight: 900 – 1,350 g (2.0 – 3.0 lbs)"),
+                 tags$li("Lifespan: 8–12 years in the wild"),
+                 tags$li("Diet: Carnivorous; marine mollusks, crustaceans, and small fish"),
+                 tags$li("Habitat: Coastal marine waters, ocean bays, and surf zones"),
+                 tags$li("Nesting season: June to July (Arctic tundra near freshwater)"),
+                 tags$li("Conservation status: Near Threatened / Least Concern (Vulnerable to marine oil spills)")
+               ),
+               # SOUND: SPACE RESERVED 
+               h4("Call"),
+               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               #HEAT MAP: SPACE RESERVED
+               h4("Heat map")
+               # >>> HEAT MAP GOES HERE (map will replace this comment) <<<
+             ),
+             
+             #Scoter, Surf
+             conditionalPanel(
+               condition = "input.species_mississippi == 'Scoter, Surf'",
+               
+               #PHOTO
+               img(src="surf_scoter_male.png", width = "400px"),
+               
+               #DESCRIPTION
+               h4("About this species"),
+               p("This monomorphic bird is known by maritime hunters as the 'skunkhead.' The drake is solid velvety black accented by a stark white patch on
+  the forehead and a long triangular white patch on the back of the neck. Its bill is massive, swollen, and brightly patterned in red, yellow,
+  white, and a distinct black patch on the side. Hens are dark brown with two fuzzy white patches on each side of the face and a pale patch on
+  the nape."),
+               p("Powerful, direct fliers that buzz low over ocean breaking zones in strung-out, single-file lines that rise and fall with the rolling surf.
+  Their heavy bodies require steady wingbeats to maintain momentum over coastal waters. They are generally silent in flight, but their stiff
+  wingbeats create a low, rhythmic whistling sound as they pass blinds set on ocean shoals."),
+               p("Frequents rugged coastal surf lines, open bays, and ocean channels on both coasts, feeding heavily on clams, crabs, and mussels. They are
+  exceptionally tough birds that decoy aggressively to high-contrast floating longlines, requiring heavy non-toxic shot payloads and tight choke
+  patterns to fold birds cleanly. Layout boats anchored in ocean inlets or seaward points provide consistent shooting during the late fall
+  migration."),
+               
+               # DESCRIPTION (bullet points)
+               tags$ul(
+                 tags$li("Size: Length 44–54 cm (17–21 inches)"),
+                 tags$li("Wingspan: 76–86 cm (30–34 inches)"),
+                 tags$li("Weight: 900 – 1,600 g (2.0 – 3.5 lbs)"),
+                 tags$li("Lifespan: Up to 10–12 years in the wild"),
+                 tags$li("Diet: Carnivorous; marine mollusks, clams, mussels, crabs, and aquatic insects"),
+                 tags$li("Habitat: Coastal marine waters, ocean surf zones, bays, and large inland lakes"),
+                 tags$li("Nesting season: June to July"),
+                 tags$li("Conservation status: Least Concern / Near Threatened")
+               ),
+               # SOUND: SPACE RESERVED 
+               h4("Call"),
+               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               #HEAT MAP: SPACE RESERVED
+               h4("Heat map")
+               # >>> HEAT MAP GOES HERE (map will replace this comment) <<<
+             ),
+             
+             #Scoter, White-winged
+             conditionalPanel(
+               condition = "input.species_mississippi == 'Scoter, White-winged'",
+               
+               #PHOTO
+               div(style = "display: flex; gap: 20px;",
+                   tags$figure(
+                     img(src="white_winged_scoter_male.jpg", width = "400px", height = "300px"),
+                     tags$figcaption("Male")
+                   ),
+                   tags$figure(
+                     img(src="white_winged_scoter_female.jpg", width = "400px", height = "300px"),
+                     tags$figcaption("Female")
+                   )
+               ),
+               
+               #DESCRIPTION
+               h4("About this species"),
+               p("The largest of the three North American scoters, drakes are dark brownish-black with a swollen orange bill, a small white teardrop crescent
+  flicking upward from the rear of the eye, and an expansive, square white speculum on the wings. Hens are dark soot-brown with faint white
+  facial spots, but they share the same unmistakable white speculum on the wing. Their bills are heavy and wide, adapted for crushing
+  hard-shelled mollusks."),
+               p("Heavy, lumbering fliers that require a running start across the surface to get airborne, settling into long, straight flight paths low over
+  the water while flashing their bright white wing patches on every stroke. Flocks travel in long, single-file chains that stay low to the
+  waves, rarely climbing high above open sounds. In flight, they produce low, guttural croaking sounds, but are otherwise quiet."),
+               p("Hardiest of the sea ducks, wintering in cold northern saltwater, broad sounds, and large open bodies of freshwater like the Great Lakes. The
+  bold white speculum makes them identifiable at great distances, helping gunners confirm the species before committing to shots over deep-water
+  rigs. Setting heavy longlines over open-water mussel beds and using dense shot loads ensures clean harvests over rolling ocean swells."),
+               
+               # DESCRIPTION (bullet points)
+               tags$ul(
+                 tags$li("Size: Length 51–58 cm (20–23 inches)"),
+                 tags$li("Wingspan: 86–96 cm (34–38 inches)"),
+                 tags$li("Weight: 1.2 – 2.0 kg (2.6 – 4.4 lbs)"),
+                 tags$li("Lifespan: Up to 10–15 years in the wild"),
+                 tags$li("Diet: Carnivorous; marine mollusks, clams, mussels, crustaceans, and snails"),
+                 tags$li("Habitat: Coastal marine bays, estuaries, ocean surf, and large inland lakes"),
+                 tags$li("Nesting season: June to July"),
+                 tags$li("Conservation status: Least Concern / Vulnerable (Declining trends in some localized populations)")
+               ),
+               # SOUND: SPACE RESERVED 
+               h4("Call"),
+               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               #HEAT MAP: SPACE RESERVED
+               h4("Heat map")
+               # >>> HEAT MAP GOES HERE (map will replace this comment) <<<
+             ),
+             
+             #Snow and Blue Goose
+             conditionalPanel(
+               condition = "input.species_mississippi == 'Snow and Blue Goose'",
+               
+               #PHOTO
+               div(style = "display: flex; gap: 20px;",
+                   tags$figure(
+                     img(src="snow_goose_blue_morph.jpg", width = "400px", height = "300px"),
+                     tags$figcaption("Blue Morph")
+                   ),
+                   tags$figure(
+                     img(src="snow_goose_white_morph.jpg", width = "400px", height = "300px"),
+                     tags$figcaption("White Morph")
+                   )
+               )
+               ,
+               
+               
+               #DESCRIPTION
+               h4("About this species"),
+               p("A dimorphic species occurring in two distinct color phases: the Snow morph is pure white with jet-black primary wingtips, while the Blue morph features a slate-gray 
+               body, dark wings, and a contrasting snow-white head and neck. Both phases possess a heavy, pink bill equipped with a prominent black grinning patch along the cutting edge
+               that is visible at close range. Intermediates showing varied white and slate body patches are also common in field spreads.
+Travels in massive flocks comprising thousands of birds, forming towering, swirling tornadoes that drop from tremendous altitudes toward feeding grounds. Their flight is loud, chaotic,
+and continuous, with birds constantly shifting positions as they circle downward. Flocks generate a deafening wall of sound consisting of high-pitched, barking yelps, screams, and 
+single-syllable squawks.
+Overabundant populations that damage subarctic breeding tundra have led to liberal Spring Conservation Orders featuring electronic callers, unplugged shotguns, and no bag limits. 
+Success requires massive spreads of 500 to 2,000+ windsock or rotary decoys placed in agricultural fields along migration corridors. Scouting roosts and setting up on hot feeding fields 
+under overcast, windy conditions yields the highest success rates.
+"),
+               
+               # DESCRIPTION (bullet points)
+               tags$ul(
+                 tags$li("Size: "),
+                 tags$li("Wingspan: "),
+                 tags$li("Weight: "),
+                 tags$li("Lifespan: "),
+                 tags$li("Diet: "),
+                 tags$li("Habitat: "),
+                 tags$li("Nesting season: "),
+                 tags$li("Conservation status: ")
+               ),
+               # SOUND: SPACE RESERVED 
+               h4("Call"),
+               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               #HEAT MAP: SPACE RESERVED
+               h4("Heat map")
+               # >>> HEAT MAP GOES HERE (map will replace this comment) <<<
+             ),
+             
+             
+             #Teal, American Green-winged
+             conditionalPanel(
+               condition = "input.species_mississippi == 'Teal, American Green-winged'",
+               
+               #PHOTO
+               div(style = "display: flex; gap: 20px;",
+                   tags$figure(
+                     img(src="american_green_winged_teal_male.jpg", width = "400px", height = "300px"),
+                     tags$figcaption("Male")
+                   ),
+                   tags$figure(
+                     img(src="american_green_winged_teal_female.jpg", width = "400px", height = "300px"),
+                     tags$figcaption("Female")
+                   )
+               ),
+               
+               #DESCRIPTION
+               h4("About this species"),
+               p("North America's smallest dabbling duck, drakes sport a rich chestnut-red head with a broad, iridescent emerald-green eye stripe, a vertical
+  white crescent on the shoulder, and a creamy, buff-colored patch beneath the tail. The speculum on both sexes is a vivid, shimmering green
+  bordered by buffy-tan bars, set against an overall dark, compact wing. Hens are cryptically mottled brown with small, dark bills and pale
+  bellies."),
+               p("Flocks fly at breakneck speeds just inches above the water or marsh grass, executing breathtaking, synchronized twists, dives, and banks like
+  a flock of sandpipers. They drop suddenly into decoy spreads without warning, pitching straight downward with wings cupped. Drakes produce a
+  high-pitched, cricket-like bell whistle transcribed as 'krick-et' or 'peep', while hens deliver brief, rapid, high-pitched quacks."),
+               p("Extremely hardy early-and-late migrants that favor very shallow water, muddy edges, and ankle-deep sheetwater in flooded agricultural fields.
+  Because their diminutive size makes them appear further away than they actually are, hunters should use open chokes such as improved cylinder
+  or light modified paired with smaller shot sizes like #5 or #6 steel. Decoy spreads can be kept compact, and simple teal whistling calls are
+  often enough to draw circling flocks into gun range."),
+               
+               # DESCRIPTION (bullet points)
+               tags$ul(
+                 tags$li("Size: Length 31–38 cm (12–15 inches)"),
+                 tags$li("Wingspan: 58–64 cm (23–25 inches)"),
+                 tags$li("Weight: 140 – 500 g (0.3 – 1.1 lbs)"),
+                 tags$li("Lifespan: 5–10 years in the wild"),
+                 tags$li("Diet: Herbivorous and insectivorous; seeds, aquatic plants, and aquatic insects"),
+                 tags$li("Habitat: Shallow marshes, flooded agricultural fields, ponds, and mudflats"),
+                 tags$li("Nesting season: May to July"),
+                 tags$li("Conservation status: Least Concern")
+               ),
+               # SOUND: SPACE RESERVED 
+               h4("Call"),
+               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               #HEAT MAP: SPACE RESERVED
+               h4("Heat map")
+               # >>> HEAT MAP GOES HERE (map will replace this comment) <<<
+             ),
+             
+             
+             #Teal, Blue-winged and Cinnamon
+             conditionalPanel(
+               condition = "input.species_mississippi == 'Teal, Blue-winged and Cinnamon'",
+               
+               #PHOTO
+               div(style = "display: flex; gap: 20px;",
+                   tags$figure(
+                     img(src="cinnamon_teal_male.jpg", width = "400px", height = "300px"),
+                     tags$figcaption("Male")
+                   ),
+                   tags$figure(
+                     img(src="cinnamon_teal_female.jpg", width = "400px", height = "300px"),
+                     tags$figcaption("Female")
+                   )
+               ),
+               
+               #DESCRIPTION
+               h4("About this species"),
+               p("Small, nimble dabblers that share nearly identical wing patterns. The Blue-winged Teal drake is distinguished in breeding plumage by a
+  slate-blue head with a prominent white crescent between the bill and eye, spotted pinkish-tan flanks, and a white flank patch near the tail,
+  while the Cinnamon Teal drake is cloaked in rich, deep cinnamon-red across the head, neck, chest, and flanks, with bright crimson eyes and a
+  long black spatulate bill. In flight, both species display huge, chalky powder-blue upper wing coverts separated from an iridescent green
+  speculum by a white border strip. Hens of both species are mottled grayish-brown and almost indistinguishable in the field, though Cinnamon
+  hens typically show a slightly longer, heavier bill."),
+               p("Highly coordinated, flashing flight groups buzz low over emergent vegetation and dense stands of tules and bulrushes, banking sharply in
+  unison to expose the powder-blue shoulder panels. They fly with tremendous speed, often banking hard into the wind and touching down in
+  decoy pockets on the very first pass. Blue-winged drakes emit a faint, high-pitched peeping whistle, Cinnamon drakes make low, rattling
+  chatter calls sounding like 'krr-krr-krr', and hens of both species give light, nasal, rapid quacks."),
+               p("Blue-winged Teal are the earliest migrant among continental waterfowl, heading south at the first sign of cool weather in late August and
+  September, and are the primary species pursued during special early teal seasons. Cinnamon Teal are bound primarily to the Pacific and
+  Central flyways, frequenting warm alkaline wetlands, marsh margins, and sluggish agricultural canals. Hunters should deploy small spreads of
+  hen mallard or teal decoys in shallow, vegetated impoundments and protected marsh openings, using open chokes and fast gun mounts for quick
+  crossing shots."),
+               
+               # DESCRIPTION (bullet points)
+               tags$ul(
+                 tags$li("Size: Length 35–43 cm (14–17 inches)"),
+                 tags$li("Wingspan: 56–63 cm (22–25 inches)"),
+                 tags$li("Weight: 320 – 510 g (0.7 – 1.1 lbs)"),
+                 tags$li("Lifespan: 5–10 years in the wild"),
+                 tags$li("Diet: Omnivorous; seeds, aquatic plants, pondweeds, aquatic insects, snails, and small crustaceans"),
+                 tags$li("Habitat: Shallow freshwater marshes, ponds, flooded ditches, flooded agricultural areas, and grassy wetlands"),
+                 tags$li("Nesting season: April to July"),
+                 tags$li("Conservation status: Least Concern")
+               ),
+               # SOUND: SPACE RESERVED 
+               h4("Call"),
+               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               #HEAT MAP: SPACE RESERVED
+               h4("Heat map")
+               # >>> HEAT MAP GOES HERE (map will replace this comment) <<<
+             ),
+             
+             
+             #White-fronted Goose
+             conditionalPanel(
+               condition = "input.species_mississippi == 'White-fronted Goose'",
+               
+               #PHOTO
+               img(src="white_fronted_goose_monomorphic.jpg", width = "400px"),
+               
+               #DESCRIPTION
+               h4("About this species"),
+               p("This monomorphic bird is a medium-sized grayish-brown goose highlighted by a prominent patch of white feathers surrounding the base of the
+  pink-orange bill and bold, irregular black bars across the belly. Legs are bright orange, and the tail is dark with a clean white tip and
+  white upper coverts. Juvenile birds lack the white facial patch and black belly bars, showing uniform brown-gray underparts during early
+  autumn hunts."),
+               p("Exceptionally fast and nimble in the air, flying in disciplined lines or V-formations that break into spectacular, side-slipping tumbles when
+  descending into fields. Flocks dump out of the sky with incredible agility, rocking side to side on set wings. They are famously vocal,
+  identified by a distinct, high-pitched, musical laughing or yodeling call sounding like 'kah-lah-lah-luck' or 'ha-ha-ha'."),
+               p("Highly prized by waterfowlers across the Mississippi, Central, and Pacific flyways as premier table fare. Fooling educated specks requires
+  specialized, tuned specklebelly calls, high-end full-body decoys set in loose family groups, and absolute stillness in rice or bean stubble.
+  Unlike Canada geese, specklebellies are easily flared by over-calling or harsh flagging, making subtle, realistic two-note yodels the best
+  approach."),
+               
+               # DESCRIPTION (bullet points)
+               tags$ul(
+                 tags$li("Size: Length 65–78 cm (26–31 inches)"),
+                 tags$li("Wingspan: 130–165 cm (51–65 inches)"),
+                 tags$li("Weight: 2.0 – 3.3 kg (4.4 – 7.3 lbs)"),
+                 tags$li("Lifespan: 8–15 years in the wild (record over 20 years)"),
+                 tags$li("Diet: Herbivorous; grasses, sedges, roots, and agricultural grains"),
+                 tags$li("Habitat: Arctic tundra, agricultural fields, wet meadows, and river floodplains"),
+                 tags$li("Nesting season: June to July"),
+                 tags$li("Conservation status: Least Concern")
+               ),
+               # SOUND: SPACE RESERVED 
+               h4("Call"),
+               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               #HEAT MAP: SPACE RESERVED
+               h4("Heat map")
+               # >>> HEAT MAP GOES HERE (map will replace this comment) <<<
+             ),
+             
+             
+             #Wood Duck
+             conditionalPanel(
+               condition = "input.species_mississippi == 'Wood Duck'",
+               
+               #PHOTO
+               div(style = "display: flex; gap: 20px;",
+                   tags$figure(
+                     img(src="wood_duck_male.jpg", width = "400px", height = "300px"),
+                     tags$figcaption("Male")
+                   ),
+                   tags$figure(
+                     img(src="wood_duck_female.png", width = "400px", height = "300px"),
+                     tags$figcaption("Female")
+                   )
+               ),
+               
+               #DESCRIPTION
+               h4("About this species"),
+               p("A compact, highly ornate tree duck, the drake features an iridescent green and purple crested head with white bridle lines, a red eye, a
+  multi-colored red, white, and yellow bill, and a rich burgundy-wine breast. Hens are sleek gray-brown with a teardrop-shaped white patch
+  around the eye and a subtle blue-green sheen on the wings. In flight, both sexes show a long, square, dark tail and dark underwings with
+  contrasting white belly lines."),
+               p("Masters of timber navigation, they cut through dense forest canopies and flooded bottomland hardwoods with unmatched speed, banking sharply
+  around tree trunks with their heads held high and bills angled downward. Their flight is darting and low, weaving through tight tree branches
+  effortlessly. They are exceptionally vocal on the wing: hens emit a piercing, rising squeal sounding like 'oo-eek! oo-eek!', while drakes
+  make a softer, high-pitched finch-like whistle sounding like 'jheep'."),
+               p("Inhabitants of beaver ponds, river oxbows, and cypress-tupelo swamps, they feed heavily on wild acorns and smartweed. Shooting is intense,
+  fast, and close-quarters during legal shooting light at dawn and dusk, requiring open-choked shotguns and rapid target acquisition before
+  birds vanish behind timber. Setting small spreads of half a dozen wood duck decoys in quiet river sloughs will bring incoming flights right
+  into shooting range."),
+               
+               # DESCRIPTION (bullet points)
+               tags$ul(
+                 tags$li("Size: Length 47–54 cm (19–21 inches)"),
+                 tags$li("Wingspan: 66–73 cm (26–29 inches)"),
+                 tags$li("Weight: 480 – 875 g (1.1 – 1.9 lbs)"),
+                 tags$li("Lifespan: Up to 3–4 years average in wild (some reach 6+ years)"),
+                 tags$li("Diet: Omnivorous; acorns, beechnuts, seeds, aquatic plants, and aquatic insects"),
+                 tags$li("Habitat: Wooded swamps, flooded timber, beaver ponds, and slow-moving wooded streams"),
+                 tags$li("Nesting season: March to June (cavity nester)"),
+                 tags$li("Conservation status: Least Concern (Successfully recovered from historical overhunting via nest boxes)")
+               ),
+               # SOUND: SPACE RESERVED 
+               h4("Call"),
+               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               #HEAT MAP: SPACE RESERVED
+               h4("Heat map")
+               # >>> HEAT MAP GOES HERE (map will replace this comment) <<<
+             ),
              
 
              
@@ -2233,7 +3219,9 @@ under overcast, windy conditions yields the highest success rates.
     
     
     
-    tabPanel("Quiz", p("Quiz goes here."))
+    tabPanel("Quiz", p("Quiz goes here.")),
+    
+    tabPanel("Duck Calls", p("Duck Calls Section"))
   )
 )
 #to put image in, go to place you want image to appear and use function img(src="myfile.png")
