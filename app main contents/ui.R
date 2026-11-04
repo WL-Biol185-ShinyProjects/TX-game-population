@@ -110,9 +110,9 @@ fluidPage(
                  tags$li("Conservation status: Least Concern")
                ),
                
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+                
+               
+              
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -151,9 +151,9 @@ fluidPage(
                  tags$li("Conservation status:  Least Concern (Locally managed game bird)")
                ),
                
-               # ----- SOUND: SPACE RESERVED -----
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               
+              
                
                # ----- HEAT MAP: SPACE RESERVED -----
                h4("Heat map")
@@ -190,9 +190,9 @@ shoals, setting up low blinds on exposed points. Hunters should place dark silho
                  tags$li("Conservation status: Least Concern")
                ),
                
-               # ----- SOUND: SPACE RESERVED -----
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               
+              
                
                # ----- HEAT MAP: SPACE RESERVED -----
                h4("Heat map")
@@ -230,9 +230,9 @@ quotas to remain compliant with designated harvest caps.
                  tags$li("Nesting season: May to July"),
                  tags$li("Conservation status: Recovered / Least Concern (Delisted from US Endangered Species Act)")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+                
+               
+              
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -270,9 +270,9 @@ squeaking cackle of incoming birds.
                  tags$li("Nesting season: May to July"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+                
+               
+              
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -308,9 +308,9 @@ or A-frame blinds that conceal hunters from overhead scrutiny. Flagging is essen
                  tags$li("Nesting season: April to June"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+                
+               
+              
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -350,9 +350,9 @@ Hunters set out medium-sized full-body spreads mixed with windsocks to provide t
                  tags$li("Nesting season: May to July"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+                
+               
+              
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -392,9 +392,9 @@ them within range. Laying out on field edges with dialed-in camouflage is critic
                  tags$li("Nesting season: March to May"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+                
+               
+              
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -433,9 +433,9 @@ tides provides the most reliable way to flush these secretive birds.
                  tags$li("Nesting season: April to August"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+                
+               
+              
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -475,9 +475,9 @@ reached. Outside of Alaska, they are fully protected, making them a rare, highly
                  tags$li("Nesting season: June to August"),
                  tags$li("Conservation status: Near Threatened (Protected across most of its range)")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+                
+               
+              
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -516,9 +516,9 @@ motorized decoys with spinning wings mounted on stakes are exceptionally effecti
                  tags$li("Nesting season: March to October"),
                  tags$li("Conservation status: Least Concern (Abundant game bird)")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+                
+               
+              
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -555,9 +555,9 @@ motorized decoys with spinning wings mounted on stakes are exceptionally effecti
                  tags$li("Nesting season: June to July"),
                  tags$li("Conservation status: Least Concern (Population thriving)")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+                
+               
+              
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -596,9 +596,9 @@ motorized decoys with spinning wings mounted on stakes are exceptionally effecti
                  tags$li("Nesting season: April to July"),
                  tags$li("Conservation status: Least Concern (Stable or increasing populations)")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+                
+               
+              
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -648,9 +648,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: "),
                  tags$li("Conservation status: ")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+                
+               
+              
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -689,9 +689,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: May to August"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+                
+               
+              
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -731,9 +731,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: April to June"),
                  tags$li("Conservation status: Least Concern / Recovered (Strictly protected or regulated)")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+                
+               
+              
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -774,9 +774,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: June to August"),
                  tags$li("Conservation status: Least Concern (Regulated tag harvests)")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+                
+               
+              
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -813,9 +813,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: May to July"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+                
+               
+              
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -854,9 +854,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: June to July"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+                
+               
+              
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -894,9 +894,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: April to August"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+                
+               
+              
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -935,9 +935,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: April to July"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+                
+               
+              
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -1005,9 +1005,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: April to June"),
                  tags$li("Conservation status: Least Concern (Population monitored closely due to hunting and habitat loss)")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+                
+               
+              
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -1049,9 +1049,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: May to July"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+                
+               
+              
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -1093,9 +1093,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: May to July"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+                
+               
+              
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -1131,9 +1131,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: April to August"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+                
+               
+              
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -1167,9 +1167,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: April to June"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+                
+               
+              
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -1209,9 +1209,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: May to July"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+                
+               
+              
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -1245,9 +1245,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: May to July"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+                
+               
+              
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -1281,9 +1281,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: May to August"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+                
+               
+              
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -1323,9 +1323,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: May to July"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+                
+               
+              
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -1365,9 +1365,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: May to July (uses tree cavities)"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+                
+               
+              
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -1407,9 +1407,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: March to May (cavity nester)"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+                
+               
+              
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -1449,9 +1449,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: March to July"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+                
+               
+              
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -1485,9 +1485,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: March to July"),
                  tags$li("Conservation status: Least Concern / Regionally Vulnerable")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+                
+               
+              
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -1527,9 +1527,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: March to July"),
                  tags$li("Conservation status: Least Concern / Regionally Monitored")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+                
+               
+              
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -1569,9 +1569,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: April to July"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+                
+               
+              
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -1611,9 +1611,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: April to June"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+                
+               
+              
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -1681,9 +1681,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: April to June"),
                  tags$li("Conservation status: Least Concern (Population monitored closely due to hunting and habitat loss)")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+                
+               
+              
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -1732,9 +1732,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: May to July"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+                
+               
+              
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -1783,9 +1783,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: May to July"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+                
+               
+              
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -1824,9 +1824,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: April to August"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+                
+               
+              
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -1874,9 +1874,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: May to July (often in abandoned woodpecker cavities)"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+                
+               
+              
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -1915,9 +1915,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: May to July"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+                
+               
+              
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -1956,9 +1956,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: April to June"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+                
+               
+              
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -2006,9 +2006,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: May to July"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+                
+               
+              
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -2055,9 +2055,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: May to July (uses tree cavities)"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+                
+               
+              
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -2095,9 +2095,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: May to August"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+                
+               
+              
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -2146,9 +2146,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: May to July"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+                
+               
+              
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -2200,9 +2200,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: June to July"),
                  tags$li("Conservation status: Vulnerable / Least Concern (Population decline noted in some regions)")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+                
+               
+              
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -2251,9 +2251,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: March to July"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+                
+               
+              
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -2301,9 +2301,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: April to June (tree cavities or ground hollows)"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+                
+               
+              
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -2350,9 +2350,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: March to May (cavity nester)"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+                
+               
+              
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -2399,9 +2399,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: May to July (ground nests hidden under vegetation)"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+                
+               
+              
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -2450,9 +2450,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: March to July"),
                  tags$li("Conservation status: Least Concern / Regionally Monitored")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+                
+               
+              
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -2502,9 +2502,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: April to July"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+                
+               
+              
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -2552,9 +2552,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: April to June"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+                
+               
+              
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -2602,9 +2602,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: May to July"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+                
+               
+              
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -2653,9 +2653,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: May to July"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+                
+               
+              
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -2703,9 +2703,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: May to August"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+                
+               
+              
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -2754,9 +2754,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: June to July"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+                
+               
+              
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -2805,9 +2805,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: June to July"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+                
+               
+              
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -2847,9 +2847,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: June to July (Arctic tundra near freshwater)"),
                  tags$li("Conservation status: Near Threatened / Least Concern (Vulnerable to marine oil spills)")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+                
+               
+              
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -2888,9 +2888,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: June to July"),
                  tags$li("Conservation status: Least Concern / Near Threatened")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+                
+               
+              
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -2937,9 +2937,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: June to July"),
                  tags$li("Conservation status: Least Concern / Vulnerable (Declining trends in some localized populations)")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+                
+               
+              
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -2988,9 +2988,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: "),
                  tags$li("Conservation status: ")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+                
+               
+              
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -3039,9 +3039,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: May to July"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+                
+               
+              
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -3094,9 +3094,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: April to July"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+                
+               
+              
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -3136,9 +3136,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: June to July"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+                
+               
+              
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -3188,9 +3188,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: March to June (cavity nester)"),
                  tags$li("Conservation status: Least Concern (Successfully recovered from historical overhunting via nest boxes)")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+                
+               
+              
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
