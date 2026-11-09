@@ -1,8 +1,78 @@
 library(shiny)
 
+# Prepares the Four Flyways map data once and defines flyway_map(year)
+source("the_four_flyways_heatmap_script.R")
+
+# Prepares the harvest data once and defines species_base_map() and update_species_map()
+source("species_population_per_state_over_time.R")
+
 function(input, output, session) {
   
-  # Re-reads species_info.csv automatically whenever the file changes (checks every second)
+  # ===========================================================================
+  # HOME TAB  (content comes from home_info.csv)
+  # ===========================================================================
+  
+  # Re-reads home_info.csv automatically whenever the file changes (checks every second)
+  home_info <- reactiveFileReader(1000, session, "home_info.csv", read.csv,
+                                  stringsAsFactors = FALSE, na.strings = c("", "NA"),
+                                  encoding = "UTF-8")
+  
+  output$home_content <- renderUI({
+    d <- home_info()
+    
+    intro   <- d[d$type == "intro", ]
+    flyways <- d[d$type == "flyway", ]
+    facts   <- d[d$type == "fact", ]
+    
+    tagList(
+      h3(intro$heading),
+      p(intro$text),
+      
+      # Heatmap 1: The Four Flyways
+      h4("The Four Flyways"),
+      sliderInput("flyway_year", "Select a year", min = 2000, max = 2025,
+                  value = 2020, step = 1, sep = "", width = "300px", animate = TRUE),
+      leafletOutput("flyway_heatmap", height = 650),
+      
+      lapply(seq_len(nrow(flyways)),
+             function(i) tagList(h4(flyways$heading[i]), p(flyways$text[i]))),
+      
+      hr(),
+      h3(facts$heading[1]),
+      tags$ul(lapply(facts$text, tags$li))
+    )
+  })
+  
+  # ===========================================================================
+  # HEATMAPS
+  # ===========================================================================
+  
+  # Heatmap on the Home tab: "The Four Flyways"
+  output$flyway_heatmap <- renderLeaflet({
+    flyway_map(input$flyway_year)
+  })
+  
+  # Heatmap on its own tab: "Species Heatmap Over Time"
+  # fill the Species and Season dropdowns on the Heatmap tab
+  observe({
+    updateSelectInput(session, "species_hm", choices = species_choices)
+    updateSelectInput(session, "season_hm", choices = season_choices, selected = seasons[1])
+  })
+  
+  # base map is drawn once...
+  output$species_heatmap <- renderLeaflet(species_base_map())
+  
+  # ...and recolored whenever a dropdown changes
+  observe({
+    req(input$species_hm, input$season_hm)
+    update_species_map("species_heatmap", input$species_hm, input$season_hm)
+  })
+  
+  # ===========================================================================
+  # FLYWAY TABS  (species content comes from species_info.csv)
+  # ===========================================================================
+  
+  # Re-reads species_info.csv automatically whenever the file changes
   species_info <- reactiveFileReader(1000, session, "species_info.csv", read.csv,
                                      stringsAsFactors = FALSE, na.strings = c("", "NA"),
                                      encoding = "UTF-8")
