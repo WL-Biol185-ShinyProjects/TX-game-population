@@ -110,9 +110,9 @@ fluidPage(
                  tags$li("Conservation status: Least Concern")
                ),
                
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               
+               
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -151,9 +151,9 @@ fluidPage(
                  tags$li("Conservation status:  Least Concern (Locally managed game bird)")
                ),
                
-               # ----- SOUND: SPACE RESERVED -----
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               
+               
                
                # ----- HEAT MAP: SPACE RESERVED -----
                h4("Heat map")
@@ -190,9 +190,9 @@ shoals, setting up low blinds on exposed points. Hunters should place dark silho
                  tags$li("Conservation status: Least Concern")
                ),
                
-               # ----- SOUND: SPACE RESERVED -----
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               
+               
                
                # ----- HEAT MAP: SPACE RESERVED -----
                h4("Heat map")
@@ -230,9 +230,9 @@ quotas to remain compliant with designated harvest caps.
                  tags$li("Nesting season: May to July"),
                  tags$li("Conservation status: Recovered / Least Concern (Delisted from US Endangered Species Act)")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               
+               
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -270,9 +270,9 @@ squeaking cackle of incoming birds.
                  tags$li("Nesting season: May to July"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               
+               
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -308,9 +308,9 @@ or A-frame blinds that conceal hunters from overhead scrutiny. Flagging is essen
                  tags$li("Nesting season: April to June"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               
+               
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -350,9 +350,9 @@ Hunters set out medium-sized full-body spreads mixed with windsocks to provide t
                  tags$li("Nesting season: May to July"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               
+               
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -392,9 +392,9 @@ them within range. Laying out on field edges with dialed-in camouflage is critic
                  tags$li("Nesting season: March to May"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               
+               
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -433,9 +433,9 @@ tides provides the most reliable way to flush these secretive birds.
                  tags$li("Nesting season: April to August"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               
+               
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -475,9 +475,9 @@ reached. Outside of Alaska, they are fully protected, making them a rare, highly
                  tags$li("Nesting season: June to August"),
                  tags$li("Conservation status: Near Threatened (Protected across most of its range)")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               
+               
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -516,9 +516,9 @@ motorized decoys with spinning wings mounted on stakes are exceptionally effecti
                  tags$li("Nesting season: March to October"),
                  tags$li("Conservation status: Least Concern (Abundant game bird)")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               
+               
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -555,9 +555,9 @@ motorized decoys with spinning wings mounted on stakes are exceptionally effecti
                  tags$li("Nesting season: June to July"),
                  tags$li("Conservation status: Least Concern (Population thriving)")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               
+               
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -596,9 +596,9 @@ motorized decoys with spinning wings mounted on stakes are exceptionally effecti
                  tags$li("Nesting season: April to July"),
                  tags$li("Conservation status: Least Concern (Stable or increasing populations)")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               
+               
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -648,9 +648,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: "),
                  tags$li("Conservation status: ")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               
+               
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -689,9 +689,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: May to August"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               
+               
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -731,9 +731,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: April to June"),
                  tags$li("Conservation status: Least Concern / Recovered (Strictly protected or regulated)")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               
+               
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -774,9 +774,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: June to August"),
                  tags$li("Conservation status: Least Concern (Regulated tag harvests)")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               
+               
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -813,9 +813,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: May to July"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               
+               
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -854,9 +854,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: June to July"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               
+               
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -894,9 +894,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: April to August"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               
+               
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -935,9 +935,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: April to July"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               
+               
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -952,12 +952,11 @@ under overcast, windy conditions yields the highest success rates.
              br(),
              selectInput("species_central", "Choose a species:",
                          choices = c("Select a species" = "", "American Black Duck", "American Green-winged Teal", "American Wigeon", "Black-bellied Whistling Duck",
-                                     "Canada Goose", "Canvasback", "Cackling Goose", "Duck", "Fulvous Whistling Duck", "Gadwall", "Goldeneye, Common", "Goose",
+                                     "Canada Goose", "Canvasback", "Cackling Goose", "Fulvous Whistling Duck", "Gadwall", "Goldeneye, Common",
                                      "Hooded Merganser", "Mallard", "Mexican Duck", "Mottled Duck", "Northern Pintail", "Northern Shoveler", "Redhead", "Ring-necked Duck",
-                                     "Ross's Goose", "Ruddy Duck", "Scaup, Greater", "Scaup, Lesser", "Snow and Blue Geese", "Teal, American Green-winged",
-                                     "Teal, American Green-winged Early", "Teal, American Green-winged Regular", "Teal, Blue-winged and Cinnamon", 
-                                     "Teal, Blue-winged and Cinnamon Early", "Teal, Blue-winged and Cinnamon Regular", "White-fronted Goose", "Wood Duck", 
-                                     "Canada-cackling Goose, Early")),
+                                     "Ruddy Duck", "Scaup, Greater", "Scaup, Lesser", "Snow and Blue Geese","Teal, Cinnamon", 
+                                     "White-fronted Goose", "Wood Duck" 
+                         )),
              h3(textOutput("title_central")),
              
              
@@ -1005,9 +1004,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: April to June"),
                  tags$li("Conservation status: Least Concern (Population monitored closely due to hunting and habitat loss)")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               
+               
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -1049,9 +1048,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: May to July"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               
+               
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -1093,9 +1092,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: May to July"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               
+               
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -1131,9 +1130,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: April to August"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               
+               
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -1167,9 +1166,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: April to June"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               
+               
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -1209,9 +1208,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: May to July"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               
+               
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -1245,9 +1244,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: May to July"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               
+               
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -1281,9 +1280,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: May to August"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               
+               
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -1323,9 +1322,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: May to July"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               
+               
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -1365,9 +1364,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: May to July (uses tree cavities)"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               
+               
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -1407,9 +1406,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: March to May (cavity nester)"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               
+               
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -1449,9 +1448,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: March to July"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               
+               
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -1485,9 +1484,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: March to July"),
                  tags$li("Conservation status: Least Concern / Regionally Vulnerable")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               
+               
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -1527,9 +1526,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: March to July"),
                  tags$li("Conservation status: Least Concern / Regionally Monitored")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               
+               
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -1569,9 +1568,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: April to July"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               
+               
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -1611,6 +1610,48 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: April to June"),
                  tags$li("Conservation status: Least Concern")
                ),
+               
+               
+               
+               
+               #HEAT MAP: SPACE RESERVED
+               h4("Heat map")
+               # >>> HEAT MAP GOES HERE (map will replace this comment) <<<
+             ),
+             
+             #Redhead
+             conditionalPanel(
+               condition = "input.species_central == 'Redhead'",
+               
+               #PHOTO
+               div(style = "display: flex; gap: 20px;",
+                   tags$figure(
+                     img(src="redhead_male.jpg", width = "400px", height = "300px"),
+                     tags$figcaption("Male")
+                   ),
+                   tags$figure(
+                     img(src="redhead_female.jpg", width = "400px", height = "300px"),
+                     tags$figcaption("Female")
+                   )
+               ),
+               
+               #DESCRIPTION
+               h4("About this species"),
+               p("A medium-sized diving duck with a high, rounded, bulbous head profile that contrasts with the sloping wedge of the Canvasback. Drakes feature a bright copper-red head, black chest, dark ash-gray back, and a light blue bill tipped in black and separated by a crisp white band. Hens are uniform warm-brown with a faint pale patch at the base of a similarly patterned blue, black, and white bill."),
+               p("Highly social birds that fly in dense, churning flocks that undulate low over the water, banking sharply as a single mass before sliding into decoy spreads on cupped wings. Flocks maneuver with a characteristic sweeping motion, turning together with tight precision. Drakes produce an unusual cat-like meow or groan sounding like \"whee-oow\" during courtship, while flying hens emit hoarse, vibrating squawks."),
+               p("Gregarious divers that decoy with reckless abandon, frequently pitching directly into large spreads of bluebill or canvasback decoys anchored over coastal seagrass flats. Hunters must separate drakes from Canvasbacks in flight by noting the Redhead's rounder head, darker gray back, and shorter, banded blue bill. Setting spreads of high-contrast diving duck decoys on open bays or lagoon shallows provides consistent shooting during late-season pushes."),
+               
+               # DESCRIPTION (bullet points)
+               tags$ul(
+                 tags$li("Size: Length 42–54 cm (17–21 inches)"),
+                 tags$li("Wingspan: 75–84 cm (30–33 inches)"),
+                 tags$li("Weight: 720 – 1,300 g (1.6 – 2.9 lbs)"),
+                 tags$li("Lifespan: Up to 15–20 years in the wild"),
+                 tags$li("Diet: Omnivorous; aquatic plants, roots, seeds, aquatic insects, and small snails"),
+                 tags$li("Habitat: Shallow lakes, bays, marshes, and coastal lagoons"),
+                 tags$li("Nesting season: May to July"),
+                 tags$li("Conservation status: Least Concern")
+               ),
                # SOUND: SPACE RESERVED 
                h4("Call"),
                # >>> SOUND GOES HERE (audio player will replace this comment) <<<
@@ -1620,6 +1661,377 @@ under overcast, windy conditions yields the highest success rates.
                # >>> HEAT MAP GOES HERE (map will replace this comment) <<<
              ),
              
+             #Ring-necked Duck
+             conditionalPanel(
+               condition = "input.species_central == 'Ring-necked Duck'",
+               
+               #PHOTO
+               div(style = "display: flex; gap: 20px;",
+                   tags$figure(
+                     img(src="ring_necked_duck_male.jpg", width = "400px", height = "300px"),
+                     tags$figcaption("Male")
+                   ),
+                   tags$figure(
+                     img(src="ring_necked_duck_female.jpg", width = "400px", height = "300px"),
+                     tags$figcaption("Female")
+                   )
+               ),
+               
+               #DESCRIPTION
+               h4("About this species"),
+               p("Despite its name, which refers to an obscure chestnut neck band visible only in hand, this medium diver is recognized by the drake's glossy purplish-black head, jet-black back, bright white vertical flank crescent, and slate-blue bill banded with two bold white rings. Hens are grayish-brown with a white eyering, a pale bill-base wash, and a matching white-banded bill. In flight, both sexes show a uniform, dark slate-gray speculum rather than a white wing stripe."),
+               p("Rocket-fast fliers that drop into decoys with a distinct whistling or ripping air sound, maneuvering through tight spaces with agility uncommon among diving ducks. They drop out of high altitudes in steep dives, leveling out over timber holes with remarkable aerial control. Drakes produce soft hissing purrs, while hens emit low, grating growls when flushing."),
+               p("Known colloquially as the \"ringbill\" or \"blackjack,\" they heavily utilize shallow forested swamps, beaver ponds, and lily-pad marshes alongside puddle ducks. They decoy eagerly to regular mallard and wood duck spreads, making them a common bonus bird in flooded timber. Hunters need not invest in specialized diver spreads, as ringnecks routinely pitch into small woodland potholes holding only half a dozen floating puddle duck blocks."),
+               
+               # DESCRIPTION (bullet points)
+               tags$ul(
+                 tags$li("Size: Length 39–46 cm (15–18 inches)"),
+                 tags$li("Wingspan: 62–71 cm (24–28 inches)"),
+                 tags$li("Weight: 500 – 1,000 g (1.1 – 2.2 lbs)"),
+                 tags$li("Lifespan: Up to 10–14 years in the wild"),
+                 tags$li("Diet: Omnivorous; aquatic plant tubers, seeds, aquatic insects, snails, and small fish"),
+                 tags$li("Habitat: Wooded swamps, freshwater marshes, beaver ponds, and shallow lakes"),
+                 tags$li("Nesting season: May to July"),
+                 tags$li("Conservation status: Least Concern")
+               ),
+               # SOUND: SPACE RESERVED 
+               h4("Call"),
+               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               #HEAT MAP: SPACE RESERVED
+               h4("Heat map")
+               # >>> HEAT MAP GOES HERE (map will replace this comment) <<<
+             ),
+             
+             #Ruddy Duck
+             conditionalPanel(
+               condition = "input.species_central == 'Ruddy Duck'",
+               
+               #PHOTO
+               div(style = "display: flex; gap: 20px;",
+                   tags$figure(
+                     img(src="ruddy_duck_male.jpg", width = "400px", height = "300px"),
+                     tags$figcaption("Male")
+                   ),
+                   tags$figure(
+                     img(src="ruddy_duck_female.jpg", width = "400px", height = "300px"),
+                     tags$figcaption("Female")
+                   )
+               ),
+               
+               #DESCRIPTION
+               h4("About this species"),
+               p("A small, thick-set stifftail duck with a short, thick neck, a scoop-shaped bill, and stiff, spiky tail feathers that are frequently fanned and cocked upright while swimming. In autumn and winter, drakes lose their famous rust-red plumage and sky-blue bills, becoming drab gray-brown with dark caps and bright white cheek patches. Hens are similarly dull brown but have a distinct dark stripe running horizontally across their whitish cheek."),
+               p("Extremely reluctant to take flight, choosing to escape danger by sinking down into the water or diving smoothly beneath the surface. When forced into the air, their tiny wings beat with a blur-like buzzing cadence, keeping them skimming mere inches above the water surface in straight, unswerving lines. Flocks rarely form in the air, with most flights consisting of low-skimming singles or pairs."),
+               p("Inhabits open, deep-water marshes, reservoirs, and coastal bays where they raft in compact groups over submerged weeds. They rarely commit to standard decoy layouts, usually encountered as fast-moving singles buzzing the outer lines of open-water blinds. Hunters targeting divers generally pass on them, though their speed provides a brief, challenging crossing presentation when they buzz blind locations."),
+               
+               # DESCRIPTION (bullet points)
+               tags$ul(
+                 tags$li("Size: Length 35–43 cm (14–17 inches)"),
+                 tags$li("Wingspan: 53–62 cm (21–24 inches)"),
+                 tags$li("Weight: 310 – 790 g (0.7 – 1.7 lbs)"),
+                 tags$li("Lifespan: Up to 5–8 years in the wild"),
+                 tags$li("Diet: Omnivorous; midge larvae, aquatic insects, seeds, and aquatic plant roots"),
+                 tags$li("Habitat: Freshwater lakes, deep marshes, prairie potholes, and sheltered bays"),
+                 tags$li("Nesting season: May to August"),
+                 tags$li("Conservation status: Least Concern")
+               ),
+               # SOUND: SPACE RESERVED 
+               h4("Call"),
+               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               #HEAT MAP: SPACE RESERVED
+               h4("Heat map")
+               # >>> HEAT MAP GOES HERE (map will replace this comment) <<<
+             ),
+             
+             #Scaup, Greater
+             conditionalPanel(
+               condition = "input.species_central == 'Scaup, Greater'",
+               
+               #PHOTO
+               div(style = "display: flex; gap: 20px;",
+                   tags$figure(
+                     img(src="greater_scaup_male.jpg", width = "400px", height = "300px"),
+                     tags$figcaption("Male")
+                   ),
+                   tags$figure(
+                     img(src="greater_scaup_female.jpg", width = "400px", height = "300px"),
+                     tags$figcaption("Female")
+                   )
+               ),
+               
+               #DESCRIPTION
+               h4("About this species"),
+               p("A stout, heavy-bodied diving duck, the drake displays a rounded head with a green iridescent gloss, a heavy black breast, white vermiculated back, and a broad blue-gray bill tipped with a wide black nail. In the air, both sexes show a bold white wing stripe that extends the entire length of the secondaries and runs well out into the outer primary flight feathers. Hens are warm brown with a prominent, clean white patch encircling the base of the bill."),
+               p("Flocks form expansive, densely packed \"bluebill\" rafts that sweep down over the water with tremendous momentum, generating a distinct rushing-air roar on their final descent into decoys. Their wing action is swift and powerful, keeping flocks tightly clustered as they bank hard over open water. Vocalizations are minimal in flight, consisting of low, raspy purrs and gutter croaks."),
+               p("Favors large open waters, coastal sounds, Great Lakes shoals, and saltwater bays rather than interior freshwater marshes. Hunters verify Greater Scaup in hand by confirming the white wing stripe runs through the primary flight feathers and that the bill nail is broad and wide, which is critical for complying with aggregate scaup bag limits. Layout boats and open-water blinds anchored over extensive mussel shoals provide the most productive hunting opportunities."),
+               
+               # DESCRIPTION (bullet points)
+               tags$ul(
+                 tags$li("Size: Length 42–51 cm (17–20 inches)"),
+                 tags$li("Wingspan: 73–79 cm (29–31 inches)"),
+                 tags$li("Weight: 750 – 1,350 g (1.6 – 3.0 lbs)"),
+                 tags$li("Lifespan: Up to 18 years in the wild"),
+                 tags$li("Diet: Omnivorous; mollusks, crustaceans, aquatic insects, and plant tubers"),
+                 tags$li("Habitat: Large lakes, open bays, coastal marine waters, and estuaries"),
+                 tags$li("Nesting season: June to July"),
+                 tags$li("Conservation status: Least Concern")
+               ),
+               # SOUND: SPACE RESERVED 
+               h4("Call"),
+               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               #HEAT MAP: SPACE RESERVED
+               h4("Heat map")
+               # >>> HEAT MAP GOES HERE (map will replace this comment) <<<
+             ),
+             
+             #Scaup, Lesser
+             conditionalPanel(
+               condition = "input.species_central == 'Scaup, Lesser'",
+               
+               #PHOTO
+               div(style = "display: flex; gap: 20px;",
+                   tags$figure(
+                     img(src="lesser_scaup_male.jpg", width = "400px", height = "300px"),
+                     tags$figcaption("Male")
+                   ),
+                   tags$figure(
+                     img(src="lesser_scaup_female.jpg", width = "400px", height = "300px"),
+                     tags$figcaption("Female")
+                   )
+               ),
+               
+               #DESCRIPTION
+               h4("About this species"),
+               p("Slightly smaller and more compact than the Greater Scaup, the drake's head exhibits an angular peak at the rear of the crown and shows a purplish gloss under direct sunlight. Its white wing stripe is strictly confined to the secondary flight feathers, fading to a dusky brownish-gray across the outer primaries. The bill is light blue-gray with a narrow, small black nail at the tip; hens display brown bodies with white feathering ringing the bill base."),
+               p("Famous for dramatic, vertical descents from cruising altitude, dropping out of the sky in tight, buzzing packs before leveling out just feet above the decoys. The sound of a large flock descending has been compared to tearing canvas, generated by the air shearing against their stiff wing feathers. Drakes emit low wheezing purrs, while hens utter a harsh, raspy \"scaup-scaup\" call when startled or flying."),
+               p("The predominant bluebill of interior marshes, rivers, and prairie potholes, staging in huge numbers during late autumn cold fronts. Successful spreads require long strings of high-contrast black-and-white floating decoys deployed on longlines along deep channels or points. Because bag limits are often restricted to one or two birds, hunters must practice separating them from redheads and ringnecks on fast crossing passes."),
+               
+               # DESCRIPTION (bullet points)
+               tags$ul(
+                 tags$li("Size: Length 38–46 cm (15–18 inches)"),
+                 tags$li("Wingspan: 71–76 cm (28–30 inches)"),
+                 tags$li("Weight: 680 – 1,080 g (1.5 – 2.4 lbs)"),
+                 tags$li("Lifespan: Up to 18 years in the wild"),
+                 tags$li("Diet: Omnivorous; aquatic insects, mollusks, crustaceans, and plant seeds"),
+                 tags$li("Habitat: Lakes, ponds, rivers, marshes, and sheltered coastal bays"),
+                 tags$li("Nesting season: June to July"),
+                 tags$li("Conservation status: Least Concern")
+               ),
+               # SOUND: SPACE RESERVED 
+               h4("Call"),
+               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               #HEAT MAP: SPACE RESERVED
+               h4("Heat map")
+               # >>> HEAT MAP GOES HERE (map will replace this comment) <<<
+             ),
+             
+             #Snow and Blue Geese
+             conditionalPanel(
+               condition = "input.species_central == 'Snow and Blue Geese'",
+               
+               #PHOTO
+               div(style = "display: flex; gap: 20px;",
+                   tags$figure(
+                     img(src="snow_goose_blue_morph.jpg", width = "400px", height = "300px"),
+                     tags$figcaption("Blue Morph")
+                   ),
+                   tags$figure(
+                     img(src="snow_goose_white_morph.jpg", width = "400px", height = "300px"),
+                     tags$figcaption("White Morph")
+                   )
+               ),
+               
+               #DESCRIPTION
+               h4("About this species"),
+               p("A dimorphic species occurring in two distinct color phases: the \"snow\" morph is pure white with jet-black primary wingtips, while the \"blue\" morph features a slate-gray body, dark wings, and a contrasting snow-white head and neck. Both phases possess a heavy, pink bill equipped with a prominent black \"grinning patch\" along the cutting edge that is visible at close range. Intermediates showing varied white and slate body patches are also common in field spreads."),
+               p("Travels in massive flocks comprising thousands of birds, forming towering, swirling \"tornadoes\" that drop from tremendous altitudes toward feeding grounds. Their flight is loud, chaotic, and continuous, with birds constantly shifting positions as they circle downward. Flocks generate a deafening wall of sound consisting of high-pitched, barking yelps, screams, and single-syllable squawks sounding like \"kall-ok\"."),
+               p("Overabundant populations that damage subarctic breeding tundra have led to liberal Spring Conservation Orders featuring electronic callers, unplugged shotguns, and no bag limits. Success requires massive spreads of 500 to 2,000+ windsock or rotary decoys placed in agricultural fields along migration corridors. Scouting roosts and setting up on hot feeding fields under overcast, windy conditions yields the highest success rates."),
+               
+               # DESCRIPTION (bullet points)
+               tags$ul(
+                 tags$li("Size: Length 64–79 cm (25–31 inches)"),
+                 tags$li("Wingspan: 130–165 cm (51–65 inches)"),
+                 tags$li("Weight: 2.5 – 3.2 kg (5.5 – 7.1 lbs)"),
+                 tags$li("Lifespan: 10–15 years in the wild (record up to 20+ years)"),
+                 tags$li("Diet: Herbivorous; roots, rhizomes, grasses, sedges, and agricultural grains"),
+                 tags$li("Habitat: Arctic tundra, agricultural fields, coastal marshes, and wet meadows"),
+                 tags$li("Nesting season: June to August"),
+                 tags$li("Conservation status: Least Concern (Overabundant populations managed via special hunts)")
+               ),
+               # SOUND: SPACE RESERVED 
+               h4("Call"),
+               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               #HEAT MAP: SPACE RESERVED
+               h4("Heat map")
+               # >>> HEAT MAP GOES HERE (map will replace this comment) <<<
+             ),
+             
+             #Teal, American Green-winged
+             conditionalPanel(
+               condition = "input.species_central == 'Teal, American Green-winged'",
+               
+               #PHOTO
+               div(style = "display: flex; gap: 20px;",
+                   tags$figure(
+                     img(src="american_green_winged_teal_male.jpg", width = "400px", height = "300px"),
+                     tags$figcaption("Male")
+                   ),
+                   tags$figure(
+                     img(src="american_green_winged_teal_female.jpg", width = "400px", height = "300px"),
+                     tags$figcaption("Female")
+                   )
+               ),
+               
+               #DESCRIPTION
+               h4("About this species"),
+               p("North America's smallest dabbling duck, drakes sport a rich chestnut-red head with a broad, iridescent emerald-green eye stripe, a vertical white crescent on the shoulder, and a creamy, buff-colored patch beneath the tail. The speculum on both sexes is a vivid, shimmering green bordered by buffy-tan bars, set against an overall dark, compact wing. Hens are cryptically mottled brown with small, dark bills and pale bellies."),
+               p("Flocks fly at breakneck speeds just inches above the water or marsh grass, executing breathtaking, synchronized twists, dives, and banks like a flock of sandpipers. They drop suddenly into decoy spreads without warning, pitching straight downward with wings cupped. Drakes produce a high-pitched, cricket-like bell whistle transcribed as \"krick-et\" or \"peep\", while hens deliver brief, rapid, high-pitched quacks."),
+               p("Extremely hardy early-and-late migrants that favor very shallow water, muddy edges, and ankle-deep sheetwater in flooded agricultural fields. Because their diminutive size makes them appear further away than they actually are, hunters should use open chokes such as improved cylinder or light modified paired with smaller shot sizes like #5 or #6 steel. Decoy spreads can be kept compact, and simple teal whistling calls are often enough to draw circling flocks into gun range."),
+               
+               # DESCRIPTION (bullet points)
+               tags$ul(
+                 tags$li("Size: Length 31–38 cm (12–15 inches)"),
+                 tags$li("Wingspan: 58–64 cm (23–25 inches)"),
+                 tags$li("Weight: 140 – 500 g (0.3 – 1.1 lbs)"),
+                 tags$li("Lifespan: 5–10 years in the wild"),
+                 tags$li("Diet: Herbivorous and insectivorous; seeds, aquatic plants, and aquatic insects"),
+                 tags$li("Habitat: Shallow marshes, flooded agricultural fields, ponds, and mudflats"),
+                 tags$li("Nesting season: May to July"),
+                 tags$li("Conservation status: Least Concern")
+               ),
+               # SOUND: SPACE RESERVED 
+               h4("Call"),
+               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               #HEAT MAP: SPACE RESERVED
+               h4("Heat map")
+               # >>> HEAT MAP GOES HERE (map will replace this comment) <<<
+             ),
+             
+             #Teal, Cinnamon
+             conditionalPanel(
+               condition = "input.species_central == 'Teal, Cinnamon'",
+               
+               #PHOTO
+               div(style = "display: flex; gap: 20px;",
+                   tags$figure(
+                     img(src="cinnamon_teal_male.jpg", width = "400px", height = "300px"),
+                     tags$figcaption("Male")
+                   ),
+                   tags$figure(
+                     img(src="cinnamon_teal_female.jpg", width = "400px", height = "300px"),
+                     tags$figcaption("Female")
+                   )
+               ),
+               
+               #DESCRIPTION
+               h4("About this species"),
+               p("A western marsh specialist, the breeding drake is cloaked in rich, deep cinnamon-red across the head, neck, chest, and flanks, contrasted by bright crimson eyes and a long black spatulate bill. Their wing pattern is structurally identical to the blue-winged teal, sporting massive sky-blue shoulder coverts, a white separating bar, and an iridescent green speculum. Hens and eclipse drakes are mottled brown and almost indistinguishable in the field from female blue-winged teal, though they typically show a slightly longer, heavier bill."),
+               p("Flies in small, darting groups that twist nimbly through dense stands of tules and bulrushes, dropping cleanly into small, isolated pockets of open water. Their wing action is light and rapid, allowing them to make immediate directional adjustments when navigating tight marsh channels. Drakes make low, rattling chatter calls sounding like \"krr-krr-krr\", while hens provide soft, weak quacks similar to blue-wings."),
+               p("Bound primarily to the Pacific and Central flyways, frequenting warm alkaline wetlands, marsh margins, and sluggish agricultural canals. Fully plumaged drakes taken late in the season are among the most prized trophies for North American waterfowlers due to their striking color saturation. Hunting them requires setting up in shallow, protected marsh openings with small spreads of teal decoys, paying close attention to early morning flight corridors."),
+               
+               # DESCRIPTION (bullet points)
+               tags$ul(
+                 tags$li("Size: Length 38–43 cm (15–17 inches)"),
+                 tags$li("Wingspan: 56–61 cm (22–24 inches)"),
+                 tags$li("Weight: 320 – 510 g (0.7 – 1.1 lbs)"),
+                 tags$li("Lifespan: 5–8 years in the wild"),
+                 tags$li("Diet: Omnivorous; seeds, pondweeds, aquatic insects, and small crustaceans"),
+                 tags$li("Habitat: Shallow freshwater marshes, ponds, and flooded agricultural areas"),
+                 tags$li("Nesting season: April to July"),
+                 tags$li("Conservation status: Least Concern")
+               ),
+               # SOUND: SPACE RESERVED 
+               h4("Call"),
+               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               #HEAT MAP: SPACE RESERVED
+               h4("Heat map")
+               # >>> HEAT MAP GOES HERE (map will replace this comment) <<<
+             ),
+             
+             #White-fronted Goose
+             conditionalPanel(
+               condition = "input.species_central == 'White-fronted Goose'",
+               
+               #PHOTO
+               tags$figure(
+                 img(src="white_fronted_goose_monomorphic.jpg", width = "400px", height = "300px"),
+                 tags$figcaption("Monomorphic")
+               ),
+               
+               #DESCRIPTION
+               h4("About this species"),
+               p("A medium-sized grayish-brown goose highlighted by a prominent patch of white feathers surrounding the base of the pink-orange bill and bold, irregular black bars across the belly. Legs are bright orange, and the tail is dark with a clean white tip and white upper coverts. Juvenile birds lack the white facial patch and black belly bars, showing uniform brown-gray underparts during early autumn hunts."),
+               p("Exceptionally fast and nimble in the air, flying in disciplined lines or V-formations that break into spectacular, side-slipping tumbles when descending into fields. Flocks dump out of the sky with incredible agility, rocking side to side on set wings. They are famously vocal, identified by a distinct, high-pitched, musical laughing or yodeling call sounding like \"kah-lah-lah-luck\" or \"ha-ha-ha\"."),
+               p("Highly prized by waterfowlers across the Mississippi, Central, and Pacific flyways as premier table fare. Fooling educated specks requires specialized, tuned specklebelly calls, high-end full-body decoys set in loose family groups, and absolute stillness in rice or bean stubble. Unlike Canada geese, specklebellies are easily flared by over-calling or harsh flagging, making subtle, realistic two-note yodels the best approach."),
+               
+               # DESCRIPTION (bullet points)
+               tags$ul(
+                 tags$li("Size: Length 65–78 cm (26–31 inches)"),
+                 tags$li("Wingspan: 130–165 cm (51–65 inches)"),
+                 tags$li("Weight: 2.0 – 3.3 kg (4.4 – 7.3 lbs)"),
+                 tags$li("Lifespan: 8–15 years in the wild (record over 20 years)"),
+                 tags$li("Diet: Herbivorous; grasses, sedges, roots, and agricultural grains"),
+                 tags$li("Habitat: Arctic tundra, agricultural fields, wet meadows, and river floodplains"),
+                 tags$li("Nesting season: June to July"),
+                 tags$li("Conservation status: Least Concern")
+               ),
+               # SOUND: SPACE RESERVED 
+               h4("Call"),
+               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               #HEAT MAP: SPACE RESERVED
+               h4("Heat map")
+               # >>> HEAT MAP GOES HERE (map will replace this comment) <<<
+             ),
+             
+             #Wood Duck
+             conditionalPanel(
+               condition = "input.species_central == 'Wood Duck'",
+               
+               #PHOTO
+               div(style = "display: flex; gap: 20px;",
+                   tags$figure(
+                     img(src="wood_duck_male.jpg", width = "400px", height = "300px"),
+                     tags$figcaption("Male")
+                   ),
+                   tags$figure(
+                     img(src="wood_duck_female.png", width = "400px", height = "300px"),
+                     tags$figcaption("Female")
+                   )
+               ),
+               
+               #DESCRIPTION
+               h4("About this species"),
+               p("A compact, highly ornate tree duck, the drake features an iridescent green and purple crested head with white bridle lines, a red eye, a multi-colored red, white, and yellow bill, and a rich burgundy-wine breast. Hens are sleek gray-brown with a teardrop-shaped white patch around the eye and a subtle blue-green sheen on the wings. In flight, both sexes show a long, square, dark tail and dark underwings with contrasting white belly lines."),
+               p("Masters of timber navigation, they cut through dense forest canopies and flooded bottomland hardwoods with unmatched speed, banking sharply around tree trunks with their heads held high and bills angled downward. Their flight is darting and low, weaving through tight tree branches effortlessly. They are exceptionally vocal on the wing: hens emit a piercing, rising squeal sounding like \"oo-eek! oo-eek!\", while drakes make a softer, high-pitched finch-like whistle sounding like \"jheep\"."),
+               p("Inhabitants of beaver ponds, river oxbows, and cypress-tupelo swamps, they feed heavily on wild acorns and smartweed. Shooting is intense, fast, and close-quarters during legal shooting light at dawn and dusk, requiring open-choked shotguns and rapid target acquisition before birds vanish behind timber. Setting small spreads of half a dozen wood duck decoys in quiet river sloughs will bring incoming flights right into shooting range."),
+               
+               # DESCRIPTION (bullet points)
+               tags$ul(
+                 tags$li("Size: Length 47–54 cm (19–21 inches)"),
+                 tags$li("Wingspan: 66–73 cm (26–29 inches)"),
+                 tags$li("Weight: 480 – 875 g (1.1 – 1.9 lbs)"),
+                 tags$li("Lifespan: Up to 3–4 years average in wild (some reach 6+ years)"),
+                 tags$li("Diet: Omnivorous; acorns, beechnuts, seeds, aquatic plants, and aquatic insects"),
+                 tags$li("Habitat: Wooded swamps, flooded timber, beaver ponds, and slow-moving wooded streams"),
+                 tags$li("Nesting season: March to June (cavity nester)"),
+                 tags$li("Conservation status: Least Concern (Successfully recovered from historical overhunting via nest boxes)")
+               ),
+               # SOUND: SPACE RESERVED 
+               h4("Call"),
+               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               #HEAT MAP: SPACE RESERVED
+               h4("Heat map")
+               # >>> HEAT MAP GOES HERE (map will replace this comment) <<<
+             ),
              
              plotOutput("bar_central")
     ),
@@ -1681,9 +2093,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: April to June"),
                  tags$li("Conservation status: Least Concern (Population monitored closely due to hunting and habitat loss)")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               
+               
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -1732,9 +2144,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: May to July"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               
+               
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -1783,9 +2195,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: May to July"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               
+               
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -1824,9 +2236,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: April to August"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               
+               
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -1874,9 +2286,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: May to July (often in abandoned woodpecker cavities)"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               
+               
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -1915,9 +2327,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: May to July"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               
+               
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -1956,9 +2368,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: April to June"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               
+               
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -2006,9 +2418,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: May to July"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               
+               
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -2055,9 +2467,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: May to July (uses tree cavities)"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               
+               
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -2095,9 +2507,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: May to August"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               
+               
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -2146,9 +2558,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: May to July"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               
+               
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -2200,9 +2612,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: June to July"),
                  tags$li("Conservation status: Vulnerable / Least Concern (Population decline noted in some regions)")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               
+               
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -2251,9 +2663,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: March to July"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               
+               
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -2301,9 +2713,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: April to June (tree cavities or ground hollows)"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               
+               
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -2350,9 +2762,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: March to May (cavity nester)"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               
+               
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -2399,9 +2811,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: May to July (ground nests hidden under vegetation)"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               
+               
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -2450,9 +2862,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: March to July"),
                  tags$li("Conservation status: Least Concern / Regionally Monitored")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               
+               
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -2502,9 +2914,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: April to July"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               
+               
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -2552,9 +2964,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: April to June"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               
+               
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -2602,9 +3014,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: May to July"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               
+               
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -2653,9 +3065,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: May to July"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               
+               
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -2703,9 +3115,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: May to August"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               
+               
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -2754,9 +3166,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: June to July"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               
+               
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -2805,9 +3217,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: June to July"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               
+               
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -2847,9 +3259,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: June to July (Arctic tundra near freshwater)"),
                  tags$li("Conservation status: Near Threatened / Least Concern (Vulnerable to marine oil spills)")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               
+               
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -2888,9 +3300,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: June to July"),
                  tags$li("Conservation status: Least Concern / Near Threatened")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               
+               
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -2937,9 +3349,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: June to July"),
                  tags$li("Conservation status: Least Concern / Vulnerable (Declining trends in some localized populations)")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               
+               
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -2988,9 +3400,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: "),
                  tags$li("Conservation status: ")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               
+               
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -3039,9 +3451,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: May to July"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               
+               
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -3094,9 +3506,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: April to July"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               
+               
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -3136,9 +3548,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: June to July"),
                  tags$li("Conservation status: Least Concern")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               
+               
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -3188,9 +3600,9 @@ under overcast, windy conditions yields the highest success rates.
                  tags$li("Nesting season: March to June (cavity nester)"),
                  tags$li("Conservation status: Least Concern (Successfully recovered from historical overhunting via nest boxes)")
                ),
-               # SOUND: SPACE RESERVED 
-               h4("Call"),
-               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               
+               
                
                #HEAT MAP: SPACE RESERVED
                h4("Heat map")
@@ -3214,7 +3626,520 @@ under overcast, windy conditions yields the highest success rates.
                                      "Teal, Blue-winged and Cinnamon Early", "Teal, Blue-winged and Cinnamon Regular", "Whistling Duck, Black-bellied", "Wood Duck", 
                                      "Wood Duck, Early")),
              h3(textOutput("title_atlantic")),
-             plotOutput("bar_atlantic")
+             plotOutput("bar_atlantic"),
+             
+             #American Black Duck
+             conditionalPanel(
+               condition = "input.species_atlantic == 'American Black Duck'",
+               
+               #PHOTO
+               div(style = "display: flex; gap: 20px;",
+                   tags$figure(
+                     img(src="american_black_duck_male.jpg", width = "400px", height = "300px"),
+                     tags$figcaption("Male")
+                   ),
+                   tags$figure(
+                     img(src="american_black_duck_female.jpg", width = "400px", height = "300px"),
+                     tags$figcaption("Female")
+                   )
+               ),
+               
+               #DESCRIPTION
+               h4("About this species"),
+               p("A heavy-bodied, dark dabbler that closely matches the mallard's structural footprint, sporting soot-brown body plumage that contrasts sharply with a pale grayish-buff head and neck. In flight, the species shows brilliant, silvery-white underwings that flash against the dark body, and a deep violet-purple speculum that lacks the white border bars found on mallards, though it occasionally carries a faint black trailing edge. Drakes carry bright olive-yellow bills, while hens display duller greenish-olive bills mottled with dusky flecks."),
+               p("Highly athletic, they burst nearly straight up off salt-marsh tidal creeks and blackwater sloughs with powerful, whistling wing strokes. Their flight silhouette is identical to the mallard, but the stark contrast between the bright silver underwing lining and dark body provides instant long-range identification. The hen's vocalization is a loud, ringing quack virtually indistinguishable from a hen mallard, while the drake provides a low, reedy groan."),
+               p("Widely considered the wariest duck in eastern marshes, they circle high outside spreads for multiple passes, requiring complete blind concealment, low-profile hides, and zero calling once they begin their final swing. Decoys must be kept entirely free of frost, mud, and unnatural shine, as these birds flare at the slightest visual irregularity. Because of localized population pressures and restrictive single-bird or two-bird bag limits across the Atlantic and Mississippi flyways, careful aerial differentiation from mottled ducks and hen mallards is critical."),
+               
+               # DESCRIPTION (bullet points)
+               tags$ul(
+                 tags$li("Size: Length 53–61 cm (21–24 inches)"),
+                 tags$li("Wingspan: 88–95 cm (35–37 inches)"),
+                 tags$li("Weight: 720 – 1,640 g (1.6 – 3.6 lbs)"),
+                 tags$li("Lifespan: 5–10 years in the wild"),
+                 tags$li("Diet: Omnivorous; aquatic plants, seeds, grains, insects, mollusks, and crustaceans"),
+                 tags$li("Habitat: Salt marshes, beaver ponds, forested wetlands, and coastal estuaries"),
+                 tags$li("Nesting season: April to June"),
+                 tags$li("Conservation status: Least Concern (Population monitored closely due to hunting and habitat loss)")
+               ),
+               # SOUND: SPACE RESERVED 
+               h4("Call"),
+               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               #HEAT MAP: SPACE RESERVED
+               h4("Heat map")
+               # >>> HEAT MAP GOES HERE (map will replace this comment) <<<
+             ),
+             
+             #American Green-winged Teal
+             conditionalPanel(
+               condition = "input.species_atlantic == 'American Green-winged Teal'",
+               
+               #PHOTO
+               div(style = "display: flex; gap: 20px;",
+                   tags$figure(
+                     img(src="american_green_winged_teal_male.jpg", width = "400px", height = "300px"),
+                     tags$figcaption("Male")
+                   ),
+                   tags$figure(
+                     img(src="american_green_winged_teal_female.jpg", width = "400px", height = "300px"),
+                     tags$figcaption("Female")
+                   )
+               ),
+               
+               #DESCRIPTION
+               h4("About this species"),
+               p("North America's smallest dabbling duck, drakes sport a rich chestnut-red head with a broad, iridescent emerald-green eye stripe, a vertical white crescent on the shoulder, and a creamy, buff-colored patch beneath the tail. The speculum on both sexes is a vivid, shimmering green bordered by buffy-tan bars, set against an overall dark, compact wing. Hens are cryptically mottled brown with small, dark bills and pale bellies."),
+               p("Flocks fly at breakneck speeds just inches above the water or marsh grass, executing breathtaking, synchronized twists, dives, and banks like a flock of sandpipers. They drop suddenly into decoy spreads without warning, pitching straight downward with wings cupped. Drakes produce a high-pitched, cricket-like bell whistle transcribed as \"krick-et\" or \"peep\", while hens deliver brief, rapid, high-pitched quacks."),
+               p("Extremely hardy early-and-late migrants that favor very shallow water, muddy edges, and ankle-deep sheetwater in flooded agricultural fields. Because their diminutive size makes them appear further away than they actually are, hunters should use open chokes such as improved cylinder or light modified paired with smaller shot sizes like #5 or #6 steel. Decoy spreads can be kept compact, and simple teal whistling calls are often enough to draw circling flocks into gun range."),
+               
+               # DESCRIPTION (bullet points)
+               tags$ul(
+                 tags$li("Size: Length 31–38 cm (12–15 inches)"),
+                 tags$li("Wingspan: 58–64 cm (23–25 inches)"),
+                 tags$li("Weight: 140 – 500 g (0.3 – 1.1 lbs)"),
+                 tags$li("Lifespan: 5–10 years in the wild"),
+                 tags$li("Diet: Herbivorous and insectivorous; seeds, aquatic plants, and aquatic insects"),
+                 tags$li("Habitat: Shallow marshes, flooded agricultural fields, ponds, and mudflats"),
+                 tags$li("Nesting season: May to July"),
+                 tags$li("Conservation status: Least Concern")
+               ),
+               # SOUND: SPACE RESERVED 
+               h4("Call"),
+               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               #HEAT MAP: SPACE RESERVED
+               h4("Heat map")
+               # >>> HEAT MAP GOES HERE (map will replace this comment) <<<
+             ),
+             
+             #American Wigeon
+             conditionalPanel(
+               condition = "input.species_atlantic == 'American Wigeon'",
+               
+               #PHOTO
+               div(style = "display: flex; gap: 20px;",
+                   tags$figure(
+                     img(src="american_wigeon_male.jpg", width = "400px", height = "300px"),
+                     tags$figcaption("Male")
+                   ),
+                   tags$figure(
+                     img(src="american_wigeon_female.jpg", width = "400px", height = "300px"),
+                     tags$figcaption("Female")
+                   )
+               ),
+               
+               #DESCRIPTION
+               h4("About this species"),
+               p("Known as the \"baldpate,\" the breeding drake features a striking white crown stripe, an iridescent dark green patch extending back from the eye, a short blue-gray bill with a black tip, and pinkish-brown flanks. In flight, both sexes show a bright white belly that contrasts sharply with a dark chest, and mature drakes show massive, snow-white forewing shoulder patches visible at great distances. Hens are warm grayish-brown with contrasting white bellies and duller gray forewing coverts."),
+               p("Flocks fly in rapid, erratic bunches that bank, pivot, and weave tightly like shorebirds, often dipping low over the marsh before climbing steeply. Their wing cadence is quick and nervous, creating a distinct visual flutter when approaching water. The flight is constantly vocal: drakes produce a distinct, breathy three-note whistle sounding like \"whee-whee-whoo\" with the accent on the middle note, while hens give a low, growling \"qurrr\"."),
+               p("Aggressive feeders nicknamed \"poachers\" for stealing submerged aquatic grasses from diving canvasbacks and coots in open water. They decoy readily to dedicated wigeon whistles and large spreads placed over shallow, grassy flats, but their erratic aerial maneuvers require disciplined lead and follow-through. Placing confidence coot decoys or canvasback blocks alongside a dabbler rig is a proven way to draw wary baldpates into the pocket."),
+               
+               # DESCRIPTION (bullet points)
+               tags$ul(
+                 tags$li("Size: Length 42–56 cm (17–22 inches)"),
+                 tags$li("Wingspan: 76–91 cm (30–36 inches)"),
+                 tags$li("Weight: 540 – 1,330 g (1.2 – 2.9 lbs)"),
+                 tags$li("Lifespan: 6–10 years in the wild"),
+                 tags$li("Diet: Herbivorous; aquatic plants, algae, grasses, and agricultural crops"),
+                 tags$li("Habitat: Freshwater marshes, lakes, agricultural fields, and coastal bays"),
+                 tags$li("Nesting season: May to July"),
+                 tags$li("Conservation status: Least Concern")
+               ),
+               # SOUND: SPACE RESERVED 
+               h4("Call"),
+               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               #HEAT MAP: SPACE RESERVED
+               h4("Heat map")
+               # >>> HEAT MAP GOES HERE (map will replace this comment) <<<
+             ),
+             
+             #Atlantic Brant
+             conditionalPanel(
+               condition = "input.species_atlantic == 'Atlantic Brant'",
+               
+               #PHOTO
+               tags$figure(
+                 img(src="atlantic_brant_monomorphic.png", width = "400px", height = "300px"),
+                 tags$figcaption("Monomorphic")
+               ),
+               
+               #DESCRIPTION
+               h4("About this species"),
+               p("A small, compact marine goose displaying a solid jet-black head, neck, and upper chest, contrasting with a barred grayish-brown back, a pale whitish belly, and a thin, broken white necklace marking the mid-neck. Their bills and legs are black, and the tail is framed by bright white upper and lower coverts. Their overall body mass is only slightly larger than a heavy mallard, giving them an exceptionally compact profile on open water."),
+               p("Flies in long, undulating ribbons or low, wavering chains that skim inches above open saltwater bays and flats, propelled by rapid, stiff wing strokes. Their flight pattern rarely climbs to significant altitudes when traveling locally between feeding shoals and roosting waters. Their vocalization is a low, rolling, guttural purr or croak sounding like \"r-r-r-oook\", which carries across coastal sounds and sounds entirely distinct from the honk of a Canada goose."),
+               p("Strongly tied to intertidal eelgrass (Zostera marina) and sea lettuce beds along the Atlantic coast from New Jersey to Virginia. They are traditional coastal game that decoy willingly to specialized low-profile shoreline hides and floating silhouette or block spreads placed over shallow tidal shoals. Hunters must plan their outings around outgoing tides when birds move actively toward exposed eelgrass flats."),
+               
+               # DESCRIPTION (bullet points)
+               tags$ul(
+                 tags$li("Size: Length 55–66 cm (22–26 inches)"),
+                 tags$li("Wingspan: 105–120 cm (41–47 inches)"),
+                 tags$li("Weight: 1.2 – 1.6 kg (2.6 – 3.5 lbs)"),
+                 tags$li("Lifespan: 10–15 years in the wild"),
+                 tags$li("Diet: Herbivorous; eelgrass, sea lettuce, algae, and salt-marsh grasses"),
+                 tags$li("Habitat: Marine bays, saltwater estuaries, mudflats, and eelgrass beds"),
+                 tags$li("Nesting season: June to August (Arctic tundra)"),
+                 tags$li("Conservation status: Least Concern")
+               ),
+               # SOUND: SPACE RESERVED 
+               h4("Call"),
+               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               #HEAT MAP: SPACE RESERVED
+               h4("Heat map")
+               # >>> HEAT MAP GOES HERE (map will replace this comment) <<<
+             ),
+             
+             #Bufflehead
+             conditionalPanel(
+               condition = "input.species_atlantic == 'Bufflehead'",
+               
+               #PHOTO
+               div(style = "display: flex; gap: 20px;",
+                   tags$figure(
+                     img(src="bufflehead_male.jpg", width = "400px", height = "300px"),
+                     tags$figcaption("Male")
+                   ),
+                   tags$figure(
+                     img(src="bufflehead_female.jpg", width = "400px", height = "300px"),
+                     tags$figcaption("Female")
+                   )
+               ),
+               
+               #DESCRIPTION
+               h4("About this species"),
+               p("North America's smallest diving duck, the drake is instantly recognized by an oversized, puffy head with a massive, brilliant white wedge extending from behind the eye across the crown, set against iridescent purple-green plumage. The body is bright white along the flanks and breast with a dark black back; hens are compact, dark brownish-gray with a distinct, neat white oval cheek patch. Both sexes have small gray bills and pale pinkish-gray feet."),
+               p("Unlike most diving ducks, buffleheads can leap directly off the water into full flight without running, flying low, fast, and straight with buzzy, rapid wingbeats. They travel in pairs or small groups of five to ten birds, maintaining a steady, low-altitude heading. They are generally silent on the wing, though hens emit a weak, low-pitched quack when flushed off small ponds."),
+               p("Common along sheltered bays, tidal creeks, and farm ponds, often diving in synchronized patterns to feed on small mollusks and aquatic insects. They decoy aggressively to any spread with bright white paint, but their small size and speed demand sharp shooting, and downed birds must be retrieved immediately because of their ability to dive deep when crippled. Hunters can use small, specialized spreads set close to shorelines, as buffleheads rarely demand large, open-water longline setups."),
+               
+               # DESCRIPTION (bullet points)
+               tags$ul(
+                 tags$li("Size: Length 32–40 cm (13–16 inches)"),
+                 tags$li("Wingspan: 55–59 cm (22–23 inches)"),
+                 tags$li("Weight: 270 – 550 g (0.6 – 1.2 lbs)"),
+                 tags$li("Lifespan: Up to 7–10 years in the wild"),
+                 tags$li("Diet: Carnivorous; aquatic insects, crustaceans, mollusks, and small fish"),
+                 tags$li("Habitat: Sheltered coastal bays, estuaries, lakes, ponds, and slow rivers"),
+                 tags$li("Nesting season: May to July (often in abandoned woodpecker cavities)"),
+                 tags$li("Conservation status: Least Concern")
+               ),
+               # SOUND: SPACE RESERVED 
+               h4("Call"),
+               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               #HEAT MAP: SPACE RESERVED
+               h4("Heat map")
+               # >>> HEAT MAP GOES HERE (map will replace this comment) <<<
+             ),
+             
+             #Canada Goose
+             conditionalPanel(
+               condition = "input.species_atlantic == 'Canada Goose'",
+               
+               #PHOTO
+               tags$figure(
+                 img(src="canada_goose_monomorphic.jpg", width = "400px", height = "300px"),
+                 tags$figcaption("Monomorphic")
+               ),
+               
+               #DESCRIPTION
+               h4("About this species"),
+               p("A large, familiar wild goose featuring a gray-brown body, a long black stocking neck, an all-black head, and a wide white cheek patch extending beneath the chin. The bill and legs are black, and the tail is dark, framed by a clean white U-shaped rump patch. Size varies across subspecies, but true Canada geese are substantial, heavy-bodied birds with broad wing spans and prominent chest structures."),
+               p("Flocks travel in disciplined, iconic V-formations or long, undulating lines, driven by powerful, rhythmic wingbeats. When approaching fields, they circle deliberately, locking their wide wings and backpedaling firmly into the wind on final descent. They are intensely vocal on the wing, communicating across long distances with deep, resonant, two-syllable honks sounding like \"ah-honk\", where the higher pitched note is given by the female and the lower note by the male."),
+               p("The cornerstone of field and water goose hunting across North America, feeding heavily in harvested corn, wheat, barley, and pasture fields. Fooled using realistic full-body decoy spreads, disciplined calling routines, and layout or A-frame blinds that conceal hunters from overhead scrutiny. Flagging is essential for grabbing the attention of distant migrating flights, but flags should be rested once birds turn and commit to the final approach."),
+               
+               # DESCRIPTION (bullet points)
+               tags$ul(
+                 tags$li("Size: Length 75–110 cm (30–43 inches)"),
+                 tags$li("Wingspan: 127–185 cm (50–73 inches)"),
+                 tags$li("Weight: 2.4 – 6.5 kg (5.3 – 14.3 lbs)"),
+                 tags$li("Lifespan: 10–24 years in the wild (record over 30 years)"),
+                 tags$li("Diet: Herbivorous; grasses, grains, roots, and aquatic plants"),
+                 tags$li("Habitat: Lakes, rivers, agricultural fields, city parks, and wetlands"),
+                 tags$li("Nesting season: April to June"),
+                 tags$li("Conservation status: Least Concern")
+               ),
+               # SOUND: SPACE RESERVED 
+               h4("Call"),
+               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               #HEAT MAP: SPACE RESERVED
+               h4("Heat map")
+               # >>> HEAT MAP GOES HERE (map will replace this comment) <<<
+             ),
+             
+             #Canada-cackling Goose, Early
+             conditionalPanel(
+               condition = "input.species_atlantic == 'Canada-cackling Goose, Early'",
+               
+               #PHOTO
+               div(style = "display: flex; gap: 20px; flex-wrap: wrap;",
+                   tags$figure(
+                     img(src="canada_goose_monomorphic.jpg", width = "400px", height = "300px"),
+                     tags$figcaption("Canada Goose (Monomorphic)")
+                   ),
+                   tags$figure(
+                     img(src="cackling_goose_monomorphic.jpg", width = "400px", height = "300px"),
+                     tags$figcaption("Cackling Goose (Monomorphic)")
+                   )
+               ),
+               
+               #DESCRIPTION
+               h4("About these species"),
+               
+               h5("Canada Goose"),
+               p("A large, familiar wild goose featuring a gray-brown body, a long black stocking neck, an all-black head, and a wide white cheek patch extending beneath the chin. The bill and legs are black, and the tail is dark, framed by a clean white U-shaped rump patch. Size varies across subspecies, but true Canada geese are substantial, heavy-bodied birds with broad wing spans and prominent chest structures."),
+               p("Flocks travel in disciplined, iconic V-formations or long, undulating lines, driven by powerful, rhythmic wingbeats. When approaching fields, they circle deliberately, locking their wide wings and backpedaling firmly into the wind on final descent. They are intensely vocal on the wing, communicating across long distances with deep, resonant, two-syllable honks sounding like \"ah-honk\", where the higher pitched note is given by the female and the lower note by the male."),
+               p("The cornerstone of field and water goose hunting across North America, feeding heavily in harvested corn, wheat, barley, and pasture fields. Fooled using realistic full-body decoy spreads, disciplined calling routines, and layout or A-frame blinds that conceal hunters from overhead scrutiny. Flagging is essential for grabbing the attention of distant migrating flights, but flags should be rested once birds turn and commit to the final approach."),
+               tags$ul(
+                 tags$li("Size: Length 75–110 cm (30–43 inches)"),
+                 tags$li("Wingspan: 127–185 cm (50–73 inches)"),
+                 tags$li("Weight: 2.4 – 6.5 kg (5.3 – 14.3 lbs)"),
+                 tags$li("Lifespan: 10–24 years in the wild (record over 30 years)"),
+                 tags$li("Diet: Herbivorous; grasses, grains, roots, and aquatic plants"),
+                 tags$li("Habitat: Lakes, rivers, agricultural fields, city parks, and wetlands"),
+                 tags$li("Nesting season: April to June"),
+                 tags$li("Conservation status: Least Concern")
+               ),
+               
+               h5("Cackling Goose"),
+               p("Formerly classified as a small Canada goose subspecies, this distinct species is roughly the size of a large mallard, featuring a noticeably short neck, a steep forehead, and a tiny, stubby triangular bill. Plumage mimics the Canada goose pattern with a black neck, white cheek patches, and a brown body, though some individuals carry a faint white collar at the base of the neck. Their breast coloration ranges from light gray to dark chocolate-brown depending on the subspecies."),
+               p("Highly agile fliers that execute sudden banks, side-slips, and rolls into decoys with a high-tempo wingbeat cadence. Flocks move with a loose, erratic energy that allows them to dump out of the sky far more violently than large Canada geese. Instead of a deep honk, their vocalization is a high-pitched, squeaking cackle or yelp sounding like \"yick-yick\" or \"cackle\", which sounds more like a dog toy than a standard goose."),
+               p("Winters in large concentrations in California, Texas, and the Pacific Northwest, often mixed in with larger geese in agricultural fields. Hunters must check regional regulations, as some areas enforce separate daily bag limits or closed zones specifically aimed at managing distinct cackler stocks. Decoy spreads should utilize specialized, smaller-bodied cackler decoys, and callers must tune their short-reed calls high to reproduce the squeaking cackle of incoming birds."),
+               tags$ul(
+                 tags$li("Size: Length 53–76 cm (21–30 inches)"),
+                 tags$li("Wingspan: 105–115 cm (41–45 inches)"),
+                 tags$li("Weight: 1.1 – 2.9 kg (2.4 – 6.4 lbs)"),
+                 tags$li("Lifespan: 10–20+ years in the wild"),
+                 tags$li("Diet: Herbivorous; grasses, sedges, agricultural grains, and green shoots"),
+                 tags$li("Habitat: Tundra, agricultural stubble fields, pastures, and marshlands"),
+                 tags$li("Nesting season: May to July"),
+                 tags$li("Conservation status: Least Concern")
+               ),
+               
+               # SOUND: SPACE RESERVED 
+               h4("Call"),
+               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               #HEAT MAP: SPACE RESERVED
+               h4("Heat map")
+               # >>> HEAT MAP GOES HERE (map will replace this comment) <<<
+             ),
+             
+             #Canvasback
+             conditionalPanel(
+               condition = "input.species_atlantic == 'Canvasback'",
+               
+               #PHOTO
+               div(style = "display: flex; gap: 20px;",
+                   tags$figure(
+                     img(src="canvasback_male.jpg", width = "400px", height = "300px"),
+                     tags$figcaption("Male")
+                   ),
+                   tags$figure(
+                     img(src="canvasback_female.jpg", width = "400px", height = "300px"),
+                     tags$figcaption("Female")
+                   )
+               ),
+               
+               #DESCRIPTION
+               h4("About this species"),
+               p("The largest and fastest North American diving duck, defined by a long, heavy black bill that slopes seamlessly up into the forehead, creating a flat, wedge-shaped head profile. Breeding drakes display a rich copper-red head, red eyes, a jet-black breast, and a gleaming canvas-white back and body. Hens share the same distinctive sloping head profile but are rendered in soft grayish-brown and pale buff tones."),
+               p("Renowned for raw speed, canvasbacks fly in powerful, unwavering V-formations or straight lines driven by rapid, stiff wing strokes. Their flight speed routinely exceeds fifty miles per hour, cutting across open water without the erratic banking seen in puddle ducks. Drakes produce a low, guttural croak or purr while resting on the water, but in flight, the species is predominantly silent, announced only by the distinct ripping sound of their wings cutting the air."),
+               p("Bound to large open bays, lakes, and wide river channels rich in wild celery (Vallisneria americana), where their high flight speeds require aggressive forward leads and wide leads on crossing shots. Because of historical population fluctuations, they are strictly managed under restricted daily bag limits, often one or two birds, making quick profile recognition against Redheads essential. Oversized white-bodied decoys set on the upwind edge of a spread help steer these fast divers directly into the shooting lane."),
+               
+               # DESCRIPTION (bullet points)
+               tags$ul(
+                 tags$li("Size: Length 48–56 cm (19–22 inches)"),
+                 tags$li("Wingspan: 79–89 cm (31–35 inches)"),
+                 tags$li("Weight: 860 – 1,600 g (1.9 – 3.5 lbs)"),
+                 tags$li("Lifespan: Up to 12–20 years in the wild"),
+                 tags$li("Diet: Primarily herbivorous; tubers, roots, seeds of aquatic plants, and some mollusks"),
+                 tags$li("Habitat: Large deep lakes, open bays, freshwater marshes, and slow rivers"),
+                 tags$li("Nesting season: May to July"),
+                 tags$li("Conservation status: Least Concern")
+               ),
+               # SOUND: SPACE RESERVED 
+               h4("Call"),
+               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               #HEAT MAP: SPACE RESERVED
+               h4("Heat map")
+               # >>> HEAT MAP GOES HERE (map will replace this comment) <<<
+             ),
+             
+             #Common Eider
+             conditionalPanel(
+               condition = "input.species_atlantic == 'Common Eider'",
+               
+               #PHOTO
+               div(style = "display: flex; gap: 20px;",
+                   tags$figure(
+                     img(src="common_eider_male.jpg", width = "400px", height = "300px"),
+                     tags$figcaption("Male")
+                   ),
+                   tags$figure(
+                     img(src="common_eider_female.jpg", width = "400px", height = "300px"),
+                     tags$figcaption("Female")
+                   )
+               ),
+               
+               #DESCRIPTION
+               h4("About this species"),
+               p("The heaviest and largest duck in the Northern Hemisphere, showing a distinctive long, sloping head with a heavy frontal shield feathering down the side of the long greenish-yellow bill. Prime drakes are white above and jet-black below, accented by an olive-green wash on the nape and a soft pinkish-peach wash on the chest. Hens are heavily barred in rich cinnamon-brown to protect them while nesting on rocky maritime islands."),
+               p("Low-level, heavy fliers that cruise in long, stable, undulating lines skimming just inches above open ocean swells and wave troughs. Their wingbeats are measured and synchronized, holding steady flight paths even in gale-force ocean winds. Drakes vocalize with a strange, haunting, dove-like cooing sounding like \"ah-ooh, ah-ooh\", which carries across cold ocean sounds."),
+               p("The defining quarry of coastal New England and eastern maritime waterfowlers, hunted from rocky shore blinds or specialized layout boats over mussel shoals. Their dense down, tough skin, and marine environment require specialized sea-duck decoy rigs anchored on heavy sinkers, dense non-toxic loads like sizes #1 to BB, and prompt follow-up shots on the water. Extreme care must be taken regarding ocean tides, freezing spray, and changing winter weather while targeting eiders offshore."),
+               
+               # DESCRIPTION (bullet points)
+               tags$ul(
+                 tags$li("Size: Length 50–71 cm (20–28 inches)"),
+                 tags$li("Wingspan: 80–110 cm (31–43 inches)"),
+                 tags$li("Weight: 1.2 – 3.0 kg (2.6 – 6.6 lbs)"),
+                 tags$li("Lifespan: 15–20+ years in the wild"),
+                 tags$li("Diet: Carnivorous; marine mollusks, blue mussels, crustaceans, and sea urchins"),
+                 tags$li("Habitat: Coastal marine waters, rocky islands, barrier reefs, and Arctic coastlines"),
+                 tags$li("Nesting season: May to July"),
+                 tags$li("Conservation status: Near Threatened / Least Concern")
+               ),
+               # SOUND: SPACE RESERVED 
+               h4("Call"),
+               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               #HEAT MAP: SPACE RESERVED
+               h4("Heat map")
+               # >>> HEAT MAP GOES HERE (map will replace this comment) <<<
+             ),
+             
+             #Common Goldeneye
+             conditionalPanel(
+               condition = "input.species_atlantic == 'Common Goldeneye'",
+               
+               #PHOTO
+               div(style = "display: flex; gap: 20px;",
+                   tags$figure(
+                     img(src="common_goldeneye_male.jpg", width = "400px", height = "300px"),
+                     tags$figcaption("Male")
+                   ),
+                   tags$figure(
+                     img(src="common_goldeneye_female.jpg", width = "400px", height = "300px"),
+                     tags$figcaption("Female")
+                   )
+               ),
+               
+               #DESCRIPTION
+               h4("About this species"),
+               p("A medium-sized, cold-hardy diving duck, the drake features a puffy, triangular dark head glossed with bottle-green, a bright yellow eye, a black back, and an immaculate white circular spot positioned between the bill and the eye. Hens sport a chocolate-brown head, slate-gray body plumage, pale yellow eyes, and a bill that develops a yellow band across the tip late in the winter. In flight, both sexes show large, solid-white inner wing patches."),
+               p("Known as \"whistlers,\" their rapid, stiff wing strokes produce a distinct, high-pitched mechanical humming sound in flight that alerts hunters to their approach long before they are spotted visually. They fly in small, fast groups, cutting direct lines close to open water surfaces. In flight, they rarely vocalize, relying almost entirely on their whistling wings for flock coordination."),
+               p("Among the last waterfowl to push south in the winter, moving only when northern lakes and rivers completely freeze over. They are notoriously suspicious of other duck species and decoy best to dedicated goldeneye spreads placed off windy, rocky points and deep-river breaks. Hunters must use heavy, high-contrast black-and-white decoys placed on longlines, as goldeneyes rarely commit to standard mallard or dabbler spreads."),
+               
+               # DESCRIPTION (bullet points)
+               tags$ul(
+                 tags$li("Size: Length 45–50 cm (18–20 inches)"),
+                 tags$li("Wingspan: 77–83 cm (30–33 inches)"),
+                 tags$li("Weight: 500 – 1,300 g (1.1 – 2.9 lbs)"),
+                 tags$li("Lifespan: Up to 10–15 years in the wild"),
+                 tags$li("Diet: Carnivorous; aquatic insects, crustaceans, mollusks, and small fish"),
+                 tags$li("Habitat: Large lakes, rivers, coastal bays, and sheltered marine waters"),
+                 tags$li("Nesting season: May to July (uses tree cavities)"),
+                 tags$li("Conservation status: Least Concern")
+               ),
+               # SOUND: SPACE RESERVED 
+               h4("Call"),
+               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               #HEAT MAP: SPACE RESERVED
+               h4("Heat map")
+               # >>> HEAT MAP GOES HERE (map will replace this comment) <<<
+             ),
+             
+             #Gadwall
+             conditionalPanel(
+               condition = "input.species_atlantic == 'Gadwall'",
+               
+               #PHOTO
+               div(style = "display: flex; gap: 20px;",
+                   tags$figure(
+                     img(src="gadwall_male.jpg", width = "400px", height = "300px"),
+                     tags$figcaption("Male")
+                   ),
+                   tags$figure(
+                     img(src="gadwall_female.jpg", width = "400px", height = "300px"),
+                     tags$figcaption("Female")
+                   )
+               ),
+               
+               #DESCRIPTION
+               h4("About this species"),
+               p("A sleek, medium-sized puddle duck, the drake \"gray duck\" displays subtle, finely vermiculated gray body plumage, a steep forehead, a jet-black rump, and a dark bill. In the air, both sexes are instantly identified by a prominent, rectangular white speculum patch on the inner wing bordered by black and chestnut coverts, contrasting against a clean, snow-white belly. Hens resemble small, slim hen mallards but sport an orange-bordered bill and the diagnostic white wing speculum."),
+               p("Fast and level fliers that travel in tight, compact flocks, frequently shifting altitude together and circling setups cautiously out of gun range. Drakes utter a unique, nasal, two-syllable \"kack-kack\" or reedy croak paired with a high-pitched whistle, while hens give a softer, higher-pitched, and slightly faster quack than a hen mallard. In flight, the flashing white speculum is visible even when the birds are viewed from above or behind."),
+               p("Highly opportunistic vegetation feeders that frequently skirt the outside edges of decoy spreads without committing directly to the pocket. Because they do not respond well to loud, aggressive mallard hail calls, hunters find the best success using soft gadwall nasal calls, mallard feed chuckles, and wigeon whistles. Setting decoys in loose, scattered groups with plenty of open landing room helps encourage these cautious birds to slide within range."),
+               
+               # DESCRIPTION (bullet points)
+               tags$ul(
+                 tags$li("Size: Length 46–56 cm (18–22 inches)"),
+                 tags$li("Wingspan: 78–90 cm (31–35 inches)"),
+                 tags$li("Weight: 800 – 1,000 g (1.8 – 2.2 lbs)"),
+                 tags$li("Lifespan: 5–12 years in the wild"),
+                 tags$li("Diet: Herbivorous; aquatic plants, seeds, stems, and occasional aquatic insects"),
+                 tags$li("Habitat: Shallow freshwater marshes, prairie potholes, lakes, and estuaries"),
+                 tags$li("Nesting season: May to July"),
+                 tags$li("Conservation status: Least Concern")
+               ),
+               # SOUND: SPACE RESERVED 
+               h4("Call"),
+               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               #HEAT MAP: SPACE RESERVED
+               h4("Heat map")
+               # >>> HEAT MAP GOES HERE (map will replace this comment) <<<
+             ),
+             
+             #Long-tailed Duck
+             conditionalPanel(
+               condition = "input.species_atlantic == 'Long-tailed Duck'",
+               
+               #PHOTO
+               div(style = "display: flex; gap: 20px;",
+                   tags$figure(
+                     img(src="long_tailed_duck_male_breeding.jpg", width = "400px", height = "300px"),
+                     tags$figcaption("Breeding Male")
+                   ),
+                   tags$figure(
+                     img(src="long_tailed_duck_male_nonbreeding.jpg", width = "400px", height = "300px"),
+                     tags$figcaption("Nonbreeding Male")
+                   ),
+                   tags$figure(
+                     img(src="long_tailed_duck_female.jpg", width = "400px", height = "300px"),
+                     tags$figcaption("Female")
+                   )
+               ),
+               
+               #DESCRIPTION
+               h4("About this species"),
+               p("A small, slender, and highly vocal sea duck, winter drakes sport a striking piebald plumage of snow-white, slate-gray, and black, complete with a pink-banded black bill and exceptionally long, needle-like central tail feathers. Hens lack the long tail and have a warm-brown and white patterned head and back. Both sexes fly with completely dark wings that lack any white speculum markings, providing a clean silhouette over the water."),
+               p("Blistering fast fliers that erratically tilt, bank, and roll from side to side in flight, flashing alternating white bellies and dark backs mere inches above rolling swells. Their speed and erratic flight patterns make them one of the most challenging targets in waterfowl hunting. They are among the most vocal of all waterfowl, filling cold maritime bays with their melodious, yodeling calls sounding like \"caloo-caloo\" or \"south-south-southerly\"."),
+               p("Legendary divers capable of foraging on crustaceans at depths exceeding 150 feet. Targeting them requires setting layout boats or seaward blinds near deep current rips and open ocean drop-offs, swinging aggressively through their erratic, high-speed flight paths. Hunters must use heavy leads and shoot well out in front of crossing birds, as their airspeed consistently outpaces expectations."),
+               
+               # DESCRIPTION (bullet points)
+               tags$ul(
+                 tags$li("Size: Length 38–55 cm (15–22 inches excluding tail streamers)"),
+                 tags$li("Wingspan: 69–76 cm (27–30 inches)"),
+                 tags$li("Weight: 700 – 1,150 g (1.5 – 2.5 lbs)"),
+                 tags$li("Lifespan: Up to 15–20 years in the wild"),
+                 tags$li("Diet: Carnivorous; benthic crustaceans, small fish, mollusks, and marine worms"),
+                 tags$li("Habitat: Arctic marine waters, open ocean bays, deep lakes, and coastal surf zones"),
+                 tags$li("Nesting season: June to July"),
+                 tags$li("Conservation status: Vulnerable / Least Concern (Population decline noted in some regions)")
+               ),
+               # SOUND: SPACE RESERVED 
+               h4("Call"),
+               # >>> SOUND GOES HERE (audio player will replace this comment) <<<
+               
+               #HEAT MAP: SPACE RESERVED
+               h4("Heat map")
+               # >>> HEAT MAP GOES HERE (map will replace this comment) <<<
+             ),
+             
     ),
     
     
