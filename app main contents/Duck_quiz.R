@@ -2,7 +2,7 @@ library(shiny)
 library(httr)
 library(jsonlite)
 
-# Each bird: code = c(display name, Wikipedia page title)
+#Each bird: code = c(display name, Wikipedia page title)
 birds <- list(
   wood  = c("Wood Duck", "Wood_duck"),
   shov  = c("Northern Shoveler", "Northern_shoveler"),
@@ -15,7 +15,7 @@ birds <- list(
   whis  = c("Black-bellied Whistling Duck", "Black-bellied_whistling_duck"),
   pin   = c("Northern Pintail", "Northern_pintail")
 )
-# Each question: list(question, c("answer text" = "birds that get a point"))
+#Each question: list(question, c("answer text" = "birds that get a point"))
 questions <- list(
   list("It's Saturday. What's your ideal plan?", c(
     "Dress to impress and strut into the party like I own the place" = "wood hood",
@@ -68,7 +68,7 @@ server <- function(input, output) {
   n <- reactiveVal(0)        # 0 = start screen, 1-8 = questions, 9 = result
   scores <- reactiveVal(NULL)
   
-# Decide what to show based on n
+#Decide what to show based on n
   output$screen <- renderUI({
     i <- n()
     if (i == 0) {
@@ -83,10 +83,10 @@ server <- function(input, output) {
       ))
     }
     
-# Result screen: find the bird with the highest score
+#Result screen: find the bird with the highest score
     winner <- names(which.max(scores()))
     
-# This is where data is pulled from Wikipedia
+#This is where data is pulled from - Wikipedia
     url <- paste0("https://en.wikipedia.org/api/rest_v1/page/summary/", birds[[winner]][2])
     info <- tryCatch(
       fromJSON(content(GET(url, user_agent("waterfowl-quiz")), "text", encoding = "UTF-8"))$extract,
@@ -100,13 +100,13 @@ server <- function(input, output) {
     )
   })
   
-# Start: every bird begins with 0 points
+#Start: every bird begins with 0 points
   observeEvent(input$go, {
     scores(setNames(rep(0, length(birds)), names(birds)))
     n(1)
   })
   
-# Next: add a point to each bird in the chosen answer, then move on
+#Next: add a point to each bird in the chosen answer, then move on
   observeEvent(input$next_btn, {
     req(input$choice)
     s <- scores()
@@ -115,7 +115,7 @@ server <- function(input, output) {
     n(n() + 1)
   })
   
-# Restart
+#Restart
   observeEvent(input$again, n(0))
 }
 
