@@ -1,4 +1,5 @@
 library(shiny)
+library(leaflet)
 
 # Prepares the Four Flyways map data once and defines flyway_map(year)
 source("the_four_flyways_heatmap_script.R")

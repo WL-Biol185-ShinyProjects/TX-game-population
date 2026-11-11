@@ -1,4 +1,5 @@
 library(shiny)
+library(leaflet)
 
 # One flyway tab = dropdown + empty "slots". server.R fills the slots for the chosen species.
 flyway_tab <- function(flyway) {
