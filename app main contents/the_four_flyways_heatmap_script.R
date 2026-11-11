@@ -7,10 +7,10 @@ library(leaflet)
 library(sf)
 library(tidyverse)
 
-geo <- st_read("https://rstudio.github.io/leaflet/json/us-states.geojson")
+flyway_geo <- st_read("https://rstudio.github.io/leaflet/json/us-states.geojson")
 
-# relative path: tidy_waterfowl_data.csv must be in the same folder as ui.R / server.R
-myTable <- read_csv("tidy_waterfowl_data.csv")
+# relative path: waterfowl_harvest_all_species.csv must be in the same folder as ui.R / server.R
+myTable <- read_csv("waterfowl_harvest_all_species.csv", show_col_types = FALSE)
 
 # convert state abbreviations from data to full state names
 myTable <- myTable %>% mutate(datastate = state.name[match(datastate, state.abb)])
@@ -27,8 +27,9 @@ flyways <- list(
 # the categorical column: one flyway name per state
 flyway_levels <- c("Atlantic", "Mississippi", "Central", "Pacific")
 
+# (the shapes are named flyway_geo so no other script can overwrite them)
 # labeling the states to proper flyway; NA_character_ leaves states not in a flyway out of the color scheme
-geo <- geo %>%
+flyway_geo <- flyway_geo %>%
   mutate(flyway = case_when(
     name %in% flyways$Atlantic    ~ "Atlantic",
     name %in% flyways$Mississippi ~ "Mississippi",
@@ -49,14 +50,13 @@ flyway_map <- function(yr) {
   
   # one row per state, with a species list for the click popup
   tbl <- myTable %>%
-    filter(year == yr, !is.na(datastate),
-           !species %in% c("Duck (all species)", "Goose (all species)", "Swan (all species)")) %>%
+    filter(year == yr, !is.na(datastate)) %>%
     group_by(datastate) %>%
     summarize(popup = paste0("<b>", first(datastate), " (", yr, ")</b><br>",
                              paste(sort(unique(species)), collapse = "<br>")))
   
   # let geo = g
-  g <- left_join(geo, tbl, by = c("name" = "datastate"))
+  g <- left_join(flyway_geo, tbl, by = c("name" = "datastate"))
   
   labels <- lapply(ifelse(is.na(g$popup),
                           paste0("<b>", g$name, "</b><br>No data for ", yr),

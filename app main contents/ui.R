@@ -1,10 +1,14 @@
 library(shiny)
 library(leaflet)
+<<<<<<< HEAD
 library(leaflet)   # needed for leafletOutput()
 
 # Loads the quiz data and defines quiz_ui()
 source("duck_quiz_used_in_app.R")
+=======
+>>>>>>> 6b1c58ccfc02bad5f387b00a5590b8ae3a969cfe
 
+# One flyway tab = dropdown + empty "slots". server.R fills the slots for the chosen species.
 flyway_tab <- function(flyway) {
   k <- tolower(flyway)
   tabPanel(paste(flyway, "Flyway"), br(),
@@ -13,7 +17,21 @@ flyway_tab <- function(flyway) {
            div(style = "display: flex; gap: 20px;",
                uiOutput(paste0("image1_", k)),
                uiOutput(paste0("image2_", k)),
-               uiOutput(paste0("image3_", k)))
+               uiOutput(paste0("image3_", k))),
+           h4("About this species"),
+           uiOutput(paste0("description_", k)),
+           tags$ul(
+             tags$li(textOutput(paste0("size_", k))),
+             tags$li(textOutput(paste0("wingspan_", k))),
+             tags$li(textOutput(paste0("weight_", k))),
+             tags$li(textOutput(paste0("lifespan_", k))),
+             tags$li(textOutput(paste0("diet_", k))),
+             tags$li(textOutput(paste0("habitat_", k))),
+             tags$li(textOutput(paste0("nesting_", k))),
+             tags$li(textOutput(paste0("status_", k)))
+           ),
+           h4("Call"),       # sound goes here later
+           h4("Heat map")    # heat map goes here later
   )
 }
 
@@ -79,7 +97,7 @@ ui <- fluidPage(
                         column(6, selectInput("species_hm", "Species", choices = NULL)),
                         column(6, selectInput("season_hm", "Season", choices = NULL))),
                       leafletOutput("species_heatmap", height = 600)),
-             tabPanel("Quiz", quiz_ui()),
+             tabPanel("Quiz", p("Quiz goes here.")),
              tabPanel("Duck Calls", p("Duck Calls Section"))
   )
 )
