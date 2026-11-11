@@ -1,12 +1,9 @@
 library(shiny)
 library(leaflet)
-<<<<<<< HEAD
 library(leaflet)   # needed for leafletOutput()
 
 # Loads the quiz data and defines quiz_ui()
 source("duck_quiz_used_in_app.R")
-=======
->>>>>>> 6b1c58ccfc02bad5f387b00a5590b8ae3a969cfe
 
 # One flyway tab = dropdown + empty "slots". server.R fills the slots for the chosen species.
 flyway_tab <- function(flyway) {
