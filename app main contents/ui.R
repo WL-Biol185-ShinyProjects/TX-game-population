@@ -23,8 +23,6 @@ flyway_tab <- function(flyway) {
              tags$li(textOutput(paste0("nesting_", k))),
              tags$li(textOutput(paste0("status_", k)))
            ),
-           h4("Call"),       # sound goes here later
-           h4("Heat map")    # heat map goes here later
   )
 }
 
