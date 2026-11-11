@@ -1,5 +1,12 @@
 library(shiny)
+<<<<<<< HEAD
 library(leaflet)
+=======
+library(leaflet)   # needed for leafletOutput()
+
+# Loads the quiz data and defines quiz_ui()
+source("duck_quiz_used_in_app.R")
+>>>>>>> 993ade8439087b1dd91831a100339345f02b08e7
 
 flyway_tab <- function(flyway) {
   k <- tolower(flyway)
@@ -75,7 +82,7 @@ ui <- fluidPage(
                         column(6, selectInput("species_hm", "Species", choices = NULL)),
                         column(6, selectInput("season_hm", "Season", choices = NULL))),
                       leafletOutput("species_heatmap", height = 600)),
-             tabPanel("Quiz", p("Quiz goes here.")),
+             tabPanel("Quiz", quiz_ui()),
              tabPanel("Duck Calls", p("Duck Calls Section"))
   )
 )

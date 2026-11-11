@@ -76,3 +76,4 @@ update_species_map <- function(map_id, sp, se) {
     addLegend(pal = pal, values = ~n, opacity = 0.8, title = "Harvest",
               position = "bottomright")
 }
+

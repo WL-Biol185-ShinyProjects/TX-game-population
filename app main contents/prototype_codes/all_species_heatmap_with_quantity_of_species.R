@@ -18,6 +18,8 @@ pat <- "^Table [0-9]+\\. (.+?) harvest by season.*$"
 d <- raw |>
   filter(grepl(pat, Table_Title)) |> #filtering out everything but the harvest data
   mutate(species = sub(pat, "\\1", Table_Title),
+         species = trimws(species),                  # NEW: removes stray leading/trailing spaces
+         species = tolower(species),                 # NEW: makes capitalization variants identical
          species = paste0(toupper(substr(species, 1, 1)), substring(species, 2)),
          species = ifelse(species == "Duck", "All ducks combined", species)) |>
   pivot_longer(all_of(state_cols), names_to = "abb", values_to = "value") |> #turning state columns into rows here
@@ -48,21 +50,21 @@ server <- function(input, output) {
     x <- d |> filter(species == input$sp)
     if (input$se != avg_label) x <- filter(x, Season == input$se)
     
-  #one number value per state selected
+    #one number value per state selected
     v <- x |> group_by(abb) |> summarise(n = mean(value, na.rm = TRUE))
-  
-  #attaching numbers to single state, in a single year depending on dropdown selection -> one number per state
+    
+    #attaching numbers to single state, in a single year depending on dropdown selection -> one number per state
     s <- left_join(states, v, by = "abb")
     proxy <- leafletProxy("map", data = s) |> clearShapes() |> clearControls()
     if (all(is.na(s$n))) return(proxy)
-  
-  #turning numbeer into heat map color
+    
+    #turning numbeer into heat map color
     pal <- colorBin("YlOrRd", domain = s$n, bins = 5, na.color = "lightgrey")
     labels <- sprintf("<strong>%s (%s)</strong><br/>%s", s$name, s$abb,
                       ifelse(is.na(s$n), "No data", format(round(s$n), big.mark = ","))) |>
       lapply(htmltools::HTML)
     
-  #state details
+    #state details
     proxy |>
       addPolygons(
         fillColor = ~pal(n), weight = 2, opacity = 1, color = "white",

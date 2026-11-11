@@ -1,4 +1,5 @@
 library(shiny)
+library(leaflet)   # needed for renderLeaflet()
 
 # Prepares the Four Flyways map data once and defines flyway_map(year)
 source("the_four_flyways_heatmap_script.R")
@@ -6,7 +7,15 @@ source("the_four_flyways_heatmap_script.R")
 # Prepares the harvest data once and defines species_base_map() and update_species_map()
 source("species_population_per_state_over_time.R")
 
+# Loads the quiz data and defines quiz_server()
+source("duck_quiz_used_in_app.R")
+
 function(input, output, session) {
+  
+  # ===========================================================================
+  # QUIZ TAB  (logic lives in Duck_quiz.R)
+  # ===========================================================================
+  quiz_server(input, output, session)
   
   # ===========================================================================
   # HOME TAB  (content comes from home_info.csv)
