@@ -1,12 +1,9 @@
 library(shiny)
-<<<<<<< HEAD
 library(leaflet)
-=======
 library(leaflet)   # needed for leafletOutput()
 
 # Loads the quiz data and defines quiz_ui()
 source("duck_quiz_used_in_app.R")
->>>>>>> 993ade8439087b1dd91831a100339345f02b08e7
 
 flyway_tab <- function(flyway) {
   k <- tolower(flyway)
