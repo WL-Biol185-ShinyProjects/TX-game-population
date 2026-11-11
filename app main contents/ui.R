@@ -1,5 +1,8 @@
 library(shiny)
-library(leaflet)
+library(leaflet)   # needed for leafletOutput()
+
+# Loads the quiz data and defines quiz_ui()
+source("duck_quiz_used_in_app.R")
 
 # One flyway tab = dropdown + empty "slots". server.R fills the slots for the chosen species.
 flyway_tab <- function(flyway) {
@@ -41,7 +44,7 @@ ui <- fluidPage(
                         column(6, selectInput("species_hm", "Species", choices = NULL)),   # filled by server.R
                         column(6, selectInput("season_hm", "Season", choices = NULL))),    # filled by server.R
                       leafletOutput("species_heatmap", height = 600)),
-             tabPanel("Quiz", p("Quiz goes here.")),
+             tabPanel("Quiz", quiz_ui()),
              tabPanel("Duck Calls", p("Duck Calls Section"))
   )
 )
