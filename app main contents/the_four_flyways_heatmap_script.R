@@ -40,7 +40,7 @@ flyway_geo <- flyway_geo %>%
 
 # color palette for the flyways
 pal <- colorFactor(
-  palette  = c("blue", "red", "green", "purple"),   # Atlantic, Mississippi, Central, Pacific
+  palette  = c("#2D4739", "#7A5C3E", "#C2A878", "#556B2F"),   # Atlantic, Mississippi, Central, Pacific
   domain   = flyway_levels,
   na.color = "grey"                                 # states not in any flyway (Puerto Rico, Hawaii)
 )
