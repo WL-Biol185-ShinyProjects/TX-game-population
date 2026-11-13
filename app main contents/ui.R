@@ -93,6 +93,10 @@ ui <- fluidPage(
                         column(6, selectInput("season_hm", "Season", choices = NULL))),
                       leafletOutput("species_heatmap", height = 600)),
              tabPanel("Quiz", p("Quiz goes here.")),
-             tabPanel("Duck Calls", p("Duck Calls Section"))
+             tabPanel("Duck Calls", br(),
+                      h3("Duck Calls"),
+                      selectInput("call_species", "Select a species:", choices = c("", names(duck_calls))),
+                      uiOutput("call_audio")
+             )
+             )
   )
-)
