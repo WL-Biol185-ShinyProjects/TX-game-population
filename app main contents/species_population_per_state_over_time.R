@@ -87,6 +87,11 @@ update_species_map <- function(map_id, sp, se) {
                 label = labels,
                 highlightOptions = highlightOptions(weight = 2, color = "#444", bringToFront = TRUE)) |>
     addLegend(position = "bottomright", pal = pal, values = c(0, max_val),
-              title = title, na.label = "No data")
+              title = title, na.label = "No data") |>
+    addControl(
+      html = "<div style='max-width:220px;font-size:12px;'><em>Note: Some species data is not consistently recorded until the year 2000.</em></div>",
+      position = "bottomleft",
+      className = "info"
+    )
 }
 
