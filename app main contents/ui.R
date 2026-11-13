@@ -12,22 +12,25 @@ flyway_tab <- function(flyway) {
   k <- tolower(flyway)
   tabPanel(paste(flyway, "Flyway"), br(),
            selectInput(paste0("species_", k), "Choose a species:", choices = NULL),
-           h3(textOutput(paste0("title_", k))),
-           div(style = "display: flex; gap: 20px;",
-               uiOutput(paste0("image1_", k)),
-               uiOutput(paste0("image2_", k)),
-               uiOutput(paste0("image3_", k))),
-           h4("About this species"),
-           uiOutput(paste0("description_", k)),
-           tags$ul(
-             tags$li(textOutput(paste0("size_", k))),
-             tags$li(textOutput(paste0("wingspan_", k))),
-             tags$li(textOutput(paste0("weight_", k))),
-             tags$li(textOutput(paste0("lifespan_", k))),
-             tags$li(textOutput(paste0("diet_", k))),
-             tags$li(textOutput(paste0("habitat_", k))),
-             tags$li(textOutput(paste0("nesting_", k))),
-             tags$li(textOutput(paste0("status_", k)))
+           conditionalPanel(
+             condition = paste0("input.species_", k, " != ''"),
+             h3(textOutput(paste0("title_", k))),
+             div(style = "display: flex; gap: 20px;",
+                 uiOutput(paste0("image1_", k)),
+                 uiOutput(paste0("image2_", k)),
+                 uiOutput(paste0("image3_", k))),
+             h4("About this species"),
+             uiOutput(paste0("description_", k)),
+             tags$ul(
+               tags$li(textOutput(paste0("size_", k))),
+               tags$li(textOutput(paste0("wingspan_", k))),
+               tags$li(textOutput(paste0("weight_", k))),
+               tags$li(textOutput(paste0("lifespan_", k))),
+               tags$li(textOutput(paste0("diet_", k))),
+               tags$li(textOutput(paste0("habitat_", k))),
+               tags$li(textOutput(paste0("nesting_", k))),
+               tags$li(textOutput(paste0("status_", k)))
+             )
            )
   )
 }
