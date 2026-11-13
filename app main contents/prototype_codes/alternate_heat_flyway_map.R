@@ -11,7 +11,7 @@ myTable <- read_csv("~/TX-game-population/app main contents/tidy_waterfowl_data.
 myTable <- myTable %>% mutate(datastate = state.name[match(datastate, state.abb)])
 
 # labeling which states belong to which flyway                                   
-flyways <- list(                                                        
+flyways <- list(                                                       
   Atlantic    = c("Maine", "New Hampshire", "Vermont", "Massachusetts", "Rhode Island", "Connecticut", "New York", "New Jersey", "Pennsylvania", "Delaware", "Maryland", "Virginia", "West Virginia", "North Carolina",
                   "South Carolina", "Georgia", "Florida", "District of Columbia"),
   Mississippi = c("Minnesota", "Wisconsin", "Michigan", "Iowa", "Illinois", "Indiana", "Ohio", "Missouri", "Kentucky", "Tennessee", "Arkansas", "Louisiana", "Mississippi", "Alabama"),
@@ -43,7 +43,7 @@ server <- function(input, output, session) {
   # defining a color palette for the flyways 
   pal <- reactive({
     colorFactor(
-      palette = c("blue", "red", "green", "purple"),  # Atlantic, Mississippi, Central, Pacific
+      palette = c("#2D4739", "#7A5C3E", "#C2A878", "#556B2F"),  # Atlantic, Mississippi, Central, Pacific
       domain = flyway_levels,
       na.color = "grey"                            # states not in any flyway (Puerto Rico, Hawaii)
     )
@@ -88,3 +88,4 @@ server <- function(input, output, session) {
 }
 
 shinyApp(ui, server)
+
