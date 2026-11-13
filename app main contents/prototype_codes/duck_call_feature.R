@@ -1,4 +1,6 @@
-# global.R
+# duck_call_feature.R
+# Defines duck_call_ui() and duck_call_server()
+
 duck_calls <- c(
   "Canada Goose"     = "Canada_Geese_(Branta_canadensis)_(W1CDR0001421_BD11).ogg",
   "Long-tailed Duck" = "Clangula_hyemalis.ogg",
@@ -10,3 +12,23 @@ duck_calls <- c(
   "Tundra Swan"      = "Bewick%27s_Swan_(Cygnus_columbianus)_(W1CDR0001383_BD2).ogg",
   "Wood Duck"        = "Aix_sponsa_-_Wood_Duck_-_XC63109.ogg"
 )
+
+duck_call_ui <- function() {
+  tagList(
+    h3("Duck Calls"),
+    selectInput("call_species", "Select a species:", choices = c("", names(duck_calls))),
+    uiOutput("call_audio")
+  )
+}
+
+duck_call_server <- function(input, output, session) {
+  output$call_audio <- renderUI({
+    req(nzchar(input$call_species))
+    tags$audio(
+      src = paste0("https://commons.wikimedia.org/wiki/Special:FilePath/",
+                   duck_calls[[input$call_species]]),
+      controls = NA,
+      autoplay = NA
+    )
+  })
+}

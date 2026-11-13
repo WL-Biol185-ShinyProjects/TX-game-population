@@ -10,7 +10,7 @@ source("species_population_per_state_over_time.R")
 # Loads the quiz data and defines quiz_server()
 source("duck_quiz_used_in_app.R")
 
-#loads the duck call data and defines duck_call_feature
+# Loads the duck call data and defines duck_call_server()
 source("duck_call_feature.R")
 
 function(input, output, session) {
@@ -19,6 +19,11 @@ function(input, output, session) {
   # QUIZ TAB  (logic lives in Duck_quiz.R)
   # ===========================================================================
   quiz_server(input, output, session)
+  
+  # ===========================================================================
+  # DUCK CALLS TAB  (logic lives in duck_call_feature.R)
+  # ===========================================================================
+  duck_call_server(input, output, session)
   
   # ===========================================================================
   # HOME TAB  (content comes from home_info.csv)
