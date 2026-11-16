@@ -70,8 +70,44 @@ questions <- list(
 # ---------------------------------------------------------------------------
 quiz_ui <- function() {
   tagList(
-    h3("Which Waterfowl Are You?"),
-    uiOutput("quiz_screen")
+    tags$head(tags$style(HTML("
+      .quiz-container {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 40px 20px;
+        font-size: 22px;
+      }
+      .quiz-container h3 { font-size: 40px; margin-bottom: 30px; }
+      .quiz-container h4 { font-size: 30px; margin-bottom: 25px; }
+      .quiz-container h2 { font-size: 44px; margin-bottom: 20px; }
+      .quiz-container p  { font-size: 22px; line-height: 1.6; }
+
+      /* remove Shiny's 300px cap on radio groups so answers use the full width */
+      .quiz-container .shiny-input-container:not(.shiny-input-container-inline) {
+        width: 100%;
+        max-width: 100%;
+      }
+      .quiz-container .radio { margin-bottom: 18px; }
+      .quiz-container .radio label {
+        font-size: 22px;
+        padding-left: 34px;
+      }
+      .quiz-container input[type='radio'] {
+        transform: scale(1.6);
+        margin-left: -30px;
+      }
+
+      .quiz-container .btn {
+        font-size: 20px;
+        padding: 10px 30px;
+        margin-top: 15px;
+      }
+    "))),
+    
+    div(class = "quiz-container",
+        h3("Which Waterfowl Are You?"),
+        uiOutput("quiz_screen")
+    )
   )
 }
 
