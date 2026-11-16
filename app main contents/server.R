@@ -108,6 +108,33 @@ function(input, output, session) {
     observe(updateSelectInput(session, paste0("species_", k),
                               choices = c("Select a species" = "", sort(flyway_rows()$species))))
     
+    # -----------------------------------------------------------------------
+    # WHICH SCREEN IS SHOWING?
+    #   FALSE = flyway home screen (dropdown + Flyway Information)
+    #   TRUE  = species screen (species details + return button)
+    # ui.R reads this as output$show_<flyway>.
+    # -----------------------------------------------------------------------
+    show_species <- reactiveVal(FALSE)
+    
+    # picking a species in the dropdown -> species screen; blank -> home screen
+    observeEvent(input[[paste0("species_", k)]], {
+      s <- input[[paste0("species_", k)]]
+      show_species(!is.null(s) && nzchar(s))
+    }, ignoreNULL = FALSE)
+    
+    output[[paste0("show_", k)]] <- reactive(show_species())
+    outputOptions(output, paste0("show_", k), suspendWhenHidden = FALSE)
+    
+    # RETURN TO FLYWAY HOMEPAGE: runs only when this flyway's button is clicked.
+    # Switches straight back to the home screen, then resets the dropdown
+    # (from R and from the browser) so it reads "Select a species" again.
+    observeEvent(input[[paste0("back_", k)]], {
+      show_species(FALSE)
+      updateSelectInput(session, paste0("species_", k), selected = "")
+      updateNavbarPage(session, "main_nav", selected = paste(flyway, "Flyway"))
+      session$sendCustomMessage("resetSpecies", paste0("species_", k))
+    })
+    
     # the one row for the species currently selected
     row <- reactive({
       req(input[[paste0("species_", k)]])
