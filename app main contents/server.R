@@ -37,9 +37,8 @@ function(input, output, session) {
   output$home_content <- renderUI({
     d <- home_info()
     
-    intro   <- d[d$type == "intro", ]
-    flyways <- d[d$type == "flyway", ]
-    facts   <- d[d$type == "fact", ]
+    intro <- d[d$type == "intro", ]
+    facts <- d[d$type == "fact", ]
     
     tagList(
       h3(intro$heading),
@@ -50,9 +49,6 @@ function(input, output, session) {
       sliderInput("flyway_year", "Select a year", min = 2000, max = 2025,
                   value = 2020, step = 1, sep = "", width = "300px", animate = TRUE),
       leafletOutput("flyway_heatmap", height = 650),
-      
-      lapply(seq_len(nrow(flyways)),
-             function(i) tagList(h4(flyways$heading[i]), p(flyways$text[i]))),
       
       hr(),
       h3(facts$heading[1]),
@@ -79,12 +75,9 @@ function(input, output, session) {
   # base map is drawn once...
   output$species_heatmap <- renderLeaflet(species_base_map())
   
-  # TRUE only once the browser has actually drawn the map (i.e. after the tab is opened)
-  map_ready <- reactive(!is.null(input$species_heatmap_bounds))
-  
-  # ...and recolored when the map is ready or whenever a dropdown changes
+  # ...and recolored whenever a dropdown changes
   observe({
-    req(map_ready(), input$species_hm, input$season_hm)
+    req(input$species_hm, input$season_hm)
     update_species_map("species_heatmap", input$species_hm, input$season_hm)
   })
   
