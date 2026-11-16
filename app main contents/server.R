@@ -75,12 +75,15 @@ function(input, output, session) {
   # base map is drawn once...
   output$species_heatmap <- renderLeaflet(species_base_map())
   
-  # ...and recolored whenever a dropdown changes
+  # TRUE only once the browser has actually drawn the map (i.e. after the tab is opened)
+  map_ready <- reactive(!is.null(input$species_heatmap_bounds))
+  
+  # ...and recolored when the map is ready or whenever a dropdown changes
   observe({
-    req(input$species_hm, input$season_hm)
+    req(map_ready(), input$species_hm, input$season_hm)
     update_species_map("species_heatmap", input$species_hm, input$season_hm)
   })
-  
+
   # ===========================================================================
   # FLYWAY TABS  (species content comes from species_info.csv)
   # ===========================================================================
