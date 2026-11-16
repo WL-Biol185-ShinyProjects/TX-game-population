@@ -66,7 +66,7 @@ htmltools::HTML)
 leaflet(g) %>%
 addProviderTiles("OpenStreetMap") %>%
 addPolygons(fillColor = ~pal(flyway),
-color = "white", weight = 1.5,
+color = "white", weight = 2.0,
 fillOpacity = 0.7, popup = ~popup,
 highlightOptions = highlightOptions(
 weight = 3,
@@ -81,4 +81,3 @@ direction = "auto")) %>%
 addLegend(pal = pal, values = flyway_levels,
 opacity = 0.7, title = "Flyway", position = "bottomright")
 }
-

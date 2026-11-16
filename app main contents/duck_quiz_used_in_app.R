@@ -70,8 +70,44 @@ questions <- list(
 # ---------------------------------------------------------------------------
 quiz_ui <- function() {
   tagList(
-    h3("Which Waterfowl Are You?"),
-    uiOutput("quiz_screen")
+    tags$head(tags$style(HTML("
+      .quiz-container {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 40px 20px;
+        font-size: 22px;
+      }
+      .quiz-container h3 { font-size: 40px; margin-bottom: 30px; }
+      .quiz-container h4 { font-size: 30px; margin-bottom: 25px; }
+      .quiz-container h2 { font-size: 44px; margin-bottom: 20px; }
+      .quiz-container p  { font-size: 22px; line-height: 1.6; }
+
+      /* remove Shiny's 300px cap on radio groups so answers use the full width */
+      .quiz-container .shiny-input-container:not(.shiny-input-container-inline) {
+        width: 100%;
+        max-width: 100%;
+      }
+      .quiz-container .radio { margin-bottom: 18px; }
+      .quiz-container .radio label {
+        font-size: 22px;
+        padding-left: 34px;
+      }
+      .quiz-container input[type='radio'] {
+        transform: scale(1.6);
+        margin-left: -30px;
+      }
+
+      .quiz-container .btn {
+        font-size: 20px;
+        padding: 10px 30px;
+        margin-top: 15px;
+      }
+    "))),
+    
+    div(class = "quiz-container",
+        h3("Which Waterfowl Are You?"),
+        uiOutput("quiz_screen")
+    )
   )
 }
 
@@ -79,15 +115,12 @@ quiz_ui <- function() {
 # The logic (called once inside function(input, output, session) in server.R)
 # ---------------------------------------------------------------------------
 quiz_server <- function(input, output, session) {
-  n <- reactiveVal(0)        # 0 = start screen, 1-8 = questions, 9 = result
-  scores <- reactiveVal(NULL)
+  n <- reactiveVal(1)        # 1-8 = questions, 9 = result (the quiz starts on question 1)
+  scores <- reactiveVal(setNames(rep(0, length(birds)), names(birds)))   # every bird begins with 0 points
   
   #Decide what to show based on n
   output$quiz_screen <- renderUI({
     i <- n()
-    if (i == 0) {
-      return(tagList(p("8 questions, 10 possible birds."), actionButton("quiz_go", "Start")))
-    }
     if (i <= length(questions)) {
       q <- questions[[i]]
       return(tagList(
@@ -114,12 +147,6 @@ quiz_server <- function(input, output, session) {
     )
   })
   
-  #Start: every bird begins with 0 points
-  observeEvent(input$quiz_go, {
-    scores(setNames(rep(0, length(birds)), names(birds)))
-    n(1)
-  })
-  
   #Next: add a point to each bird in the chosen answer, then move on
   observeEvent(input$quiz_next, {
     req(input$quiz_choice)
@@ -129,7 +156,9 @@ quiz_server <- function(input, output, session) {
     n(n() + 1)
   })
   
-  #Restart
-  observeEvent(input$quiz_again, n(0))
+  #Restart: reset every bird to 0 points and go back to question 1
+  observeEvent(input$quiz_again, {
+    scores(setNames(rep(0, length(birds)), names(birds)))
+    n(1)
+  })
 }
-

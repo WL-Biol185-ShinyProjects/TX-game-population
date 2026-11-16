@@ -1,21 +1,8 @@
-# species_population_per_state_over_time.R
-# Loaded ONCE by server.R (source("species_population_per_state_over_time.R")).
-# It prepares the harvest data and defines two functions:
-#   species_base_map()                   -> the empty base map
-#   update_species_map(map_id, sp, se)   -> colors the states for one species + season
-# No ui, no server, no shinyApp() in here: ui.R and server.R handle those.
-#
-# DATA: reads waterfowl_harvest_all_species.csv (columns: datastate, flyway, species, year, amount).
-# Keep that CSV in the same folder as ui.R / server.R ("app main contents").
-
 library(leaflet)
 library(sf)
 library(dplyr)
 library(readr)
 
-# ---------------------------------------------------------------------------
-# 1. LOAD + CLEAN THE DATA
-# ---------------------------------------------------------------------------
 # State names/abbreviations (US states + DC + PR)
 ab <- c(setNames(state.abb, state.name),
         "District of Columbia" = "DC",
@@ -23,7 +10,12 @@ ab <- c(setNames(state.abb, state.name),
 
 avg_label <- "Average across all seasons"
 
-harvest <- read_csv("waterfowl_harvest_all_species.csv", show_col_types = FALSE) |>
+data_file <- if (file.exists("waterfowl_harvest_all_species.csv")) {
+  "waterfowl_harvest_all_species.csv"
+} else {
+  "app main contents/waterfowl_harvest_all_species.csv"
+}
+harvest <- read_csv(data_file, show_col_types = FALSE) |>
   rename(state = datastate, season = year) |>
   filter(state %in% ab, !is.na(amount)) |>
   mutate(season = as.character(season)) |>
@@ -35,16 +27,13 @@ seasons        <- sort(unique(harvest$season), decreasing = TRUE)
 season_choices <- c(avg_label, seasons)
 species_choices <- sort(unique(harvest$species))
 
-# ---------------------------------------------------------------------------
+
 # 2. STATE SHAPES  (named species_geo so it does not overwrite "geo" in the Four Flyways script)
-# ---------------------------------------------------------------------------
 species_geo <- st_read("https://rstudio.github.io/leaflet/json/us-states.geojson", quiet = TRUE)
 species_geo$abbr <- unname(ab[species_geo$name])
 species_geo <- species_geo[!is.na(species_geo$abbr), ]
 
-# ---------------------------------------------------------------------------
 # 3. MAP FUNCTIONS
-# ---------------------------------------------------------------------------
 species_base_map <- function() {
   leaflet(options = leafletOptions(minZoom = 3)) |>
     addProviderTiles("OpenStreetMap.Mapnik") |>
@@ -58,10 +47,10 @@ update_species_map <- function(map_id, sp, se) {
   
   d <- harvest |> filter(tolower(species) == tolower(sp))
   
-  # same color scale for every season of this species, so seasons are comparable
+# same color scale for every season of this species, so seasons are comparable
   max_val <- suppressWarnings(max(d$amount, na.rm = TRUE))
   if (!is.finite(max_val) || max_val <= 0) max_val <- 1
-  pal <- colorNumeric("YlOrRd", domain = c(0, max_val), na.color = "#d9d9d9")
+  pal <- colorNumeric("YlOrRd", domain = c(0, max_val), na.color = "white")
   
   if (identical(se, avg_label)) {
     d <- d |> group_by(state) |> summarise(amount = mean(amount), .groups = "drop")
@@ -83,7 +72,7 @@ update_species_map <- function(map_id, sp, se) {
     clearControls() |>
     addPolygons(data = shapes,
                 fillColor = ~pal(amount), fillOpacity = 0.8,
-                color = "white", weight = 1,
+                color = "black", weight = 1,
                 label = labels,
                 highlightOptions = highlightOptions(weight = 2, color = "#444", bringToFront = TRUE)) |>
     addLegend(position = "bottomright", pal = pal, values = c(0, max_val),
@@ -94,4 +83,3 @@ update_species_map <- function(map_id, sp, se) {
       className = "info"
     )
 }
-
