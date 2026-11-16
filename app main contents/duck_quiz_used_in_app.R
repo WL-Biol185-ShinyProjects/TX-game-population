@@ -79,15 +79,12 @@ quiz_ui <- function() {
 # The logic (called once inside function(input, output, session) in server.R)
 # ---------------------------------------------------------------------------
 quiz_server <- function(input, output, session) {
-  n <- reactiveVal(0)        # 0 = start screen, 1-8 = questions, 9 = result
-  scores <- reactiveVal(NULL)
+  n <- reactiveVal(1)        # 1-8 = questions, 9 = result (the quiz starts on question 1)
+  scores <- reactiveVal(setNames(rep(0, length(birds)), names(birds)))   # every bird begins with 0 points
   
   #Decide what to show based on n
   output$quiz_screen <- renderUI({
     i <- n()
-    if (i == 0) {
-      return(tagList(p("8 questions, 10 possible birds."), actionButton("quiz_go", "Start")))
-    }
     if (i <= length(questions)) {
       q <- questions[[i]]
       return(tagList(
@@ -114,12 +111,6 @@ quiz_server <- function(input, output, session) {
     )
   })
   
-  #Start: every bird begins with 0 points
-  observeEvent(input$quiz_go, {
-    scores(setNames(rep(0, length(birds)), names(birds)))
-    n(1)
-  })
-  
   #Next: add a point to each bird in the chosen answer, then move on
   observeEvent(input$quiz_next, {
     req(input$quiz_choice)
@@ -129,7 +120,9 @@ quiz_server <- function(input, output, session) {
     n(n() + 1)
   })
   
-  #Restart
-  observeEvent(input$quiz_again, n(0))
+  #Restart: reset every bird to 0 points and go back to question 1
+  observeEvent(input$quiz_again, {
+    scores(setNames(rep(0, length(birds)), names(birds)))
+    n(1)
+  })
 }
-
