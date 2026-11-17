@@ -121,6 +121,32 @@ ui <- fluidPage(
     /* Images: light green border */
     img { border-radius: 6px; border: 3px solid var(--sage); }
     figcaption { color: #000; font-style: italic; }
+
+    /* Accordion (Home tab: flyway descriptions + waterfowl facts) */
+    .flyway-accordion { max-width: 1000px; margin: 10px 0 20px 0; }
+    .flyway-accordion details {
+      background-color: var(--sage); border: 1px solid var(--sage-dark);
+      border-radius: 6px; margin-bottom: 8px; overflow: hidden;
+    }
+    .flyway-accordion summary {
+      cursor: pointer; padding: 10px 40px 10px 14px; font-weight: bold;
+      color: #000; list-style: none; position: relative;
+    }
+    .flyway-accordion summary::-webkit-details-marker { display: none; }
+    .flyway-accordion summary::after {
+      content: '+'; position: absolute; right: 16px; font-weight: bold;
+      font-size: 18px; color: var(--orange);
+    }
+    .flyway-accordion details[open] > summary {
+      background-color: var(--tan); border-bottom: 2px solid var(--orange);
+    }
+    .flyway-accordion details[open] > summary::after { content: '\\2212'; }
+    .flyway-accordion details p {
+      margin: 0; padding: 12px 14px; background-color: var(--cream);
+    }
+    .flyway-accordion details ul {
+      margin: 0; padding: 12px 14px 12px 34px; background-color: var(--cream);
+    }
   "))),
   
   navbarPage("US Flyway Data", id = "main_nav",

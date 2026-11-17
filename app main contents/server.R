@@ -41,18 +41,31 @@ function(input, output, session) {
     facts <- d[d$type == "fact", ]
     
     tagList(
-      h3(intro$heading),
-      p(intro$text),
-      
-      # Heatmap 1: The Four Flyways
+      # ---------------------------------------------------------------------
+      # HEATMAP 1: The Four Flyways
+      # ---------------------------------------------------------------------
       h4("The Four Flyways"),
       sliderInput("flyway_year", "Select a year", min = 2000, max = 2025,
                   value = 2020, step = 1, sep = "", width = "300px", animate = TRUE),
       leafletOutput("flyway_heatmap", height = 650),
       
-      hr(),
-      h3(facts$heading[1]),
-      tags$ul(lapply(facts$text, tags$li))
+      # ---------------------------------------------------------------------
+      # ACCORDION (below the heatmap)
+      # ---------------------------------------------------------------------
+      div(style = "margin-top: 25px;",
+          h4("Learn About the Flyways")),
+      
+      tags$div(class = "flyway-accordion",
+               
+               # Panel 1: description of the 4 North American Flyways
+               tags$details(name = "intro-accordion",
+                            tags$summary(intro$heading),
+                            p(intro$text)),
+               
+               # Panel 2: General Waterfowl Facts (separate panel; opens independently)
+               tags$details(name = "facts-accordion",
+                            tags$summary(facts$heading[1]),
+                            tags$ul(lapply(facts$text, tags$li))))
     )
   })
   
@@ -83,7 +96,7 @@ function(input, output, session) {
     req(map_ready(), input$species_hm, input$season_hm)
     update_species_map("species_heatmap", input$species_hm, input$season_hm)
   })
-
+  
   # ===========================================================================
   # FLYWAY TABS  (species content comes from species_info.csv)
   # ===========================================================================
