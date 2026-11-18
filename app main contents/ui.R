@@ -64,6 +64,15 @@ flyway_tab <- function(flyway) {
   )
 }
 
+# One "About Us" card = photo + optional name + description
+about_card <- function(photo, text, name = NULL) {
+  div(class = "about-card",
+      img(src = photo, alt = if (is.null(name)) "About Us photo" else name),
+      div(class = "about-card-body",
+          if (!is.null(name)) h4(name),
+          p(text)))
+}
+
 ui <- fluidPage(
   tags$head(
     # Resets a species dropdown to "Select a species" in the browser and scrolls to the top
@@ -147,6 +156,34 @@ ui <- fluidPage(
     .flyway-accordion details ul {
       margin: 0; padding: 12px 14px 12px 34px; background-color: var(--cream);
     }
+
+    /* About Us page (these class names are only used on the About Us tab, so no other tab changes) */
+    .about-page { max-width: 1100px; margin: 0 auto; padding: 10px 15px 40px 15px; }
+    .about-page h3 { text-align: center; font-size: 32px; font-weight: bold; margin: 10px 0 40px 0; }
+    .about-page h3::after {
+      content: ''; display: block; width: 70px; height: 4px; margin: 12px auto 0 auto;
+      background-color: var(--orange); border-radius: 2px;
+    }
+    .about-grid {
+      display: grid; gap: 30px;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    }
+    .about-card {
+      background-color: #fff; border: 1px solid var(--tan); border-radius: 14px;
+      overflow: hidden; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.10);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .about-card:hover { transform: translateY(-5px); box-shadow: 0 10px 22px rgba(0, 0, 0, 0.18); }
+    .about-card img {
+      display: block; width: 100%; height: 300px; object-fit: cover;
+      border: none; border-radius: 0; border-bottom: 4px solid var(--orange);
+    }
+    .about-card-body { padding: 18px 22px 24px 22px; }
+    .about-card-body h4 {
+      display: block; border-bottom: none; padding-bottom: 0; margin: 0 0 8px 0;
+      font-size: 20px; font-weight: bold;
+    }
+    .about-card-body p { margin: 0; line-height: 1.65; font-size: 15px; }
   "))),
   
   navbarPage("US Flyway Data", id = "main_nav",
@@ -162,6 +199,14 @@ ui <- fluidPage(
                         column(6, selectInput("season_hm", "Season", choices = NULL))),
                       leafletOutput("species_heatmap", height = 600)),
              tabPanel("Quiz", quiz_ui()),
-             tabPanel("Duck Calls", br(), duck_call_ui())
+             tabPanel("Duck Calls", br(), duck_call_ui()),
+             tabPanel("About Us", br(),
+                      div(class = "about-page",
+                          h3("About Us"),
+                          div(class = "about-grid",
+                              about_card("RBL_photo.jpg", "Robert Light attended Washington and Lee University from 2023-2027, majoring in Neuroscience. He is from Houston, Texas and hopes to attend medical school. In his free time, he enjoys hunting, fishing, and golf. "),
+                              about_card("photo2.jpg", "Description for the second person goes here."),
+                              about_card("photo3.jpg", "Description for the third person goes here.")
+                          )))
   )
 )
