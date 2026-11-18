@@ -205,7 +205,7 @@ ui <- fluidPage(
                           h3("About Us"),
                           div(class = "about-grid",
                               about_card("RBL_photo.jpg", "Robert Light attended Washington and Lee University from 2023-2027, majoring in Neuroscience. He is from Houston, Texas and hopes to attend medical school. In his free time, he enjoys hunting, fishing, and golf. "),
-                              about_card("photo2.jpg", "Description for the second person goes here."),
+                              about_card("bkprofilepic.jpeg", "Brendan Kenning is an undergraduate student from Collegeville, Pennsylvania in the Class of 2027. He is studying Neuroscience on the pre-medicine track with intention of attending medical school. In his free time, he enjoys hiking, whitewater rafting, and exploring the outdoors."),
                               about_card("photo3.jpg", "Description for the third person goes here.")
                           )))
   )
