@@ -206,7 +206,7 @@ ui <- fluidPage(
                           div(class = "about-grid",
                               about_card("RBL_photo.jpg", "Robert Light attended Washington and Lee University from 2023-2027, majoring in Neuroscience. He is from Houston, Texas and hopes to attend medical school. In his free time, he enjoys hunting, fishing, and golf. "),
                               about_card("bkprofilepic.jpeg", "Brendan Kenning is an undergraduate student from Collegeville, Pennsylvania in the Class of 2027. He is studying Neuroscience on the pre-medicine track with intention of attending medical school. In his free time, he enjoys hiking, whitewater rafting, and exploring the outdoors."),
-                              about_card("cjw-profile-pic.JPG", "John Wold is a senior from Alexandria, Louisiana majoring in Neuroscience. He is on the pre-medicine track and planning on taking a gap year prior to applying to medical school. On campus, he is involved in Washington and Lee Student Consulting, Club Soccer and is an Appalachian Adventure Trip Leader. In his free time, he enjoys hiking, hunting, and hanging out with friends.")
+                              about_card("john_wold.jpg", "John Wold is a senior from Alexandria, Louisiana majoring in Neuroscience. He is on the pre-medicine track and planning on taking a gap year prior to applying to medical school. On campus, he is involved in Washington and Lee Student Consulting, Club Soccer and is an Appalachian Adventure Trip Leader. In his free time, he enjoys hiking, hunting, and hanging out with friends.")
                           )))
   )
 )
